@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useRef, useState, useId } from "react";
+import SavedResults from "./SavedResults";
+import type { SavedResult } from "@/lib/dinner-scout/http-service";
 import { service } from "@/lib/dinner-scout/service";
 import type {
   MealPlan,
@@ -131,6 +133,7 @@ export default function DinnerScout() {
     "preferences",
   );
   const [event, setEvent] = useState<ProgressEvent>();
+  const [savedResult, setSavedResult] = useState<SavedResult>();
   const [plan, setPlan] = useState<MealPlan>();
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
@@ -152,19 +155,20 @@ export default function DinnerScout() {
     () => () => {
       generation.current++;
       unsubscribe.current?.();
-      if (active.current) void service.cancelRun(active.current);
+      if (active.current) void service.cancelRun(active.current).catch(() => {});
     },
     [],
   );
   async function back() {
     generation.current++;
     unsubscribe.current?.();
-    if (active.current) await service.cancelRun(active.current);
+    if (active.current) { try { await service.cancelRun(active.current); } catch { /* Local navigation still succeeds. */ } }
     active.current = undefined;
     lock.current = false;
     setBusy(false);
     setScreen("preferences");
     setEvent(undefined);
+    setSavedResult(undefined);
     setError("");
     setModal(undefined);
   }
@@ -219,6 +223,12 @@ export default function DinnerScout() {
       unsubscribe.current = service.subscribe(id, async (next) => {
         if (token !== generation.current) return;
         setEvent(next);
+        if (service.getSavedResult && next.status !== "running") {
+          try { const result = await service.getSavedResult(id); if (token === generation.current) setSavedResult(result); }
+          catch (e) { if (token === generation.current) setError((e as Error).message); }
+          unsubscribe.current?.();
+          return;
+        }
         if (next.status === "complete") {
           try {
             const result = await service.getResult(id);
@@ -324,7 +334,7 @@ export default function DinnerScout() {
               </span>
             ))}
           </nav>
-          <span className="demo-badge">Demo mode</span>
+          <span className="demo-badge">Saved materials</span>
         </div>
       </header>
       <main className={screen === "preferences" ? "preferences-main" : ""}>
@@ -463,12 +473,11 @@ export default function DinnerScout() {
                   </div>
                 </fieldset>
                 <p className="hint">
-                  Filters use sample ingredient tags. Allergen safety is not
-                  verified.
+                  Only recipes with verified exclusion information can form a plan.
                 </p>
               </details>
               <p className="promise">
-                Under 30 minutes · Shop once · Freezer-friendly
+                Target: under 30 minutes · Shop once · Freeze portions
               </p>
               {error && (
                 <p role="alert" className="error">
@@ -479,8 +488,7 @@ export default function DinnerScout() {
                 Plan my dinners <span>→</span>
               </button>
               <p className="form-footnote">
-                Sample stores, prices and recipes. Targets are editable demo
-                examples.
+                Uses saved store materials and Cookpad recipes. Missing information is shown explicitly.
               </p>
             </form>
             <p className="bottom-note">
@@ -488,7 +496,8 @@ export default function DinnerScout() {
             </p>
           </>
         )}
-        {screen === "scout" && (
+        {screen === "scout" && service.getSavedResult && <SavedResults event={event} result={savedResult} error={error} onBack={back} onResult={setSavedResult} />}
+        {screen === "scout" && !service.getSavedResult && (
           <>
             <div className="page-heading">
               <div>

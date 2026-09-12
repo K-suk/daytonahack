@@ -8,6 +8,7 @@ import type {
 } from "./types";
 export interface DinnerScoutService {
   getCatalog(): Catalog;
+  getSavedResult?(runId: string): Promise<import("./http-service").SavedResult>;
   startRun(p: UserPreference, scenario?: Scenario): Promise<string>;
   subscribe(
     runId: string,
@@ -23,4 +24,4 @@ export interface DinnerScoutService {
     revision: number,
   ): Promise<MealPlan>;
 }
-export { service } from "./mock-service";
+export { service } from "./http-service";

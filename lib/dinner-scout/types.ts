@@ -80,7 +80,8 @@ export type ProgressEvent = {
   runId: string;
   tasks: AgentTask[];
   stage: "Finding deals" | "Matching recipes" | "Planning dinners";
-  status: "running" | "complete" | "failed";
+  status: "running" | "complete" | "failed" | "blocked";
+  rawEvents?: import("./http-service").SavedEvent[];
   error?: string;
 };
 export type Scenario =

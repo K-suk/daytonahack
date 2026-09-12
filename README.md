@@ -2,14 +2,14 @@
 
 Hackathon prototype using saved supermarket materials and Cookpad recipes.
 
-## Frontend demo
+## Connected frontend
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Frontend uses an explicitly labeled mock planning service. Real API integration remains separate; demo meals and prices are not verified store data.
+Open http://127.0.0.1:4312 after starting the backend below. “Plan my dinners” calls the real saved-material API through the Next.js proxy. Progress, verified prices, Cookpad candidates, source previews and missing-data reasons are shown. The active service never substitutes mock meals. Seven-day planning remains blocked by incomplete source data and unverified Nosana inference.
 
 ## Real saved-material backend
 

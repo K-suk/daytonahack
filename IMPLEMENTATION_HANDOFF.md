@@ -17,7 +17,7 @@ Daytonaのライブ巡回をMVPから外し、保存資料の解析を正式経�
 
 Nosana4080の単一代替試行はノード未割当で失敗。停止確認済み。推論・実7日完成は未達。接続モジュール、適格性、根拠付き推定の計算、同一run内候補のSwap・revision検査は実装した。Swap成功はsynthetic単体テストで検証し、実献立成功と区別する。フロントは別worktreeの契約を読み取り、変更していない。
 
-API起動: `.venv/bin/python backend/server.py`。フロント4312からlocalhost8787を呼べる。資料だけの検証は`.venv/bin/python backend/check_materials.py`で、Daytonaを作成しない。現在は部分結果デモまでで、フロントの実APIアダプターは別担当の作業。
+API起動: `.venv/bin/python backend/server.py`。フロント4312からlocalhost8787を呼べる。資料だけの検証は`.venv/bin/python backend/check_materials.py`で、Daytonaを作成しない。統合済みrootフロントはhttp-service.tsから実APIを呼ぶ。npm run devで4312を起動し、入力→実イベント→候補・不足理由・Source previewまで表示する。実献立が返る場合のSwapもAPIへ接続。mockへのフォールバックはない。元のフロント用worktreeは変更していない。
 
 ---
 
