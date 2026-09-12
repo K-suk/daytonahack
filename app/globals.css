@@ -1212,3 +1212,21 @@ dialog .hint {
     margin-top: 12px;
   }
 }
+
+@media (min-width: 1001px) {
+  .header-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+  .header-inner nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+  }
+  .header-inner nav > span:first-child {
+    justify-self: end;
+  }
+  .header-inner .demo-badge {
+    justify-self: end;
+  }
+}
