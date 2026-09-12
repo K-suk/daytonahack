@@ -1230,3 +1230,4 @@ dialog .hint {
     justify-self: end;
   }
 }
+.source-switch{display:flex;justify-content:center;gap:4px;margin:0 auto 22px}.source-switch button{padding:7px 13px;border:1px solid var(--border);border-radius:5px;color:var(--muted);background:white;font-size:13px}.source-switch button[aria-pressed=true]{background:var(--pale);color:var(--orange);border-color:#e4b28c}.live-evidence{margin:24px 0}.live-evidence a{color:var(--orange)}

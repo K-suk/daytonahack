@@ -208,3 +208,31 @@ test("known subtotal excludes unknown price/quantity without turning total into 
     unknownLineCount: 0,
   });
 });
+
+test("local browser origin accepts localhost aliases on the same port only", async () => {
+  const { localRequest } = await import("../../lib/dinner-scout/data/runs");
+  assert.equal(
+    localRequest(
+      new Request("http://localhost:4314/api/data/runs", {
+        headers: { Origin: "http://127.0.0.1:4314" },
+      }),
+    ),
+    true,
+  );
+  assert.equal(
+    localRequest(
+      new Request("http://localhost:4314/api/data/runs", {
+        headers: { Origin: "http://127.0.0.1:9999" },
+      }),
+    ),
+    false,
+  );
+  assert.equal(
+    localRequest(
+      new Request("http://localhost:4314/api/data/runs", {
+        headers: { Origin: "https://outside.example" },
+      }),
+    ),
+    false,
+  );
+});

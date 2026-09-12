@@ -2,7 +2,10 @@
 import { useEffect, useRef, useState, useId } from "react";
 import SavedResults from "./SavedResults";
 import type { SavedResult } from "@/lib/dinner-scout/http-service";
-import { service } from "@/lib/dinner-scout/service";
+import { service as savedService } from "@/lib/dinner-scout/http-service";
+import { service as mockService } from "@/lib/dinner-scout/mock-service";
+import { liveService } from "@/lib/dinner-scout/live-service";
+import LiveResults from "./LiveResults";
 import type {
   MealPlan,
   ProgressEvent,
@@ -77,7 +80,10 @@ function Modal({
     const previous = document.activeElement as HTMLElement;
     const dialog = ref.current;
     dialog?.showModal();
-    return () => { dialog?.close(); previous?.focus(); };
+    return () => {
+      dialog?.close();
+      previous?.focus();
+    };
   }, []);
   return (
     <dialog
@@ -122,7 +128,14 @@ function Modal({
   );
 }
 export default function DinnerScout() {
-  const [catalog] = useState(() => service.getCatalog());
+  const [source, setSource] = useState<"live" | "saved" | "demo">("live");
+  const service =
+    source === "live"
+      ? liveService
+      : source === "saved"
+        ? savedService
+        : mockService;
+  const [catalog, setCatalog] = useState(() => liveService.getCatalog());
   const [p, setP] = useState<UserPreference>(catalog.defaults);
   const [values, setValues] = useState({
     budget: "4000",
@@ -151,18 +164,27 @@ export default function DinnerScout() {
   const generation = useRef(0);
   const unsubscribe = useRef<(() => void) | undefined>(undefined);
   const lock = useRef(false);
+  const serviceRef = useRef(service);
+  serviceRef.current = service;
   useEffect(
     () => () => {
       generation.current++;
       unsubscribe.current?.();
-      if (active.current) void service.cancelRun(active.current).catch(() => {});
+      if (active.current)
+        void service.cancelRun(active.current).catch(() => {});
     },
     [],
   );
   async function back() {
     generation.current++;
     unsubscribe.current?.();
-    if (active.current) { try { await service.cancelRun(active.current); } catch { /* Local navigation still succeeds. */ } }
+    if (active.current) {
+      try {
+        await service.cancelRun(active.current);
+      } catch {
+        /* Local navigation still succeeds. */
+      }
+    }
     active.current = undefined;
     lock.current = false;
     setBusy(false);
@@ -224,8 +246,15 @@ export default function DinnerScout() {
         if (token !== generation.current) return;
         setEvent(next);
         if (service.getSavedResult && next.status !== "running") {
-          try { const result = await service.getSavedResult(id); if (token === generation.current) setSavedResult(result); }
-          catch (e) { if (token === generation.current) setError((e as Error).message); }
+          try {
+            const result = await service.getSavedResult(id);
+            if (token === generation.current) {
+              setSavedResult(result);
+              setScreen("week");
+            }
+          } catch (e) {
+            if (token === generation.current) setError((e as Error).message);
+          }
           unsubscribe.current?.();
           return;
         }
@@ -334,12 +363,55 @@ export default function DinnerScout() {
               </span>
             ))}
           </nav>
-          <span className="demo-badge">Saved materials</span>
+          <span className="demo-badge">
+            {source === "live"
+              ? "Live sources"
+              : source === "saved"
+                ? "Saved materials"
+                : "Demo mode"}
+          </span>
         </div>
       </header>
       <main className={screen === "preferences" ? "preferences-main" : ""}>
         {screen === "preferences" && (
           <>
+            <div
+              className="source-switch"
+              role="group"
+              aria-label="Data source"
+            >
+              {(["live", "saved", "demo"] as const).map((mode) => (
+                <button
+                  type="button"
+                  key={mode}
+                  aria-pressed={source === mode}
+                  onClick={() => {
+                    const next = (
+                      mode === "live"
+                        ? liveService
+                        : mode === "saved"
+                          ? savedService
+                          : mockService
+                    ).getCatalog();
+                    setSource(mode);
+                    setCatalog(next);
+                    setP((prev) => ({
+                      ...prev,
+                      pantry: next.defaults.pantry,
+                      allergies: [],
+                      dislikes: [],
+                    }));
+                    setError("");
+                  }}
+                >
+                  {mode === "live"
+                    ? "Live research"
+                    : mode === "saved"
+                      ? "Saved materials"
+                      : "Sample demo"}
+                </button>
+              ))}
+            </div>
             <div className="intro">
               <div className="eyebrow">LESS PLANNING. MORE GOOD DINNERS.</div>
               <h1>
@@ -473,7 +545,8 @@ export default function DinnerScout() {
                   </div>
                 </fieldset>
                 <p className="hint">
-                  Only recipes with verified exclusion information can form a plan.
+                  Only recipes with verified exclusion information can form a
+                  plan.
                 </p>
               </details>
               <p className="promise">
@@ -488,7 +561,11 @@ export default function DinnerScout() {
                 Plan my dinners <span>→</span>
               </button>
               <p className="form-footnote">
-                Uses saved store materials and Cookpad recipes. Missing information is shown explicitly.
+                {source === "live"
+                  ? "Firecrawl + TheMealDB. Missing values stay Unknown."
+                  : source === "saved"
+                    ? "Previously saved materials. No new web acquisition."
+                    : "Sample stores, prices and recipes. Simulated research."}
               </p>
             </form>
             <p className="bottom-note">
@@ -496,7 +573,23 @@ export default function DinnerScout() {
             </p>
           </>
         )}
-        {screen === "scout" && service.getSavedResult && <SavedResults event={event} result={savedResult} error={error} onBack={back} onResult={setSavedResult} />}
+        {(screen === "scout" || screen === "week") && source === "live" && (
+          <LiveResults
+            event={event}
+            result={savedResult?.rawData}
+            error={error}
+            onBack={back}
+          />
+        )}
+        {(screen === "scout" || screen === "week") && source === "saved" && (
+          <SavedResults
+            event={event}
+            result={savedResult}
+            error={error}
+            onBack={back}
+            onResult={setSavedResult}
+          />
+        )}
         {screen === "scout" && !service.getSavedResult && (
           <>
             <div className="page-heading">
@@ -602,7 +695,7 @@ export default function DinnerScout() {
             )}
           </>
         )}
-        {screen === "week" && plan && (
+        {screen === "week" && source === "demo" && plan && (
           <>
             <div className="page-heading">
               <div>

@@ -63,10 +63,19 @@ export function getDataRun(id: string) {
   return runs.get(id);
 }
 export function localRequest(request: Request) {
-  const origin = request.headers.get("origin");
   const url = new URL(request.url);
-  return (
-    ["localhost", "127.0.0.1"].includes(url.hostname) &&
-    (!origin || origin === url.origin)
-  );
+  const local = (host: string) => ["localhost", "127.0.0.1"].includes(host);
+  if (!local(url.hostname)) return false;
+  const origin = request.headers.get("origin");
+  if (!origin) return true;
+  try {
+    const source = new URL(origin);
+    return (
+      local(source.hostname) &&
+      source.port === url.port &&
+      source.protocol === url.protocol
+    );
+  } catch {
+    return false;
+  }
 }

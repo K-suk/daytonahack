@@ -1,14 +1,17 @@
 {
-  "name": "dinner-scout-frontend",
+  "name": "dinner-scout",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 127.0.0.1 --port 4312",
+    "dev": "node scripts/dev.mjs",
     "build": "next build",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "data:collect": "tsx scripts/dinner-data/collect.ts",
-    "test:data": "tsx --test tests/data/*.test.ts && python3 -m unittest discover -s tests/data -p \"test_*.py\""
+    "test:data": "tsx --test tests/data/*.test.ts && python3 -m unittest discover -s tests/data -p \"test_*.py\"",
+    "dev:frontend": "next dev --hostname 127.0.0.1 --port 4312",
+    "test:backend": "node scripts/test-python.mjs",
+    "test:all": "npm test && npm run test:data && npm run test:backend"
   },
   "dependencies": {
     "next": "^15.5.12",

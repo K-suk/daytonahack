@@ -1,42 +1,42 @@
 # Dinner Scout
 
-Hackathon prototype using saved supermarket materials and Cookpad recipes.
+One application for dinner research around Omotesando & Aoyama. The integrated `main` branch contains the frontend, live collection, saved-material backend, Aura queries, and Nosana readiness/inference modules.
 
-## Connected frontend
+## Start everything locally
 
 ```sh
 npm ci
+python3 -m venv .venv
+.venv/bin/pip install -r validation/requirements.txt
+# Create .env from .env.example only if you do not already have one; fill server credentials.
 npm run dev
 ```
 
-Open http://127.0.0.1:4312 after starting the backend below. “Plan my dinners” calls the real saved-material API through the Next.js proxy. Progress, verified prices, Cookpad candidates, source previews and missing-data reasons are shown. The active service never substitutes mock meals. Seven-day planning remains blocked by incomplete source data and unverified Nosana inference.
+Open http://127.0.0.1:4312. The launcher starts Next.js and the saved-material Python API together. Live acquisition runs inside Next.js; both modes use the same existing AuraDB. If ports are occupied, use `PORT=4314 DINNER_BACKEND_PORT=8788 npm run dev`. Existing Python/env settings can be reused with `DINNER_DATA_PYTHON=/path/to/python DINNER_DATA_ENV_FILE=/path/to/.env npm run dev`.
 
-## Real saved-material backend
+Choose a source on the preferences screen:
 
-```sh
-python3 -m venv .venv
-.venv/bin/pip install -r validation/requirements.txt
-cp validation/.env.example .env
-# Fill credentials locally.
-.venv/bin/python backend/server.py
-```
+- **Live research** (default): Firecrawl store pages + TheMealDB → real Daytona normalization → Aura candidates. Source/Unknown/partial results and recipe details are visible in the UI.
+- **Saved materials**: existing saved-material Python pipeline, source previews, readiness-aware Nosana selection, and existing calculation/Swap when a verified plan is available.
+- **Sample demo**: simulated progress, seven sample dinners, details, Swap and shopping checks. Explicitly separate from real acquisition.
 
-API: http://127.0.0.1:8787. Saved materials are parsed in Daytona and normalized for real Neo4j AuraDB candidate searches. Current samples yield three candidates and explicit missing-data reasons, not a complete seven-day plan.
+Live recipes currently lack verified servings, cooking times and nutrition; text-confirmed prices may be absent. These remain Unknown. Real research completion does not mean a completed seven-day meal plan, verified allergen safety, or successful Nosana inference. No mock plan silently replaces live results.
 
-Nosana GPU allocation succeeded, but successful inference is still unverified. No fabricated inference fallback is used.
-
-- [API contract](backend/API_CONTRACT.md)
-- [Material import](materials/README.md)
-- [Nosana usage](validation/nosana/README.md)
-- [Implementation handoff](IMPLEMENTATION_HANDOFF.md)
-- [Frontend handoff](docs/FRONTEND_HANDOFF.md)
-
-## Tests
+## Verify
 
 ```sh
-PYTHONPATH=validation .venv/bin/python -m unittest discover -s validation/tests
-.venv/bin/python -m unittest discover -s backend/tests
-npm test
+npm run build
+npm run typecheck
+npm run test:all
 ```
 
-Do not commit .env. Real provider executions consume credits; stop resources after validation.
+`npm run data:collect -- --small` exercises live providers with small limits and writes private `.data-runs/` artifacts. It uses credits and creates/deletes one Daytona sandbox. Tests use isolated fixtures; they do not automatically run paid provider workflows.
+
+## Integration references
+
+- [Unified integration and worktree status](docs/INTEGRATION_HANDOFF.md)
+- [Live data contract, commands and actual verification](docs/DATA_INTEGRATION_HANDOFF.md)
+- [Existing saved API contract](backend/API_CONTRACT.md)
+- [Nosana preparation/readiness](validation/nosana/README.md)
+
+Environment files, dependency directories, runtime state and private acquisition artifacts are ignored by Git. Historical validation reports remain for provenance; this README and `docs/INTEGRATION_HANDOFF.md` describe the current entry point.

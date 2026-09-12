@@ -13,6 +13,7 @@ from materials import load_manifest,local_file,catalog
 from planning import alternatives,swap
 import html,mimetypes
 ROOT=Path(__file__).resolve().parents[1];load_dotenv(ROOT/'.env');RUNS=ROOT/'backend/runs';RUNS.mkdir(exist_ok=True)
+ALLOWED_ORIGINS={f'http://{host}:{port}' for host in ['localhost','127.0.0.1'] for port in ['3000','3001','4312',os.getenv('PORT','4312')]}
 lock=threading.RLock();runs={};active=None
 class Start(BaseModel):
  model_config=ConfigDict(extra='forbid')
@@ -45,12 +46,12 @@ class Handler(BaseHTTPRequestHandler):
  def log_message(self,*args):pass
  def respond(self,status,data):
   raw=json.dumps(data,ensure_ascii=False).encode();self.send_response(status);origin=self.headers.get('Origin')
-  if origin in ['http://localhost:3000','http://127.0.0.1:3000','http://localhost:3001','http://127.0.0.1:3001','http://localhost:4312','http://127.0.0.1:4312']:self.send_header('Access-Control-Allow-Origin',origin);self.send_header('Vary','Origin')
+  if origin in ALLOWED_ORIGINS:self.send_header('Access-Control-Allow-Origin',origin);self.send_header('Vary','Origin')
   self.send_header('Content-Type','application/json');self.send_header('Cache-Control','no-store');self.send_header('Content-Length',str(len(raw)));self.end_headers();self.wfile.write(raw)
  def do_OPTIONS(self):
   self.send_response(204)
   origin=self.headers.get('Origin')
-  if origin in ['http://localhost:3000','http://127.0.0.1:3000','http://localhost:3001','http://127.0.0.1:3001','http://localhost:4312','http://127.0.0.1:4312']:self.send_header('Access-Control-Allow-Origin',origin)
+  if origin in ALLOWED_ORIGINS:self.send_header('Access-Control-Allow-Origin',origin)
   self.send_header('Access-Control-Allow-Methods','GET, POST, OPTIONS');self.send_header('Access-Control-Allow-Headers','Content-Type');self.end_headers()
  def do_GET(self):self.handle_api(False)
  def do_POST(self):self.handle_api(True)
@@ -58,7 +59,7 @@ class Handler(BaseHTTPRequestHandler):
   global active
   try:
    origin=self.headers.get('Origin')
-   if origin and origin not in ['http://localhost:3000','http://127.0.0.1:3000','http://localhost:3001','http://127.0.0.1:3001','http://localhost:4312','http://127.0.0.1:4312']:return self.respond(403,{'error':'origin_not_allowed'})
+   if origin and origin not in ALLOWED_ORIGINS:return self.respond(403,{'error':'origin_not_allowed'})
    url=urlparse(self.path);parts=url.path.strip('/').split('/')
    if not post and parts==['api','documents']:return self.respond(200,{'documents':catalog()})
    if not post and len(parts)==4 and parts[:2]==['api','documents'] and parts[3]=='preview':
@@ -113,4 +114,5 @@ class Handler(BaseHTTPRequestHandler):
   except (ValueError,ValidationError):self.respond(400,{'error':'invalid_request'})
   except Exception:self.respond(500,{'error':'internal_error'})
 if __name__=='__main__':
- print('Saved pipeline API: http://127.0.0.1:8787',flush=True);ThreadingHTTPServer(('127.0.0.1',8787),Handler).serve_forever()
+ port=int(os.getenv('DINNER_BACKEND_PORT','8787'))
+ print(f'Saved pipeline API: http://127.0.0.1:{port}',flush=True);ThreadingHTTPServer(('127.0.0.1',port),Handler).serve_forever()

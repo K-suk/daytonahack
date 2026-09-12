@@ -1,0 +1,31 @@
+{
+  "runId": "3435ad4f-18ad-4915-aa11-36c5bceeb1e0",
+  "status": "success",
+  "pages": 3,
+  "recipes": 14,
+  "deals": 0,
+  "candidateRows": 42,
+  "commonPairs": 77,
+  "stages": {
+    "firecrawl": {
+      "status": "success"
+    },
+    "themealdb": {
+      "status": "success"
+    },
+    "daytona": {
+      "status": "success"
+    },
+    "aura": {
+      "status": "success"
+    }
+  },
+  "cleanup": "deleted",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Linux",
+    "parserVersion": "1"
+  },
+  "inputHash": "448affe0dc5d4ee71a99c2788a146592fe6b080f231b7f1f8f5771f18053fc07",
+  "outputHash": "fed4633e2beef357a5d50f73d4862daeda87a6a1f72c81efb026a69c3d2a202d"
+}
