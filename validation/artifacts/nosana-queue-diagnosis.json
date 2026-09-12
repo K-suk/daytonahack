@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-12T06:44:52.541Z",
+  "deploymentStatus": "STOPPED",
+  "events": {
+    "events": [
+      {
+        "category": "Deployment",
+        "deploymentId": "A6wBE3Mp2VCcdN24mdm5b5H4n9eDW84YNd8URBCJ36FD",
+        "type": "JOB_STOPPED_CONFIRMED",
+        "message": "Successfully stopped job 8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX. TX 5c8zrX54APz2hRToA9S2etvxZ985y8gViaeChWB1mh6zCfpC2hYtM31GvNN7MJjd79JZCY17HSSTvkN7zKmqiynL",
+        "created_at": "2026-09-12T06:36:12.806Z",
+        "tx": "5c8zrX54APz2hRToA9S2etvxZ985y8gViaeChWB1mh6zCfpC2hYtM31GvNN7MJjd79JZCY17HSSTvkN7zKmqiynL"
+      },
+      {
+        "category": "Deployment",
+        "deploymentId": "A6wBE3Mp2VCcdN24mdm5b5H4n9eDW84YNd8URBCJ36FD",
+        "type": "JOB_LIST_CONFIRMED",
+        "message": "Successfully listed job - 8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+        "created_at": "2026-09-12T06:29:06.421Z",
+        "tx": "2WgjAAYx3b8aBtwx4cH5FmFQ7cTbSkp7osZ1JZk873tP7wNifWat5QeZ5RREAs2SmTyPce7j1PFy9jXp1tmc9gq2"
+      }
+    ],
+    "total_items": 2,
+    "nextPage": null,
+    "previousPage": null
+  },
+  "tasks": {
+    "tasks": [],
+    "total_items": 0,
+    "nextPage": null,
+    "previousPage": null
+  },
+  "queue4080": [],
+  "queue3090": [],
+  "available": []
+}

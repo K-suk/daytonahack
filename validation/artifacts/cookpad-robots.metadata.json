@@ -1,0 +1,14 @@
+{
+  "name": "cookpad-robots",
+  "sourceUrl": "https://cookpad.com/robots.txt",
+  "fetchedAt": "2026-09-12T05:45:49.742834+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://cookpad.com/robots.txt",
+  "contentType": "text/plain",
+  "bytes": 2528,
+  "sha256": "b9e51e0cb7f93f3115196da8cd2b3818d66e805e98dc15834e2de718db108865",
+  "status": "success",
+  "seconds": 5.834
+}

@@ -1,0 +1,261 @@
+{
+  "$defs": {
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "route": {
+          "enum": [
+            "live",
+            "saved"
+          ],
+          "title": "Route",
+          "type": "string"
+        },
+        "basis": {
+          "enum": [
+            "source",
+            "estimated",
+            "unknown"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "title": "Sourceurl",
+          "type": "string"
+        },
+        "fetchedAt": {
+          "title": "Fetchedat",
+          "type": "string"
+        },
+        "environment": {
+          "enum": [
+            "local",
+            "daytona",
+            "web-search"
+          ],
+          "title": "Environment",
+          "type": "string"
+        },
+        "estimationReason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Estimationreason"
+        }
+      },
+      "required": [
+        "route",
+        "basis",
+        "sourceUrl",
+        "fetchedAt",
+        "environment"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "Requirement": {
+      "additionalProperties": false,
+      "properties": {
+        "ingredientId": {
+          "title": "Ingredientid",
+          "type": "string"
+        },
+        "nameJa": {
+          "title": "Nameja",
+          "type": "string"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Amount"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "raw": {
+          "title": "Raw",
+          "type": "string"
+        },
+        "grams": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Grams"
+        },
+        "conversionSource": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Conversionsource"
+        }
+      },
+      "required": [
+        "ingredientId",
+        "nameJa",
+        "raw"
+      ],
+      "title": "Requirement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "sourceUrl": {
+      "title": "Sourceurl",
+      "type": "string"
+    },
+    "evidence": {
+      "$ref": "#/$defs/Evidence"
+    },
+    "servings": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Servings"
+    },
+    "servingsRaw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Servingsraw"
+    },
+    "cookingMinutes": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cookingminutes"
+    },
+    "rating": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rating"
+    },
+    "cooksnapCount": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cooksnapcount"
+    },
+    "bookmarkCount": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Bookmarkcount"
+    },
+    "requirements": {
+      "items": {
+        "$ref": "#/$defs/Requirement"
+      },
+      "title": "Requirements",
+      "type": "array"
+    },
+    "exclusionReviewed": {
+      "default": false,
+      "title": "Exclusionreviewed",
+      "type": "boolean"
+    },
+    "allergens": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Allergens",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "sourceUrl",
+    "evidence",
+    "requirements"
+  ],
+  "title": "Recipe",
+  "type": "object"
+}

@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0150",
+  "fetchedAt": "2026-09-12T05:34:37.735981+00:00",
+  "route": "live",
+  "status": "failed",
+  "error": "Error",
+  "detail": "Page.goto: net::ERR_CONNECTION_RESET at https://shop.seijoishii.com/seijoishii/spot/detail?code=0150\nCall log:\n  - navigating to \"https://shop.seijoishii.com/seijoishii/spot/detail?code=0150\", waiting until \"domcontentloaded\"\n",
+  "seconds": 1.132
+}

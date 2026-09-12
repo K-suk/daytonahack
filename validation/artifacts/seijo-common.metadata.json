@@ -1,0 +1,14 @@
+{
+  "name": "seijo-common",
+  "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/202609-_1_WEB.jpg?v=1788331263",
+  "fetchedAt": "2026-09-12T05:30:13.604417+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/202609-_1_WEB.jpg?v=1788331263",
+  "contentType": "image/jpeg",
+  "bytes": 1482392,
+  "sha256": "f95cc5337ef2e884b2e5467197a28706e411f60e9d435b50ac8b0718c2bc4bb6",
+  "status": "success",
+  "seconds": 5.153
+}

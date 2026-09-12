@@ -1,0 +1,377 @@
+Billing | Daytona
+Skip to content
+Platform
+Architecture
+Organizations
+SSO
+Limits
+Billing
+Linked Accounts
+Troubleshooting
+Reference
+TypeScript SDK
+Python SDK
+Ruby SDK
+Go SDK
+Java SDK
+API
+CLI
+Guides
+Changelog
+v0.211
+Search
+⌘ K
+Sign in
+Platform
+Architecture
+Organizations
+SSO
+Limits
+Billing
+Linked Accounts
+Troubleshooting
+Platform
+Organizations
+SSO
+Limits
+Billing
+Linked Accounts
+Troubleshooting
+Reference
+TypeScript SDK
+Python SDK
+Ruby SDK
+API
+CLI
+Guides
+Sign in
+# Contents
+Overview
+Sandbox billing
+Wallet
+Redeem coupon
+Balances
+Billing information
+Payment method
+Automatic top-up
+One time top-up
+Invoices
+Charges
+Spending
+Resource usage
+Resource breakdown
+Usage timeline
+Per-sandbox usage
+Cancellation & post-cancellation
+Charges after cancellation
+Before cancelling
+Final settlement
+Billing disputes
+Billing
+Copy for LLM
+View as Markdown
+Open
+Daytona provides an overview of your organization’s
+wallet
+and
+spending
+. Daytona uses a pay-as-you-go billing model where you are charged based on the resources reserved for your sandboxes. For information on resource quotas, rate limits, and tier-based access, see
+limits
+.
+Sandbox billing
+Section titled “Sandbox billing”
+Sandboxes are billed for the resources reserved:
+vCPU
+,
+RAM
+, and
+disk
+, depending on the sandbox
+lifecycle state
+. The table below details which reserved resources and states are billed for
+container sandboxes
+,
+VM sandboxes
+, and
+GPU sandboxes
+.
+State
+vCPU
+RAM
+Disk
+Description
+Started
+✓
+✓
+✓
+Billed for all reserved resources.
+Creating
+Starting
+Stopping
+Pausing
+✓
+✓
+✓
+Billed the same as started. Resources remain reserved during these transitions, so reduced billing applies once the sandbox reaches the stopped or paused state, not when the stop or pause operation begins.
+Stopped
+✗
+✗
+✓
+Billed for reserved disk only.
+Ephemeral sandboxes
+and
+GPU sandboxes
+are automatically deleted when stopped, so stopped billing does not apply to them.
+Paused
+✗
+✗
+✓
+Billed for reserved disk only. The preserved memory state is not billed. Supported for
+VM sandboxes
+only.
+Archived
+✗
+✗
+✗
+Not billed. Supported for
+container sandboxes
+only.
+Deleted
+✗
+✗
+✗
+Not billed.
+Snapshots created from sandbox
+remain billed for storage.
+Disk billing and
+disk quota
+are separate: a sandbox can be billed for reserved disk without counting against your organization’s storage limit.
+Wallet
+Section titled “Wallet”
+Daytona Wallet ↗
+is the central hub for managing your organization’s wallet, including balances, credit consumption, and payment methods.
+Redeem coupon
+Section titled “Redeem coupon”
+Redeem coupon to add credits to your wallet.
+Go to
+Daytona Wallet ↗
+Enter the coupon code in the
+Redeem coupon
+input field
+Click
+Redeem
+to redeem the coupon code
+Balances
+Section titled “Balances”
+Balances displays the credit balances available to your organization.
+Free credit balance
+: the amount of free credits; not available for GPU sandboxes
+Paid credit balance
+: the amount of paid credits
+Daytona consumes free credits before paid credits. During an open billing month, credit consumption is recalculated when you add credits. If you add free credits after paid credits have already covered usage, that usage is reassigned to the free credits and the paid balance is released. Available paid balance can therefore increase after you redeem free credits, even though no new payment occurred. After the month closes, free and paid credit consumption is locked and is not rebalanced.
+Go to
+Daytona Wallet ↗
+Navigate to the
+Balances
+section
+Click
+See breakdown and expiration
+Billing information
+Section titled “Billing information”
+Billing information displays the organization’s billing information.
+Billing name
+: the name on file for billing
+Billing email
+: the email address on file for billing
+Billing phone number
+: the phone number on file for billing
+Billing address
+: the address on file for billing
+Go to
+Daytona Wallet ↗
+Navigate to the
+Billing information
+section
+Click
+Edit
+Add or update the billing information
+Payment method
+Section titled “Payment method”
+Payment method connects your wallet to your preferred payment method, allowing you to add funds to your balance and receive invoices.
+Go to
+Daytona Wallet ↗
+Navigate to the
+Payment method
+section
+Click
+Edit
+Add or update the payment method
+Follow the prompts to complete the payment setup
+Automatic top-up
+Section titled “Automatic top-up”
+Automatic top-up adds credits to your wallet when the balance drops below a certain threshold.
+Go to
+Daytona Wallet ↗
+Navigate to the
+Automatic top-up
+section
+Add or update the
+when balance is low
+and
+bring balance to
+values
+Click
+Save
+One time top-up
+Section titled “One time top-up”
+One time top-up adds credits to your wallet with a one time payment.
+Go to
+Daytona Wallet ↗
+Navigate to the
+One time top-up
+section
+Select the top-up amount or enter a custom amount
+Click
+Top up
+Follow the prompts to complete the payment
+Invoices
+Section titled “Invoices”
+Invoices are automatically generated and sent to your billing emails.
+Invoice
+: the invoice identifier
+Date
+: the date the invoice was issued
+Due date
+: the date the invoice is due
+Amount
+: the amount of the invoice
+Status
+: the status of the invoice
+Type
+: the type of the invoice
+Go to
+Daytona Wallet ↗
+Navigate to the
+Invoices
+section
+Click the three dots button (
+:::
+) next to the invoice you want to view
+Click
+View
+to see the invoice details
+Optionally, download the invoice
+Charges
+Section titled “Charges”
+Charges displays all payment attempts on your organization, including failed attempts.
+Date
+: the date the charge was attempted
+Description
+: the description of the charge
+Amount
+: the amount of the charge
+Status
+: the status of the charge
+Spending
+Section titled “Spending”
+Daytona Spending ↗
+provides a summary of your organization’s resource usage and spending.
+Resource usage
+Section titled “Resource usage”
+Resource usage provides a summary of the organization’s resource usage.
+Total cost
+: the total cost of your organization’s usage
+Sandboxes
+: the total number of sandboxes in your organization
+CPU
+: the total CPU usage of your organization
+RAM
+: the total RAM usage of your organization
+Disk
+: the total disk usage of your organization
+Resource breakdown
+Section titled “Resource breakdown”
+Resource breakdown displays a breakdown of usage per resource.
+CPU
+: the total CPU usage of your organization
+RAM
+: the total RAM usage of your organization
+Disk
+: the total disk usage of your organization
+Usage timeline
+Section titled “Usage timeline”
+Usage timeline displays a timeline of usage  per sandbox.
+Compute
+: the total compute usage of your organization
+Storage
+: the total storage usage of your organization
+Memory
+: the total memory usage of your organization
+Go to
+Daytona Spending ↗
+Navigate to the
+Usage timeline
+section
+Filter by resources and cost, and by regions
+Per-sandbox usage
+Section titled “Per-sandbox usage”
+Per-sandbox usage displays usage per sandbox.
+Sandbox ID
+: the ID of the sandbox
+Total price
+: the total price of the sandbox’s resources usage
+CPU (seconds)
+: the total CPU usage of the sandbox
+RAM (GB-seconds)
+: the total RAM usage of the sandbox
+Disk (GB-seconds)
+: the total disk usage of the sandbox
+Cancellation & post-cancellation
+Section titled “Cancellation & post-cancellation”
+Note
+Refer to
+Daytona Terms of Service ↗
+for more information.
+When you delete your
+organization
+, cancel your subscription, or disable billing, you remain responsible for any sandbox usage that occurred before your action.
+Charges after cancellation
+Section titled “Charges after cancellation”
+There is a delay of up to 48 hours between when sandbox resources are consumed and when the corresponding charges appear in the billing system. If you cancel during this window, charges for usage that already occurred may still post to your account. These charges reflect sandbox activity that happened before your cancellation and are not charges for new usage.
+No charges will be asserted for usage first reported more than 48 hours after cancellation. In no event will any charge be asserted more than 30 calendar days after cancellation, regardless of the cause of any delay.
+Before cancelling
+Section titled “Before cancelling”
+You are responsible for deleting all sandboxes and verifying that no active resources remain before cancelling.
+Navigate to your organization’s
+Daytona Dashboard ↗
+Delete all sandboxes across all projects
+Confirm no active resources remain under your organization
+Daytona will not charge you for resources that failed to delete due to a platform issue on Daytona’s side.
+Final settlement
+Section titled “Final settlement”
+After cancellation, Daytona sends a final billing summary to the billing email address(es) on file within 5 business days, itemizing any charges posted during the 48-hour settlement window.
+Billing disputes
+Section titled “Billing disputes”
+If you believe a post-cancellation charge is incorrect, you can submit a billing dispute.
+Email
+support@daytona.io
+within 30 days of receiving your final settlement notice
+Include your organization name and/or ID, and the specific charges in question
+Daytona will provide detailed usage records supporting the disputed charges upon request and respond within 15 business days.
+Previous
+Limits
+Next
+Linked Accounts
+Need help? -
+Reach support
+Latest project updates? -
+View Changelog
+Dotfiles Insider -
+Read our blog
+LLMs -
+llms.txt
+&
+llms-full.txt
+© 2026 Daytona Platforms, Inc.
+Privacy policy
+Terms of Service

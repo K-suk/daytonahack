@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://page.line.me/kaq2977y",
+  "fetchedAt": "2026-09-12T05:34:46.334840+00:00",
+  "route": "live",
+  "status": "failed",
+  "error": "Error",
+  "detail": "Page.goto: net::ERR_CONNECTION_RESET at https://page.line.me/kaq2977y\nCall log:\n  - navigating to \"https://page.line.me/kaq2977y\", waiting until \"domcontentloaded\"\n",
+  "seconds": 0.801
+}

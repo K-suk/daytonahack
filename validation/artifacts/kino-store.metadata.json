@@ -1,0 +1,375 @@
+{
+  "name": "kino-store",
+  "sourceUrl": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international",
+  "fetchedAt": "2026-09-12T05:27:12.776610+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 70360,
+  "sha256": "2376d2f9a07e0d9bb84de1a43889364456bcfa2f8b2cdd90b3dcbb345b123f63",
+  "links": [
+    {
+      "text": "",
+      "url": "https://www.e-kinokuniya.com/"
+    },
+    {
+      "text": "特集",
+      "url": "https://www.e-kinokuniya.com/contents"
+    },
+    {
+      "text": "商品情報",
+      "url": "https://www.e-kinokuniya.com/products"
+    },
+    {
+      "text": "店舗情報",
+      "url": "https://www.e-kinokuniya.com/store"
+    },
+    {
+      "text": "採用情報",
+      "url": "https://www.e-kinokuniya.com/corporate/recruit"
+    },
+    {
+      "text": "企業情報",
+      "url": "https://www.e-kinokuniya.com/corporate"
+    },
+    {
+      "text": "オンラインストア",
+      "url": "https://www.super-kinokuniya.jp/"
+    },
+    {
+      "text": "店舗を探す",
+      "url": "https://www.e-kinokuniya.com/store"
+    },
+    {
+      "text": "商品情報：",
+      "url": "https://www.e-kinokuniya.com/products"
+    },
+    {
+      "text": "店舗情報：",
+      "url": "https://www.e-kinokuniya.com/store"
+    },
+    {
+      "text": "紀ノ国屋",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYA"
+    },
+    {
+      "text": "デイリーテーブル",
+      "url": "https://www.e-kinokuniya.com/store#dailyTable"
+    },
+    {
+      "text": "紀ノ国屋アントレ",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYAentree"
+    },
+    {
+      "text": "百貨店",
+      "url": "https://www.e-kinokuniya.com/store#department"
+    },
+    {
+      "text": "グルマンマーケット",
+      "url": "https://www.e-kinokuniya.com/store#GourmandMarket"
+    },
+    {
+      "text": "ベーカリー専門店",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYABakery"
+    },
+    {
+      "text": "KINOKUNIYA Sutto（キノクニヤスット）",
+      "url": "https://www.e-kinokuniya.com/store#kinokuniya-sutto"
+    },
+    {
+      "text": "特集：",
+      "url": "https://www.e-kinokuniya.com/contents"
+    },
+    {
+      "text": "動画",
+      "url": "https://www.e-kinokuniya.com/contents/movie"
+    },
+    {
+      "text": "おすすめ商品",
+      "url": "https://www.e-kinokuniya.com/contents/Recommend"
+    },
+    {
+      "text": "イベント・フェア",
+      "url": "https://www.e-kinokuniya.com/contents/Event-Fair"
+    },
+    {
+      "text": "読み物",
+      "url": "https://www.e-kinokuniya.com/contents/Column"
+    },
+    {
+      "text": "採用情報 ：",
+      "url": "https://www.e-kinokuniya.com/corporate/recruit"
+    },
+    {
+      "text": "企業情報 ：",
+      "url": "https://www.e-kinokuniya.com/corporate"
+    },
+    {
+      "text": "オンラインストア：",
+      "url": "https://www.super-kinokuniya.jp/"
+    },
+    {
+      "text": "こちら",
+      "url": "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fkinokuniya%2Fpublic%2F19b53176c098b7e7889b.webp&w=1200&q=75"
+    },
+    {
+      "text": "",
+      "url": "https://netsuperkinokuniya.jp/"
+    },
+    {
+      "text": "会員登録はこちら",
+      "url": "https://netsuperkinokuniya.jp/"
+    },
+    {
+      "text": "",
+      "url": "https://www.netsuperkinokuniya.com/"
+    },
+    {
+      "text": "ネットスーパー",
+      "url": "https://netsuperkinokuniya.jp/"
+    },
+    {
+      "text": "紀ノ国屋カードのご案内はこちら",
+      "url": "https://www.e-kinokuniya.com/members"
+    },
+    {
+      "text": "商品をさがす",
+      "url": "https://www.e-kinokuniya.com/products"
+    },
+    {
+      "text": "応募フォームはこちら",
+      "url": "https://www.e-kinokuniya.com/contacts/recruit?store=%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8A%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%EF%BC%88%E9%9D%92%E5%B1%B1%E5%BA%97%EF%BC%89"
+    },
+    {
+      "text": "TEL: 03-3409-1231 パートナー採用担当まで",
+      "url": "tel:03-3409-1231"
+    },
+    {
+      "text": "商品情報 ：",
+      "url": "https://www.e-kinokuniya.com/products"
+    },
+    {
+      "text": "店舗情報 ：",
+      "url": "https://www.e-kinokuniya.com/store"
+    },
+    {
+      "text": "紀ノ国屋",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYA"
+    },
+    {
+      "text": "デイリーテーブル",
+      "url": "https://www.e-kinokuniya.com/store#dailyTable"
+    },
+    {
+      "text": "紀ノ国屋アントレ",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYAentree"
+    },
+    {
+      "text": "百貨店",
+      "url": "https://www.e-kinokuniya.com/store#department"
+    },
+    {
+      "text": "グルマンマーケット",
+      "url": "https://www.e-kinokuniya.com/store#GourmandMarket"
+    },
+    {
+      "text": "ベーカリー専門店",
+      "url": "https://www.e-kinokuniya.com/store#KINOKUNIYABakery"
+    },
+    {
+      "text": "紀ノ国屋Outlet",
+      "url": "https://www.e-kinokuniya.com/store#kinokuniya-outlet"
+    },
+    {
+      "text": "特集 ：",
+      "url": "https://www.e-kinokuniya.com/contents"
+    },
+    {
+      "text": "動画",
+      "url": "https://www.e-kinokuniya.com/contents/movie"
+    },
+    {
+      "text": "おすすめ商品",
+      "url": "https://www.e-kinokuniya.com/contents/Recommend"
+    },
+    {
+      "text": "イベント・フェア",
+      "url": "https://www.e-kinokuniya.com/contents/Event-Fair"
+    },
+    {
+      "text": "読み物",
+      "url": "https://www.e-kinokuniya.com/contents/Column"
+    },
+    {
+      "text": "企業情報 ：",
+      "url": "https://www.e-kinokuniya.com/corporate"
+    },
+    {
+      "text": "会社概要",
+      "url": "https://www.e-kinokuniya.com/corporate/about"
+    },
+    {
+      "text": "トップメッセージ",
+      "url": "https://www.e-kinokuniya.com/corporate/message"
+    },
+    {
+      "text": "紀ノ国屋のこだわり",
+      "url": "https://www.e-kinokuniya.com/corporate/special"
+    },
+    {
+      "text": "紀ノ国屋の歴史",
+      "url": "https://www.e-kinokuniya.com/corporate/history"
+    },
+    {
+      "text": "コンプライアンスへの取り組み",
+      "url": "https://www.e-kinokuniya.com/corporate/compliance"
+    },
+    {
+      "text": "採用情報",
+      "url": "https://www.e-kinokuniya.com/corporate/recruit"
+    },
+    {
+      "text": "アルバイト募集一覧",
+      "url": "https://www.e-kinokuniya.com/corporate/recruit#temporary"
+    },
+    {
+      "text": "中途採用",
+      "url": "https://www.e-kinokuniya.com/corporate/recruit/career"
+    },
+    {
+      "text": "プライバシーポリシー",
+      "url": "https://www.e-kinokuniya.com/contact/privacy"
+    },
+    {
+      "text": "サービス・商品に関するお問い合わせ",
+      "url": "https://www.e-kinokuniya.com/contacts/general"
+    },
+    {
+      "text": "紀ノ国屋メンバーズカードのご案内",
+      "url": "https://www.e-kinokuniya.com/members"
+    },
+    {
+      "text": "オンラインストア ：",
+      "url": "https://www.super-kinokuniya.jp/"
+    },
+    {
+      "text": "特集",
+      "url": "https://www.super-kinokuniya.jp/c/feature"
+    },
+    {
+      "text": "ギフト",
+      "url": "https://www.super-kinokuniya.jp/c/gift"
+    },
+    {
+      "text": "紀ノ国屋ブランド",
+      "url": "https://www.super-kinokuniya.jp/c/kinokuniya"
+    },
+    {
+      "text": "オリジナルバッグ",
+      "url": "https://www.super-kinokuniya.jp/c/010"
+    },
+    {
+      "text": "スイーツ",
+      "url": "https://www.super-kinokuniya.jp/c/001"
+    },
+    {
+      "text": "パン",
+      "url": "https://www.super-kinokuniya.jp/c/003"
+    },
+    {
+      "text": "デリ／和惣菜",
+      "url": "https://www.super-kinokuniya.jp/c/004"
+    },
+    {
+      "text": "グロサリー／乳製品",
+      "url": "https://www.super-kinokuniya.jp/c/008"
+    },
+    {
+      "text": "肉／魚",
+      "url": "https://www.super-kinokuniya.jp/c/006"
+    },
+    {
+      "text": "米／麺",
+      "url": "https://www.super-kinokuniya.jp/c/007"
+    },
+    {
+      "text": "菓子",
+      "url": "https://www.super-kinokuniya.jp/c/002"
+    },
+    {
+      "text": "冷凍食品",
+      "url": "https://www.super-kinokuniya.jp/c/004/029"
+    },
+    {
+      "text": "飲料／嗜好品",
+      "url": "https://www.super-kinokuniya.jp/c/009"
+    },
+    {
+      "text": "酒類",
+      "url": "https://www.super-kinokuniya.jp/c/009/068"
+    },
+    {
+      "text": "エコバッグ",
+      "url": "https://www.super-kinokuniya.jp/c/010"
+    },
+    {
+      "text": "雑貨",
+      "url": "https://www.super-kinokuniya.jp/c/011"
+    },
+    {
+      "text": "紀ノ國屋京町家 ：",
+      "url": "https://kinokuniya.kyoto/"
+    },
+    {
+      "text": "調進所紀ノ國屋京町家ブランドサイト",
+      "url": "https://kinokuniya.kyoto/"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/kinokuniya_super/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/superkinokuniya"
+    },
+    {
+      "text": "",
+      "url": "https://twitter.com/S_kinokuniya"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCjiDjB8XKRcHg-wNn83qELQ"
+    },
+    {
+      "text": "",
+      "url": "https://lin.ee/5IpPEFX"
+    },
+    {
+      "text": "",
+      "url": "https://www.e-kinokuniya.com/"
+    }
+  ],
+  "images": [
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fkinokuniya%2Fpublic%2F18c99c18fdce4e9b4b05.webp&w=640&q=75",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/linkbox_2_icon.png",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fkinokuniya%2Fpublic%2F18ca390b0928b7818be41.webp&w=3840&q=75",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fkinokuniya%2Fpublic%2F18ca47a9cc1cd3d15f7a5.webp&w=256&q=75",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/netsuper-thumb-400xauto-25608.jpg",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/a_e-money.jpg",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/aoyamacupon2307.jpg",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fjpg%2Fkinokuniya%2Fpublic%2F18ca38e0867974ad1dd87.jpg&w=828&q=75",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2Fhtml%2Fkinokuniya%2Fasset%2Fimg%2Flinkbox_2_icon.png&w=96&q=75",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2Fhtml%2Fkinokuniya%2Fasset%2Fimg%2Fproduct_back.png&w=1200&q=75",
+    "https://www.e-kinokuniya.com/_next/image?url=https%3A%2F%2Fimage.tovira.jp%2FImageHosting%2Fjpg%2Fkinokuniya%2Fpublic%2F18cdcafb4c91417d6ef38.jpg&w=1200&q=75",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/instagram.png",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/facebook.png",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/xaccounts.png",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/youtube.png",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/line.png",
+    "https://image.tovira.jp/html/kinokuniya/asset/img/logo.png"
+  ],
+  "status": "success",
+  "seconds": 3.579
+}

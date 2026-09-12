@@ -1,0 +1,19 @@
+test_aggregate_then_round (test_validation.Accounting.test_aggregate_then_round) ... ok
+test_expired_deal_unusable (test_validation.Accounting.test_expired_deal_unusable) ... ok
+test_missing_nutrition_is_not_zero (test_validation.Accounting.test_missing_nutrition_is_not_zero) ... ok
+test_missing_quantity_is_not_zero (test_validation.Accounting.test_missing_quantity_is_not_zero) ... ok
+test_negative_quantity_rejected (test_validation.Accounting.test_negative_quantity_rejected) ... ok
+test_no_comparison_no_savings (test_validation.Accounting.test_no_comparison_no_savings) ... ok
+test_pantry_nutrition_remains (test_validation.Accounting.test_pantry_nutrition_remains) ... ok
+test_replacement_recalculates_whole_week (test_validation.Accounting.test_replacement_recalculates_whole_week) ... ok
+test_unknown_pack_unusable (test_validation.Accounting.test_unknown_pack_unusable) ... ok
+test_source_backed_spoon (test_validation.Conversions.test_source_backed_spoon) ... ok
+test_unknown_measure_stays_unknown (test_validation.Conversions.test_unknown_measure_stays_unknown) ... ok
+test_bad_json_rejected (test_validation.ModelOutput.test_bad_json_rejected) ... ok
+test_missing_days_rejected (test_validation.ModelOutput.test_missing_days_rejected) ... ok
+test_unknown_id_rejected (test_validation.ModelOutput.test_unknown_id_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK

@@ -1,0 +1,323 @@
+{
+  "status": "failed",
+  "threeProductLiveSuccess": false,
+  "acquisition": "saved",
+  "requestedDays": 1,
+  "graph": {
+    "countsAfterEachIngest": [
+      [
+        {
+          "kind": "Deal",
+          "count": 3
+        },
+        {
+          "kind": "Recipe",
+          "count": 3
+        }
+      ],
+      [
+        {
+          "kind": "Deal",
+          "count": 3
+        },
+        {
+          "kind": "Recipe",
+          "count": 3
+        }
+      ]
+    ],
+    "idempotent": true,
+    "candidates": [
+      {
+        "storeId": "seijo-minamiaoyama",
+        "recipeId": "21691824",
+        "title": "豚こまとブロッコリーのバター醤油炒め",
+        "servings": 2.0,
+        "cookingMinutes": null,
+        "matching": [
+          "broccoli-raw"
+        ],
+        "missing": [
+          "onion-raw",
+          "pork-unspecified-raw",
+          "butter",
+          "sake"
+        ],
+        "requirements": [
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "onion-raw",
+            "raw": "玉ねぎ 1/2玉",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "broccoli-raw",
+            "raw": "ブロッコリー 1/2株",
+            "unit": null
+          },
+          {
+            "amount": 400.0,
+            "grams": 400.0,
+            "ingredientId": "pork-unspecified-raw",
+            "raw": "豚肉 400g",
+            "unit": "g"
+          },
+          {
+            "amount": 40.0,
+            "grams": 40.0,
+            "ingredientId": "butter",
+            "raw": "バター 40g",
+            "unit": "g"
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "soy-sauce",
+            "raw": "醤油 フライパン4周",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "sake",
+            "raw": "酒 フライパン1周",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "salt",
+            "raw": "塩 フライパン一面にサッと",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "pepper",
+            "raw": "胡椒 フライパン一面にたっぷり",
+            "unit": null
+          }
+        ]
+      },
+      {
+        "storeId": "seijo-minamiaoyama",
+        "recipeId": "25675338",
+        "title": "ブロッコリーと豚こま♡ねぎ塩にんにく炒め",
+        "servings": 2.0,
+        "cookingMinutes": null,
+        "matching": [
+          "broccoli-raw",
+          "pork-mixed-cut-raw"
+        ],
+        "missing": [
+          "unmapped-4875023924fb",
+          "unmapped-5a81c7fe9328",
+          "unmapped-5845bd2de404",
+          "unmapped-95a9faee3ec9",
+          "unmapped-64db43490358",
+          "unmapped-c6a0061e6b67",
+          "unmapped-823536594fe3"
+        ],
+        "requirements": [
+          {
+            "amount": 250.0,
+            "grams": 250.0,
+            "ingredientId": "broccoli-raw",
+            "raw": "ブロッコリー 250g",
+            "unit": "g"
+          },
+          {
+            "amount": 180.0,
+            "grams": 180.0,
+            "ingredientId": "pork-mixed-cut-raw",
+            "raw": "豚こま切れ肉 180g",
+            "unit": "g"
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-4875023924fb",
+            "raw": "A白ねぎ(白い部分のみじん切り) 20cm分",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-5a81c7fe9328",
+            "raw": "Aにんにく(みじん切り) 1片分",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-5845bd2de404",
+            "raw": "A鶏がらスープの素、酒、本みりん 各大さじ1",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-95a9faee3ec9",
+            "raw": "Aごま油 大さじ1/2",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-64db43490358",
+            "raw": "片栗粉 小さじ2",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-c6a0061e6b67",
+            "raw": "ごま油 小さじ1",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-823536594fe3",
+            "raw": "粗挽き黒こしょう 少々",
+            "unit": null
+          }
+        ]
+      },
+      {
+        "storeId": "seijo-minamiaoyama",
+        "recipeId": "25962767",
+        "title": "コリコリブロッコリーオイスター炒め",
+        "servings": null,
+        "cookingMinutes": null,
+        "matching": [
+          "broccoli-raw"
+        ],
+        "missing": [
+          "unmapped-ff3daf1b21ed",
+          "unmapped-701706be8f7b",
+          "unmapped-1075575f476c",
+          "unmapped-a3bde72b9419",
+          "unmapped-f833b82ae0a8",
+          "unmapped-7ac781a03862",
+          "unmapped-cf9d3bf26113"
+        ],
+        "requirements": [
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "broccoli-raw",
+            "raw": "ブロッコリー 適量",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "soy-sauce",
+            "raw": "醤油 適量",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-ff3daf1b21ed",
+            "raw": "ウインナー 5本",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-701706be8f7b",
+            "raw": "もやし 1袋",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-1075575f476c",
+            "raw": "ラード 大さじ1.5",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-a3bde72b9419",
+            "raw": "アジシオ ひとつまみ",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-f833b82ae0a8",
+            "raw": "オイスターソース 大さじ1",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-7ac781a03862",
+            "raw": "ブラックペッパー 適量",
+            "unit": null
+          },
+          {
+            "amount": null,
+            "grams": null,
+            "ingredientId": "unmapped-cf9d3bf26113",
+            "raw": "ガーリックパウダー 5〜6振り",
+            "unit": null
+          }
+        ]
+      }
+    ],
+    "commonIngredients": [
+      {
+        "recipeA": "21691824",
+        "recipeB": "25675338",
+        "commonIngredients": [
+          "broccoli-raw"
+        ]
+      },
+      {
+        "recipeA": "21691824",
+        "recipeB": "25962767",
+        "commonIngredients": [
+          "broccoli-raw",
+          "soy-sauce"
+        ]
+      },
+      {
+        "recipeA": "25675338",
+        "recipeB": "25962767",
+        "commonIngredients": [
+          "broccoli-raw"
+        ]
+      }
+    ]
+  },
+  "error": "ValueError",
+  "reason": "no_fully_verified_30min_candidates",
+  "seconds": 5.366,
+  "events": [
+    {
+      "stage": "acquisition",
+      "status": "saved",
+      "elapsedSeconds": 0.001,
+      "daytonaLive": "blocked_by_tier_1"
+    },
+    {
+      "stage": "aura",
+      "status": "success",
+      "elapsedSeconds": 5.366,
+      "candidateRows": 3
+    },
+    {
+      "stage": "pipeline",
+      "status": "failed",
+      "elapsedSeconds": 5.366,
+      "error": "no_fully_verified_30min_candidates"
+    }
+  ]
+}

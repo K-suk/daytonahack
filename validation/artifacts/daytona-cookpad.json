@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://cookpad.com/jp/recipes/21691824",
+  "fetchedAt": "2026-09-12T05:34:49.814673+00:00",
+  "route": "live",
+  "status": "failed",
+  "error": "Error",
+  "detail": "Page.goto: net::ERR_CONNECTION_RESET at https://cookpad.com/jp/recipes/21691824\nCall log:\n  - navigating to \"https://cookpad.com/jp/recipes/21691824\", waiting until \"domcontentloaded\"\n",
+  "seconds": 0.72
+}

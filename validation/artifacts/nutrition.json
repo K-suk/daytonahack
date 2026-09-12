@@ -1,0 +1,22 @@
+{
+  "rice-cooked": {
+    "kcal": 156.0,
+    "protein": 2.5,
+    "fat": 0.3,
+    "carbs": 37.1,
+    "sourceUrl": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7",
+    "basis": "source",
+    "perGrams": 100,
+    "state": "cooked"
+  },
+  "broccoli-raw": {
+    "kcal": 37.0,
+    "protein": 5.4,
+    "fat": 0.6,
+    "carbs": 6.6,
+    "sourceUrl": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06263_7",
+    "basis": "source",
+    "perGrams": 100,
+    "state": "raw edible florets"
+  }
+}

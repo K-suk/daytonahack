@@ -1,0 +1,1616 @@
+[
+  {
+    "address": "RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF",
+    "slug": "nvidia-3070",
+    "name": "NVIDIA 3070",
+    "sft": "4TNvuVu3cj3BXfyNi9QSExtwAMub5BLCCejq2GFiVjSJ",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.0727,
+    "nos_reward_per_second": 0.000071,
+    "nos_job_price_per_second": 0.00007810000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "5DTW69bSjrGvNWWnGco3xi5EZTpE9o8NSPFzbw71HByp",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "8GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "EuYwNdSDduvFuTTS4fEgNL23rZRaTMbecM1J6fJJoQR1",
+    "slug": "nvidia-pro-6000-cc",
+    "name": "NVIDIA Pro 6000 Server Edition (CC)",
+    "sft": "F9TcbHgRza2v7CsajhyKp4yxrNxJpwG3DqmCne6Yf1ta",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 1,
+    "nos_reward_per_second": 0.000976,
+    "nos_job_price_per_second": 0.0010736,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [],
+    "required_remote_resources": [],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 27.12,
+    "utilization_target": null,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "96GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "9HnJacS25TnErsKMYJmKqWeCAMYuwY7gzhz9Eqhp5VE7",
+    "slug": "nvidia-5080",
+    "name": "NVIDIA 5080",
+    "sft": "GgQvFh83t97p9gFbkF5BXjSLQuoUXBWFXv66tpjqSXVo",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1818,
+    "nos_reward_per_second": 0.000178,
+    "nos_job_price_per_second": 0.00019580000000000002,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "9fgU7Btd5gXB3xzAFmT322KdkdUuMjX7GG1LeNT5qFj4",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "16GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "37VPcEfrA34vLRygFQd7bWiosBwv3a5jPv4hcXdumytC",
+    "slug": "nvidia-8x-h100",
+    "name": "NVIDIA 8xH100",
+    "sft": "R8kHopi8RP5Uw2iPhxfo5uRJMzJiXgkrsBxcuFBmtti",
+    "type": "OTHER",
+    "usd_reward_per_hour": 18.2,
+    "nos_reward_per_second": 0.01777,
+    "nos_job_price_per_second": 0.019547000000000002,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "7AtiXMSH6R1jjBxrcYjehCkkSF7zvYWte63gwEDBcGHq",
+    "slug": "nvidia-3060",
+    "name": "NVIDIA 3060",
+    "sft": "EriVoySzVWF4NtNxQFCFASR4632N9sh9YumTjkhGkkgL",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.0436,
+    "nos_reward_per_second": 0.000043,
+    "nos_job_price_per_second": 0.000047300000000000005,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "62bAk2ppEL2HpotfPZsscSq4CGEfY6VEqD5dQQuTo7JC",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "8GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "47LQHZwT7gfVoBDYnRYhsYv6vKk8a1oW3Y3SdHAp1gTr",
+    "slug": "nvidia-4060",
+    "name": "NVIDIA 4060",
+    "sft": "4WedXpV8rWZqYyKZUsuBeGBj3GafroFWFSKk16Ui6AeZ",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.0582,
+    "nos_reward_per_second": 0.000057,
+    "nos_job_price_per_second": 0.0000627,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "2NTfTR64rEH8avzNsxExeNKSXNZfRHTg1JZKmyqbR8LL",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "8GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "BykxcqsPpMLo2nYZJfFHSUwi1fJNWDKFYi5idJfQ4hgk",
+    "slug": "nvidia-a4000-community",
+    "name": "NVIDIA 4000/A4000 Community",
+    "sft": "BGQsZZddBq5CmsXctLhrN6JfkwLcNd83VDodmrTtYUDL",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0873,
+    "nos_reward_per_second": 0.000085,
+    "nos_job_price_per_second": 0.00009350000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "7fnuvPYzfd961iRDPRgMSKLrUf1QjTGnn7viu3P12Zuc",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "CA5pMpqkYFKtme7K31pNB1s62X2SdhEv1nN9RdxKCpuQ",
+    "slug": "nvidia-3090",
+    "name": "NVIDIA 3090",
+    "sft": "2JzciMonVeQ4thsEgWiLNJ8EX6jW7uZjaJJQo5zVwB6o",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1745,
+    "nos_reward_per_second": 0.00017,
+    "nos_job_price_per_second": 0.00018700000000000002,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "9fgU7Btd5gXB3xzAFmT322KdkdUuMjX7GG1LeNT5qFj4",
+    "slug": "nvidia-5080-community",
+    "name": "NVIDIA 5080 Community",
+    "sft": "H7tEp7c1vVnbecvqKfNheuCuxMGx4YD9nd3Luh8nBEC",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.1364,
+    "nos_reward_per_second": 0.000133,
+    "nos_job_price_per_second": 0.00014630000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "9HnJacS25TnErsKMYJmKqWeCAMYuwY7gzhz9Eqhp5VE7",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "5eX3kWkrcbwejEc1svbfP4F7NKYjtPDuyU5KnV1hUBKg",
+    "slug": "nvidia-5070",
+    "name": "NVIDIA 5070",
+    "sft": "HvESbH5mHYAT8PpUjjqoSLSxmin6qHAU79aLYpoGHs7n",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1364,
+    "nos_reward_per_second": 0.000133,
+    "nos_job_price_per_second": 0.00014630000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "HnCwNsk1FTREgmp3BQ1A9WBE9UqzCkfEfqPv9BybYA2y",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "12GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "8pr3btRVcbqqGxaZspd18QWm41eByTjZR1cB58nVWiNg",
+    "slug": "nvidia-5090-community",
+    "name": "NVIDIA 5090 Community",
+    "sft": "2GnMYFogrWbGYPDdhhHRYpLJvKyX3ai5R2rTetQPn8DU",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.2727,
+    "nos_reward_per_second": 0.000266,
+    "nos_job_price_per_second": 0.00029260000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "6Xt8hgVLLL2PSHC9NtJP8E8oTdA5ZJc95hZEnHcdqKqb",
+    "required_images": [
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/ollama/ollama:0.32.6",
+      "docker.io/vllm/vllm-openai:v0.26.0"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "HF",
+        "url": "InternScience/Agents-A1-4B"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "3XGECQon74HQwPJuZjgCwqdQ5Nt3wktZ9fcavcDN9qB2",
+    "slug": "nvidia-8x-a5000",
+    "name": "Enterprise 8xA5000",
+    "sft": "9cqXVN4pp5nspf788sw7cx1cM936W9K9Xai5va2Yo5nr",
+    "type": "OTHER",
+    "usd_reward_per_hour": null,
+    "nos_reward_per_second": 0,
+    "nos_job_price_per_second": 0,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6",
+      "ghcr.io/ggml-org/llama.cpp:server-cuda12"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "HF",
+        "url": "unsloth/gemma-4-26B-A4B-it-GGUF"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "An4tqwD3mTzRipAdVxqSNrTtGfiqRh9DSgUjZ86zNrDa",
+    "slug": "zephyr-skyline-4090",
+    "name": "zephyr-skyline NVIDIA 4090",
+    "sft": "9cqXVN4pp5nspf788sw7cx1cM936W9K9Xai5va2Yo5nr",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.2909,
+    "nos_reward_per_second": 0.000284,
+    "nos_job_price_per_second": 0.00031240000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": true,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "6xJakjtNhCSRQJf5Lk79E846w4gyvs83cWz8Xd2cKnmH",
+    "slug": "nvidia-a100-40gb-community",
+    "name": "NVIDIA A100 40GB Community",
+    "sft": "AEBZkyLFrSzQ72BboCfc9KMiZZja8DVzEFmYjR7TLEzV",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.41591,
+    "nos_reward_per_second": 0.000406,
+    "nos_job_price_per_second": 0.0004466,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "F3aGGSMb73XHbJbDXVbcXo7iYM9fyevvAZGQfwgrnWtB",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "BLqSzPzcXMX5gseNXE4Ma45f31Eo6tNFVYoRmPG7kxP2",
+    "slug": "nvidia-a40",
+    "name": "NVIDIA A40",
+    "sft": "6cyXqcj1CFZ4MhcZWSYRw5HmDz6hK8WuQTgLxhReQ7KX",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.3636,
+    "nos_reward_per_second": 0.000355,
+    "nos_job_price_per_second": 0.00039050000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "8kGjraXnXirSQcgjxTbFBK7QTBVz9fm9ufSRVr3DqBTV",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "48GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "7fnuvPYzfd961iRDPRgMSKLrUf1QjTGnn7viu3P12Zuc",
+    "slug": "nvidia-a4000",
+    "name": "NVIDIA 4000/A4000",
+    "sft": "2xo9j5zRkPpGzxmzreRA2n3818118EFvXbJUNh7NvyPS",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1164,
+    "nos_reward_per_second": 0.000114,
+    "nos_job_price_per_second": 0.0001254,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "BykxcqsPpMLo2nYZJfFHSUwi1fJNWDKFYi5idJfQ4hgk",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "16GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "HanragNudL4S4zFtpLQv85dn6QbdzCm7SNEWEb9sRp17",
+    "slug": "nvidia-4080-community",
+    "name": "NVIDIA 4080 Community",
+    "sft": "DJ7nT6n1Hsh7MSV3nfzHZAVSfzGCucrJUAiym6bi1bkM",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.1091,
+    "nos_reward_per_second": 0.000107,
+    "nos_job_price_per_second": 0.00011770000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "77wdaAuYVxBW5u2QiqddkAzoBZ5cuKxH9ZCbx5HfFUb2",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "741d2jZmNreNVyrLCgGkvVGx1Wx3FjumXXPefd8MX83J",
+    "slug": "nvidia-3080-community",
+    "name": "NVIDIA 3080 Community",
+    "sft": "CYPe5afHyJayrB5YCyaKMwCU7JDzFsaKEoX4XjLjBXtN",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0655,
+    "nos_reward_per_second": 0.000064,
+    "nos_job_price_per_second": 0.0000704,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "HBxyYe4gTzuutWL991vKL6isqwhGqApELAfoRiZgW1Sw",
+    "slug": "nvidia-a5000-community",
+    "name": "NVIDIA 5000/A5000 Community",
+    "sft": "3qn8hZvuLYZX2aveV5BHaBvJ8f55y49puLgdJjbUqd8j",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.218175,
+    "nos_reward_per_second": 0.000213,
+    "nos_job_price_per_second": 0.00023430000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "4uBye3vJ1FAYukDdrvqQ36MZZZxqW3o8utWu8fyomRuN",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "Dcwz62TisNbWuto6KJM2EGYGVKnHbdZGVGmgLASzsXy8",
+    "slug": "nvidia-4090-community",
+    "name": "NVIDIA 4090 Community",
+    "sft": "HLuwMuBQgJt9QzR64VuqKod5wxZkCogryK4CFqH2id43",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.2182,
+    "nos_reward_per_second": 0.000213,
+    "nos_job_price_per_second": 0.00023430000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "97G9NnvBDQ2WpKu6fasoMsAKmfj63C9rhysJnkeWodAf",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "C8JnyH6qhid3EaovSwb8JTkwAGP5n6GGqkktrazuKDqC",
+    "slug": "silent-ridge-4090",
+    "name": "silent-ridge NVIDIA 4090",
+    "sft": "2otyoHZnUQHMhiaQEju8bGqRpqbXTKQEyopQJ79GSsYr",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.2909,
+    "nos_reward_per_second": 0.000284,
+    "nos_job_price_per_second": 0.00031240000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": true,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+    "slug": "ember-drift-4090",
+    "name": "ember-drift NVIDIA 4090",
+    "sft": "2otyoHZnUQHMhiaQEju8bGqRpqbXTKQEyopQJ79GSsYr",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.2909,
+    "nos_reward_per_second": 0.000284,
+    "nos_job_price_per_second": 0.00031240000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/nosana/anti-spoof:1.0.0"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": true,
+    "max_usd_uptime_reward_per_day": 1,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "77wdaAuYVxBW5u2QiqddkAzoBZ5cuKxH9ZCbx5HfFUb2",
+    "slug": "nvidia-4080",
+    "name": "NVIDIA 4080",
+    "sft": "Adx1F4QjYW76yq8fxTPaGedsApfRuZo3NadoYR9Ptse7",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1455,
+    "nos_reward_per_second": 0.000142,
+    "nos_job_price_per_second": 0.00015620000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "HanragNudL4S4zFtpLQv85dn6QbdzCm7SNEWEb9sRp17",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "16GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "2NTfTR64rEH8avzNsxExeNKSXNZfRHTg1JZKmyqbR8LL",
+    "slug": "nvidia-4060-community",
+    "name": "NVIDIA 4060 Community",
+    "sft": "14JtgHy7Csfv8MRfm19U7bDoTV34y2v2A2pXTWSjYA1Y",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0436,
+    "nos_reward_per_second": 0.000043,
+    "nos_job_price_per_second": 0.000047300000000000005,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "47LQHZwT7gfVoBDYnRYhsYv6vKk8a1oW3Y3SdHAp1gTr",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "5DTW69bSjrGvNWWnGco3xi5EZTpE9o8NSPFzbw71HByp",
+    "slug": "nvidia-3070-community",
+    "name": "NVIDIA 3070 Community",
+    "sft": "9gL1xVzWWDpxrnuvgHrKPkZRd3rVjwzP4dPaiFrVq14Q",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0545,
+    "nos_reward_per_second": 0.000053,
+    "nos_job_price_per_second": 0.00005830000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "6Xt8hgVLLL2PSHC9NtJP8E8oTdA5ZJc95hZEnHcdqKqb",
+    "slug": "nvidia-5090",
+    "name": "NVIDIA 5090",
+    "sft": "HYdEF7ATspKNLLaQJv9RivdM4Lz24X5cxqSpqftrfkbi",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.3636,
+    "nos_reward_per_second": 0.000355,
+    "nos_job_price_per_second": 0.00039050000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "8pr3btRVcbqqGxaZspd18QWm41eByTjZR1cB58nVWiNg",
+    "required_images": [
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/ollama/ollama:0.32.6",
+      "docker.io/vllm/vllm-openai:v0.26.0"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "HF",
+        "url": "InternScience/Agents-A1-4B"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "32GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "8XT6GbHuEVEdxatFsTYsKKeFB6jAGcJPrezA5fF1p6fq",
+    "slug": "nvidia-a6000-community",
+    "name": "NVIDIA A6000 Community",
+    "sft": "E9AjX6QhKLMLngK3gLx4tcw3S8LLdZnBfbm71w8hSaWg",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.2727,
+    "nos_reward_per_second": 0.000266,
+    "nos_job_price_per_second": 0.00029260000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "EjryZ6XEthz3z7nnLfjXBYafyn7VyHgChfbfM47LfAao",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "F3aGGSMb73XHbJbDXVbcXo7iYM9fyevvAZGQfwgrnWtB",
+    "slug": "nvidia-a100-40gb",
+    "name": "NVIDIA A100 40GB",
+    "sft": "GPJ2eJh6ECKanmh35YUBmfBfJaThMxReaVqLvRmmcz4D",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.5545,
+    "nos_reward_per_second": 0.000541,
+    "nos_job_price_per_second": 0.0005951000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "6xJakjtNhCSRQJf5Lk79E846w4gyvs83cWz8Xd2cKnmH",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "40GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "FNchga9tXmcQU1DXCWapysjMCgUioiY6vQAb38Ts612K",
+    "slug": "frost-cascade-4090",
+    "name": "NVIDIA 4090 SEV TEE",
+    "sft": "7MQemWBtoRtcEBeGLRWZP69gwP4KmwG1hD9MbAypMP39",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.5,
+    "nos_reward_per_second": 0.000488,
+    "nos_job_price_per_second": 0.0005368,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "ghcr.io/unevis/solidmeta-morph-tool:v1.1.12"
+    ],
+    "required_remote_resources": [],
+    "client": true,
+    "max_usd_uptime_reward_per_day": 10,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "6eMivCx49anWFYwNgg8KNJQfSJYB5nBdif8CK6z52dem",
+    "slug": "nvidia-6000-ada",
+    "name": "NVIDIA 6000 Ada",
+    "sft": "uDXLDh9WqYJXXYhb4V7DhkhDUnHqko8RYNGy3cmgfTi",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.6364,
+    "nos_reward_per_second": 0.000621,
+    "nos_job_price_per_second": 0.0006831000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "5ZfPkACuAZgZVF1cobN4CeJdoXn2ze3azwtSv5ah9otV",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "48GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+    "slug": "nvidia-3090-community",
+    "name": "NVIDIA 3090 Community",
+    "sft": "7JvGQXyqCP3ToofyBvnVDeFgyPg14sbJmZWUGXE6tDPg",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.1309,
+    "nos_reward_per_second": 0.000128,
+    "nos_job_price_per_second": 0.0001408,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "CA5pMpqkYFKtme7K31pNB1s62X2SdhEv1nN9RdxKCpuQ",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "62bAk2ppEL2HpotfPZsscSq4CGEfY6VEqD5dQQuTo7JC",
+    "slug": "nvidia-3060-community",
+    "name": "NVIDIA 3060 Community",
+    "sft": "2unhBoDqQfWakeDSZzjjH5VsmbKBsTSDg1RLxd9qsgRJ",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0327,
+    "nos_reward_per_second": 0.000032,
+    "nos_job_price_per_second": 0.0000352,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "7AtiXMSH6R1jjBxrcYjehCkkSF7zvYWte63gwEDBcGHq",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "8kGjraXnXirSQcgjxTbFBK7QTBVz9fm9ufSRVr3DqBTV",
+    "slug": "nvidia-a40-community",
+    "name": "NVIDIA A40 Community",
+    "sft": "AtEDZkPaSZDawJhpGHLwtcuLqzBJzFZrGSariMiwS7sd",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.27273,
+    "nos_reward_per_second": 0.000266,
+    "nos_job_price_per_second": 0.00029260000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "BLqSzPzcXMX5gseNXE4Ma45f31Eo6tNFVYoRmPG7kxP2",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+    "slug": "nvidia-3080",
+    "name": "NVIDIA 3080",
+    "sft": "Fw4AtMMaE1xVGwiFZRFL2jwMQsXh8NsffZTPg1JXgAfY",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.0873,
+    "nos_reward_per_second": 0.000085,
+    "nos_job_price_per_second": 0.00009350000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "741d2jZmNreNVyrLCgGkvVGx1Wx3FjumXXPefd8MX83J",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "10GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "97G9NnvBDQ2WpKu6fasoMsAKmfj63C9rhysJnkeWodAf",
+    "slug": "nvidia-4090",
+    "name": "NVIDIA 4090",
+    "sft": "Ds36m2NHLbq8GPHnbBfJtZHmNrCnuFkP5NXK9iXkTWXU",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.2909,
+    "nos_reward_per_second": 0.000284,
+    "nos_job_price_per_second": 0.00031240000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "Dcwz62TisNbWuto6KJM2EGYGVKnHbdZGVGmgLASzsXy8",
+    "required_images": [
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "registry.hub.docker.com/ollama/ollama:0.15.4"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/ollama/gpt-oss/20b"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "EjryZ6XEthz3z7nnLfjXBYafyn7VyHgChfbfM47LfAao",
+    "slug": "nvidia-a6000",
+    "name": "NVIDIA A6000",
+    "sft": "HdCbnZfQEpxPQg1NBwKFWeHMLL2rTTMPKGXAoJ5NN1rW",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.3636,
+    "nos_reward_per_second": 0.000355,
+    "nos_job_price_per_second": 0.00039050000000000006,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "8XT6GbHuEVEdxatFsTYsKKeFB6jAGcJPrezA5fF1p6fq",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "48GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "4uBye3vJ1FAYukDdrvqQ36MZZZxqW3o8utWu8fyomRuN",
+    "slug": "nvidia-a5000",
+    "name": "NVIDIA 5000/A5000",
+    "sft": "6JSckt68jTqFxNTskDsE8ZweVNxwas68HmGURnj2KKkz",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.1818,
+    "nos_reward_per_second": 0.000178,
+    "nos_job_price_per_second": 0.00019580000000000002,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "HBxyYe4gTzuutWL991vKL6isqwhGqApELAfoRiZgW1Sw",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "24GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "9qTcReKjb7LKndq2J4pxd2gCgC9ux3z2jF4oUTWhQovZ",
+    "slug": "nvidia-a100-80gb-community",
+    "name": "NVIDIA A100 80GB Community",
+    "sft": "CpBzrrZRd4kCY8WqeKC9Hui8oK8xW7jyBz3MAP58m6xL",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.61364,
+    "nos_reward_per_second": 0.000599,
+    "nos_job_price_per_second": 0.0006589000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "GLJHzqRN9fKGBsvsFzmGnaQGknUtLN1dqaFR8n3YdM22",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "3tB46gYRURjyhmdQkTBqjhfT7rR2h6qFCPC2jtHwuorA",
+    "slug": "nvidia-pro6000-community",
+    "name": "NVIDIA Pro 6000 (WE) Community",
+    "sft": "4atmtYXqYdc9BruMCNzy39sKVYUNGb8RoBQXR4DVM7tP",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.6,
+    "nos_reward_per_second": 0.000586,
+    "nos_job_price_per_second": 0.0006446000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "GLJHzqRN9fKGBsvsFzmGnaQGknUtLN1dqaFR8n3YdM22",
+    "slug": "nvidia-a100-80gb",
+    "name": "NVIDIA A100 80GB",
+    "sft": "5PwUugNiPeZVmrdeP1WuEmWnpTYDZPbohMKsEwtHAMtL",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.8181,
+    "nos_reward_per_second": 0.000799,
+    "nos_job_price_per_second": 0.0008789000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "9qTcReKjb7LKndq2J4pxd2gCgC9ux3z2jF4oUTWhQovZ",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "80GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "Bk5E3zN6xkxZS2nCQa3oTN6zjYmzFbXTVtnowUzH71zu",
+    "slug": "nvidia-4070-community",
+    "name": "NVIDIA 4070 Community",
+    "sft": "GXVnqFd4DRZFThBzNZBf8exFpWCTkUMm87BX9CjhnrM6",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.0655,
+    "nos_reward_per_second": 0.000064,
+    "nos_job_price_per_second": 0.0000704,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "EzuHhkrhmV98HWzREsgLenKj2iHdJgrKmzfL8psP8Aso",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "Crop49jpc7prcgAcS82WbWyGHwbN5GgDym3uFbxxCTZg",
+    "slug": "nvidia-h100",
+    "name": "NVIDIA H100",
+    "sft": "8t2BH4NEEtdcqWJf7WvQ4zgwx5ahH2e9fcxYUZJagCAR",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 1.3636,
+    "nos_reward_per_second": 0.001331,
+    "nos_job_price_per_second": 0.0014641,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "D9Pv7LthkwSYVJo5iGUPsAiosGwARj7eHTntuWFR1MK2",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "Ollama",
+        "model": "gpt-oss:120b"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "80GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "EzuHhkrhmV98HWzREsgLenKj2iHdJgrKmzfL8psP8Aso",
+    "slug": "nvidia-4070",
+    "name": "NVIDIA 4070",
+    "sft": "BX4yK1s8vAPuXdgbVSDBRgPPT3fRkWpvPFw8TptmKr7F",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.0873,
+    "nos_reward_per_second": 0.000085,
+    "nos_job_price_per_second": 0.00009350000000000001,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "Bk5E3zN6xkxZS2nCQa3oTN6zjYmzFbXTVtnowUzH71zu",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "12GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "HnCwNsk1FTREgmp3BQ1A9WBE9UqzCkfEfqPv9BybYA2y",
+    "slug": "nvidia-5070-community",
+    "name": "NVIDIA 5070 Community",
+    "sft": "D8HdawWCQ4JumHWvkh6wUZqjh1R1wNH7eco9sRq7sPzp",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.1027,
+    "nos_reward_per_second": 0.0001,
+    "nos_job_price_per_second": 0.00011000000000000002,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "5eX3kWkrcbwejEc1svbfP4F7NKYjtPDuyU5KnV1hUBKg",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "Ekro9NTNqLbnMkN7x7y2rY9AeTkazcHj2PPaTxT1Cogz",
+    "slug": "nvidia-pro6000",
+    "name": "NVIDIA Pro 6000 (SOC2)",
+    "sft": "CXyKanP1vG8FyNzDHVcz7ybi76VHGB7U8zPrZTYmvsRU",
+    "type": "PREMIUM",
+    "usd_reward_per_hour": 0.909,
+    "nos_reward_per_second": 0.000888,
+    "nos_job_price_per_second": 0.0009768,
+    "network_fee_percentage": 10,
+    "premium_community_relation": null,
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      },
+      {
+        "type": "Ollama",
+        "model": "glm-4.7-flash:latest"
+      },
+      {
+        "type": "Ollama",
+        "model": "gpt-oss:120b"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 27.12,
+    "utilization_target": 0.6,
+    "metadata": [
+      {
+        "key": "vram",
+        "value": "96GB"
+      }
+    ],
+    "nodes": []
+  },
+  {
+    "address": "5ZfPkACuAZgZVF1cobN4CeJdoXn2ze3azwtSv5ah9otV",
+    "slug": "nvidia-6000-ada-community",
+    "name": "NVIDIA 6000 Ada Community",
+    "sft": "3ALSUo7AgixaDt1bqgUh4iahVcEuvsmuHDwJMRDmijd4",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 0.4773,
+    "nos_reward_per_second": 0.000466,
+    "nos_job_price_per_second": 0.0005126,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "6eMivCx49anWFYwNgg8KNJQfSJYB5nBdif8CK6z52dem",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  },
+  {
+    "address": "D9Pv7LthkwSYVJo5iGUPsAiosGwARj7eHTntuWFR1MK2",
+    "slug": "nvidia-h100-community",
+    "name": "NVIDIA H100 Community",
+    "sft": "ARkGTCNaBaWnSKz7FGx4ggTWfEWn72T3bRrX6WzDUBB5",
+    "type": "COMMUNITY",
+    "usd_reward_per_hour": 1.0227,
+    "nos_reward_per_second": 0.000999,
+    "nos_job_price_per_second": 0.0010989000000000003,
+    "network_fee_percentage": 10,
+    "premium_community_relation": "Crop49jpc7prcgAcS82WbWyGHwbN5GgDym3uFbxxCTZg",
+    "required_images": [
+      "docker.io/vllm/vllm-openai:v0.9.2",
+      "docker.io/tensorflow/tensorflow:2.17.0-gpu-jupyter",
+      "docker.io/vllm/vllm-openai:v0.10.2",
+      "docker.io/nosana/anti-spoof:1.0.0",
+      "docker.io/hoomanhq/oneclickllm:ollama01",
+      "registry.hub.docker.com/ollama/ollama:0.15.4",
+      "docker.io/ollama/ollama:0.32.6"
+    ],
+    "required_remote_resources": [
+      {
+        "type": "S3",
+        "url": "https://models.nosana.io/foldingAtHome"
+      }
+    ],
+    "client": false,
+    "max_usd_uptime_reward_per_day": 0,
+    "utilization_target": 0.6,
+    "metadata": [],
+    "nodes": []
+  }
+]

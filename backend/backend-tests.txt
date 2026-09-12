@@ -1,0 +1,21 @@
+test_daytona_output_is_authoritative (test_backend.BackendTests.test_daytona_output_is_authoritative) ... ok
+test_estimate_requires_reason (test_backend.BackendTests.test_estimate_requires_reason) ... ok
+test_estimated_quantity_propagates (test_backend.BackendTests.test_estimated_quantity_propagates) ... ok
+test_hash_mismatch_rejected (test_backend.BackendTests.test_hash_mismatch_rejected) ... ok
+test_nosana_missing_does_not_call (test_backend.BackendTests.test_nosana_missing_does_not_call) ... ok
+test_remote_parser_code_compiles (test_backend.BackendTests.test_remote_parser_code_compiles) ... ok
+test_hash_mismatch_rejected (test_materials.MaterialsTests.test_hash_mismatch_rejected) ... ok
+test_local_document_evidence (test_materials.MaterialsTests.test_local_document_evidence) ... ok
+test_remote_parser_ignores_executable_scripts (test_materials.MaterialsTests.test_remote_parser_ignores_executable_scripts) ... ok
+test_swap_recalculates_week_and_revision (test_materials.MaterialsTests.test_swap_recalculates_week_and_revision) ... ok
+test_traversal_rejected (test_materials.MaterialsTests.test_traversal_rejected) ... ok
+test_unknown_and_unmet_distinct (test_materials.MaterialsTests.test_unknown_and_unmet_distinct) ... ok
+test_failed_inference_invalidates_ready (test_nosana_readiness.ReadinessTests.test_failed_inference_invalidates_ready) ... ok
+test_management_key_never_sent_to_inference (test_nosana_readiness.ReadinessTests.test_management_key_never_sent_to_inference) ... ok
+test_ready_expiry_and_configuration_change (test_nosana_readiness.ReadinessTests.test_ready_expiry_and_configuration_change) ... ok
+test_url_alone_not_ready (test_nosana_readiness.ReadinessTests.test_url_alone_not_ready) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.024s
+
+OK

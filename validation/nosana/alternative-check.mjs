@@ -1,0 +1,5 @@
+import {createNosanaClient,NosanaNetwork} from '@nosana/kit';import dotenv from 'dotenv';import fs from 'node:fs';dotenv.config({path:'.env',quiet:true});
+const c=createNosanaClient(NosanaNetwork.MAINNET,{api:{apiKey:process.env.NOSANA_API_KEY}});const startedAt=new Date().toISOString();
+const old=JSON.parse(fs.readFileSync('validation/artifacts/nosana-deployment.json'));const d=await c.api.deployments.get(old.id);const jobs=await d.getJobs();
+const [credits,markets,prices,available,templates,deployments]=await Promise.all([c.api.credits.balance(),c.api.markets.list(),c.api.markets.getPrices(),c.api.hosts.getAvailableGpus(),c.api.templates.list(),c.api.deployments.list()]);
+const result={startedAt,checkedAt:new Date().toISOString(),old:{id:d.id,status:d.status,jobs:jobs.jobs.map(j=>({id:j.job,state:j.state,node:j.node}))},credits,markets,prices,available,templates,deployments};fs.writeFileSync('validation/artifacts/nosana-alternative-check.json',JSON.stringify(result,null,2));console.log(JSON.stringify({startedAt,old:result.old,credits,available,markets,prices,templates:templates.map(t=>({id:t.id,jobDefinition:t.jobDefinition})),deployments}).slice(0,24000));

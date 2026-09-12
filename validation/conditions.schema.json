@@ -1,0 +1,81 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "budgetYen": {
+      "default": 3000,
+      "minimum": 0,
+      "title": "Budgetyen",
+      "type": "number"
+    },
+    "proteinGoalG": {
+      "default": 35,
+      "minimum": 0,
+      "title": "Proteingoalg",
+      "type": "number"
+    },
+    "kcalGoal": {
+      "default": 600,
+      "minimum": 0,
+      "title": "Kcalgoal",
+      "type": "number"
+    },
+    "allergies": {
+      "default": [],
+      "items": {
+        "enum": [
+          "egg",
+          "milk",
+          "wheat",
+          "buckwheat",
+          "peanut",
+          "shrimp",
+          "crab",
+          "walnut",
+          "soy",
+          "sesame",
+          "fish"
+        ],
+        "type": "string"
+      },
+      "title": "Allergies",
+      "type": "array"
+    },
+    "dislikes": {
+      "default": [],
+      "items": {
+        "enum": [
+          "broccoli-raw",
+          "onion-raw",
+          "pork-mixed-cut-raw",
+          "chicken-thigh-skin-unspecified-raw",
+          "mushroom"
+        ],
+        "type": "string"
+      },
+      "title": "Dislikes",
+      "type": "array"
+    },
+    "pantry": {
+      "default": [
+        "rice-cooked",
+        "oil",
+        "salt",
+        "pepper",
+        "soy-sauce",
+        "sugar"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "title": "Pantry",
+      "type": "array"
+    },
+    "shoppingDate": {
+      "default": "2026-09-12",
+      "title": "Shoppingdate",
+      "type": "string"
+    }
+  },
+  "title": "Conditions",
+  "type": "object"
+}

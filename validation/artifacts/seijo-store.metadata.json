@@ -1,0 +1,74 @@
+{
+  "name": "seijo-store",
+  "sourceUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0150",
+  "fetchedAt": "2026-09-12T05:27:12.775952+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0150",
+  "contentType": "text/html;charset=UTF-8",
+  "bytes": 826710,
+  "sha256": "2be69b6c2eaca670d2c4fdbb693a33506488830dd751d55639c0f9347381df8e",
+  "links": [
+    {
+      "text": "",
+      "url": "https://www.seijoishii.co.jp/"
+    },
+    {
+      "text": "成城石井 オンラインショップ",
+      "url": "https://seijoishii.com/"
+    },
+    {
+      "text": "会社情報",
+      "url": "https://www.seijoishii.co.jp/"
+    },
+    {
+      "text": "検索トップ",
+      "url": "https://shop.seijoishii.com/seijoishii/"
+    },
+    {
+      "text": "東京都",
+      "url": "https://shop.seijoishii.com/seijoishii/address/list?search=address&address=13"
+    },
+    {
+      "text": "港区",
+      "url": "https://shop.seijoishii.com/seijoishii/spot/list?search=condition&address=13103"
+    },
+    {
+      "text": "03-5786-2880",
+      "url": "tel:03-5786-2880"
+    },
+    {
+      "text": "",
+      "url": "https://location-cloud.navitime.co.jp/?frm=pwd&utm_source=seijoishii&utm_medium=banner&utm_campaign=store_locator"
+    }
+  ],
+  "images": [
+    "https://images.pkg.navitime.co.jp/citrus/606/other_image/header/seijoishii_mainimg_logo02.png",
+    "https://images.pkg.navitime.co.jp/citrus/606/other_image/header/seijoishii_cart.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/dac27e65ef2f47ecbe364ec027c3a72c/01_02_VISA.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/3c6c934e3b1f4c6ca6ccbb5e15337b25/01_03_Mastercard.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/a5dd6c7931f9463e86477cca7125ab8e/01_04_JCB.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/2feb34e311664f98b99402050eab29d5/01_05_JCBPREMO.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/fdcddbe2e49c48449e4713edd95751bf/01_06_DinersClub.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/ab945f77b2e3456199e049e78da208aa/01_07_AmericanExpress.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/aeab0168b9d54135a52a4026c950987e/01_08_DISCOVER.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/e5f7c83fe8a04aefa377f376278daea0/01_09_UnionPay.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/0fb443ef09d14c818f739ed6cf23c595/koutsukei_ic.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/525672d6d2954d5d8809a5294615462b/02_12_iD.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/dbab7ca6196a46d7b1d84aa7c42e7fb1/02_13_RakutenEdy.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/93b733ec0e9c4801aa888aad440cd2f8/02_14_QUICPay.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/0fdce72e2acf4c99848e019afb8b3c60/02_16_WAON.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/5cf10a6fc8ae46b882d67f5db0be62f9/03_01_Paypay.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/c93d45cd59694d0984a0bf1b6f4ea143/03_02_dBarai.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/ebaf539044924a129df4e6482918d1df/03_03_RakutenPay.png",
+    "https://files.location-cloud.navitime.biz/data/seijoishii/2f94f52c4f254f589444e405b503ac64/Alipay%2B%E9%9D%92%E5%9C%B0%E5%8D%98%E7%8B%ACLogo_%E6%AD%A3%E6%96%B9%E5%BD%A2_%E4%B8%B8%E8%A7%92_RGB.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/b2ae8a4963834da98f89b4591c316256/03_05_WeChatPay.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/33407c7a209748a794aa92989b48a6c8/03_08_auPAY.png",
+    "https://files.location-cloud.navitime.biz/data/navitime/7c70d474ed654f569ca11b81b060ddaf/03_09_merpay.png",
+    "https://shop.seijoishii.com/seijoishii/resources/img/common/close_black.png",
+    "https://shop.seijoishii.com/seijoishii/resources/img/common/navitime_logo.gif"
+  ],
+  "status": "success",
+  "seconds": 4.271
+}

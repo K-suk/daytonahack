@@ -1,0 +1,524 @@
+{
+  "stores": [
+    {
+      "id": "seijo-minamiaoyama",
+      "name": "成城石井 南青山店",
+      "address": "東京都港区南青山2-27-25 ヒューリック南青山ビル1F",
+      "sourceUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0150"
+    },
+    {
+      "id": "kino-aoyama",
+      "name": "紀ノ国屋 インターナショナル（青山店）",
+      "address": "東京都港区北青山3-11-7 AoビルB1F",
+      "sourceUrl": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international"
+    },
+    {
+      "id": "ville-aoyama",
+      "name": "ヴィルマルシェ 青山店",
+      "address": "東京都港区北青山2-13-5",
+      "sourceUrl": "https://page.line.me/kaq2977y"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "onion-raw",
+      "nameJa": "玉ねぎ",
+      "nameEn": "onion, raw"
+    },
+    {
+      "id": "broccoli-raw",
+      "nameJa": "ブロッコリー",
+      "nameEn": "broccoli, raw florets"
+    },
+    {
+      "id": "pork-unspecified-raw",
+      "nameJa": "豚肉",
+      "nameEn": "pork, cut unspecified, raw"
+    },
+    {
+      "id": "butter",
+      "nameJa": "バター",
+      "nameEn": "butter"
+    },
+    {
+      "id": "soy-sauce",
+      "nameJa": "醤油",
+      "nameEn": "soy sauce"
+    },
+    {
+      "id": "sake",
+      "nameJa": "酒",
+      "nameEn": "cooking sake"
+    },
+    {
+      "id": "salt",
+      "nameJa": "塩",
+      "nameEn": "salt"
+    },
+    {
+      "id": "pepper",
+      "nameJa": "胡椒",
+      "nameEn": "pepper"
+    },
+    {
+      "id": "pork-mixed-cut-raw",
+      "nameJa": "豚こま切れ肉",
+      "nameEn": "pork mixed cuts, raw"
+    },
+    {
+      "id": "unmapped-4875023924fb",
+      "nameJa": "A白ねぎ(白い部分のみじん切り)",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-5a81c7fe9328",
+      "nameJa": "Aにんにく(みじん切り)",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-5845bd2de404",
+      "nameJa": "A鶏がらスープの素、酒、本みりん",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-95a9faee3ec9",
+      "nameJa": "Aごま油",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-64db43490358",
+      "nameJa": "片栗粉",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-c6a0061e6b67",
+      "nameJa": "ごま油",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-823536594fe3",
+      "nameJa": "粗挽き黒こしょう",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-ff3daf1b21ed",
+      "nameJa": "ウインナー",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-701706be8f7b",
+      "nameJa": "もやし",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-1075575f476c",
+      "nameJa": "ラード",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-a3bde72b9419",
+      "nameJa": "アジシオ",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-f833b82ae0a8",
+      "nameJa": "オイスターソース",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-7ac781a03862",
+      "nameJa": "ブラックペッパー",
+      "nameEn": null
+    },
+    {
+      "id": "unmapped-cf9d3bf26113",
+      "nameJa": "ガーリックパウダー",
+      "nameEn": null
+    },
+    {
+      "id": "chicken-thigh-skin-unspecified-raw",
+      "nameJa": "国産 鶏もも唐揚げ・水炊き用",
+      "nameEn": null
+    }
+  ],
+  "deals": [
+    {
+      "id": "seijo-broccoli-raw-2026-09-12",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "broccoli-raw",
+      "productName": "北海道産 大槻さんの海の神 ブロッコリー",
+      "priceYen": 312.0,
+      "tax": "included",
+      "quantity": 1.0,
+      "unit": "株",
+      "packGrams": null,
+      "validFrom": "2026-09-12",
+      "validTo": "2026-09-12",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    },
+    {
+      "id": "seijo-pork-mixed-cut-raw-2026-09-11",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "pork-mixed-cut-raw",
+      "productName": "国産 豚切落し",
+      "priceYen": 215.0,
+      "tax": "included",
+      "quantity": 100.0,
+      "unit": "g",
+      "packGrams": null,
+      "validFrom": "2026-09-11",
+      "validTo": "2026-09-13",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    },
+    {
+      "id": "seijo-chicken-thigh-skin-unspecified-raw-2026-09-11",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "chicken-thigh-skin-unspecified-raw",
+      "productName": "国産 鶏もも唐揚げ・水炊き用",
+      "priceYen": 215.0,
+      "tax": "included",
+      "quantity": 100.0,
+      "unit": "g",
+      "packGrams": null,
+      "validFrom": "2026-09-11",
+      "validTo": "2026-09-13",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "id": "21691824",
+      "title": "豚こまとブロッコリーのバター醤油炒め",
+      "sourceUrl": "https://cookpad.com/jp/recipes/21691824",
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cookpad.com/jp/recipes/21691824",
+        "fetchedAt": "2026-09-12T05:31:43.622010+00:00",
+        "environment": "local",
+        "estimationReason": null
+      },
+      "servings": 2.0,
+      "servingsRaw": "たっぷり2人分",
+      "cookingMinutes": null,
+      "rating": null,
+      "cooksnapCount": 6,
+      "bookmarkCount": 588,
+      "requirements": [
+        {
+          "ingredientId": "onion-raw",
+          "nameJa": "玉ねぎ",
+          "amount": null,
+          "unit": null,
+          "raw": "玉ねぎ 1/2玉",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "broccoli-raw",
+          "nameJa": "ブロッコリー",
+          "amount": null,
+          "unit": null,
+          "raw": "ブロッコリー 1/2株",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "pork-unspecified-raw",
+          "nameJa": "豚肉",
+          "amount": 400.0,
+          "unit": "g",
+          "raw": "豚肉 400g",
+          "grams": 400.0,
+          "conversionSource": "https://cookpad.com/jp/recipes/21691824"
+        },
+        {
+          "ingredientId": "butter",
+          "nameJa": "バター",
+          "amount": 40.0,
+          "unit": "g",
+          "raw": "バター 40g",
+          "grams": 40.0,
+          "conversionSource": "https://cookpad.com/jp/recipes/21691824"
+        },
+        {
+          "ingredientId": "soy-sauce",
+          "nameJa": "醤油",
+          "amount": null,
+          "unit": null,
+          "raw": "醤油 フライパン4周",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "sake",
+          "nameJa": "酒",
+          "amount": null,
+          "unit": null,
+          "raw": "酒 フライパン1周",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "salt",
+          "nameJa": "塩",
+          "amount": null,
+          "unit": null,
+          "raw": "塩 フライパン一面にサッと",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "pepper",
+          "nameJa": "胡椒",
+          "amount": null,
+          "unit": null,
+          "raw": "胡椒 フライパン一面にたっぷり",
+          "grams": null,
+          "conversionSource": null
+        }
+      ],
+      "exclusionReviewed": false,
+      "allergens": []
+    },
+    {
+      "id": "25675338",
+      "title": "ブロッコリーと豚こま♡ねぎ塩にんにく炒め",
+      "sourceUrl": "https://cookpad.com/jp/recipes/25675338",
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cookpad.com/jp/recipes/25675338",
+        "fetchedAt": "2026-09-12T05:33:22.142284+00:00",
+        "environment": "local",
+        "estimationReason": null
+      },
+      "servings": 2.0,
+      "servingsRaw": "2人分",
+      "cookingMinutes": null,
+      "rating": null,
+      "cooksnapCount": null,
+      "bookmarkCount": 313,
+      "requirements": [
+        {
+          "ingredientId": "pork-mixed-cut-raw",
+          "nameJa": "豚こま切れ肉",
+          "amount": 180.0,
+          "unit": "g",
+          "raw": "豚こま切れ肉 180g",
+          "grams": 180.0,
+          "conversionSource": "https://cookpad.com/jp/recipes/25675338"
+        },
+        {
+          "ingredientId": "broccoli-raw",
+          "nameJa": "ブロッコリー",
+          "amount": 250.0,
+          "unit": "g",
+          "raw": "ブロッコリー 250g",
+          "grams": 250.0,
+          "conversionSource": "https://cookpad.com/jp/recipes/25675338"
+        },
+        {
+          "ingredientId": "unmapped-4875023924fb",
+          "nameJa": "A白ねぎ(白い部分のみじん切り)",
+          "amount": null,
+          "unit": null,
+          "raw": "A白ねぎ(白い部分のみじん切り) 20cm分",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-5a81c7fe9328",
+          "nameJa": "Aにんにく(みじん切り)",
+          "amount": null,
+          "unit": null,
+          "raw": "Aにんにく(みじん切り) 1片分",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-5845bd2de404",
+          "nameJa": "A鶏がらスープの素、酒、本みりん",
+          "amount": null,
+          "unit": null,
+          "raw": "A鶏がらスープの素、酒、本みりん 各大さじ1",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-95a9faee3ec9",
+          "nameJa": "Aごま油",
+          "amount": null,
+          "unit": null,
+          "raw": "Aごま油 大さじ1/2",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-64db43490358",
+          "nameJa": "片栗粉",
+          "amount": null,
+          "unit": null,
+          "raw": "片栗粉 小さじ2",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-c6a0061e6b67",
+          "nameJa": "ごま油",
+          "amount": null,
+          "unit": null,
+          "raw": "ごま油 小さじ1",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-823536594fe3",
+          "nameJa": "粗挽き黒こしょう",
+          "amount": null,
+          "unit": null,
+          "raw": "粗挽き黒こしょう 少々",
+          "grams": null,
+          "conversionSource": null
+        }
+      ],
+      "exclusionReviewed": false,
+      "allergens": []
+    },
+    {
+      "id": "25962767",
+      "title": "コリコリブロッコリーオイスター炒め",
+      "sourceUrl": "https://cookpad.com/jp/recipes/25962767",
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cookpad.com/jp/recipes/25962767",
+        "fetchedAt": "2026-09-12T05:33:22.143091+00:00",
+        "environment": "local",
+        "estimationReason": null
+      },
+      "servings": null,
+      "servingsRaw": "1〜2人分",
+      "cookingMinutes": null,
+      "rating": null,
+      "cooksnapCount": null,
+      "bookmarkCount": 30,
+      "requirements": [
+        {
+          "ingredientId": "broccoli-raw",
+          "nameJa": "ブロッコリー",
+          "amount": null,
+          "unit": null,
+          "raw": "ブロッコリー 適量",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-ff3daf1b21ed",
+          "nameJa": "ウインナー",
+          "amount": null,
+          "unit": null,
+          "raw": "ウインナー 5本",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-701706be8f7b",
+          "nameJa": "もやし",
+          "amount": null,
+          "unit": null,
+          "raw": "もやし 1袋",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-1075575f476c",
+          "nameJa": "ラード",
+          "amount": null,
+          "unit": null,
+          "raw": "ラード 大さじ1.5",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-a3bde72b9419",
+          "nameJa": "アジシオ",
+          "amount": null,
+          "unit": null,
+          "raw": "アジシオ ひとつまみ",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-f833b82ae0a8",
+          "nameJa": "オイスターソース",
+          "amount": null,
+          "unit": null,
+          "raw": "オイスターソース 大さじ1",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "soy-sauce",
+          "nameJa": "醤油",
+          "amount": null,
+          "unit": null,
+          "raw": "醤油 適量",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-7ac781a03862",
+          "nameJa": "ブラックペッパー",
+          "amount": null,
+          "unit": null,
+          "raw": "ブラックペッパー 適量",
+          "grams": null,
+          "conversionSource": null
+        },
+        {
+          "ingredientId": "unmapped-cf9d3bf26113",
+          "nameJa": "ガーリックパウダー",
+          "amount": null,
+          "unit": null,
+          "raw": "ガーリックパウダー 5〜6振り",
+          "grams": null,
+          "conversionSource": null
+        }
+      ],
+      "exclusionReviewed": false,
+      "allergens": []
+    }
+  ],
+  "extractionMethod": "Recipe JSON-LD parser; flyer visually transcribed by validation assistant (not Nosana); no automatic OCR claim"
+}

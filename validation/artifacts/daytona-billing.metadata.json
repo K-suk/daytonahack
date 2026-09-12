@@ -1,0 +1,493 @@
+{
+  "name": "daytona-billing",
+  "sourceUrl": "https://www.daytona.io/docs/en/billing/",
+  "fetchedAt": "2026-09-12T05:30:13.604561+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://www.daytona.io/docs/en/billing/",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 123566,
+  "sha256": "ce8d26e92640e49a4341f6f17d7ffd6f9ca7e4338d1dfad8cc2a832ab0011b8a",
+  "links": [
+    {
+      "text": "Skip to content",
+      "url": "https://www.daytona.io/docs/en/billing/#_top"
+    },
+    {
+      "text": "",
+      "url": "https://www.daytona.io/docs"
+    },
+    {
+      "text": "Architecture",
+      "url": "https://www.daytona.io/docs/en/architecture"
+    },
+    {
+      "text": "Organizations",
+      "url": "https://www.daytona.io/docs/en/organizations"
+    },
+    {
+      "text": "SSO",
+      "url": "https://www.daytona.io/docs/en/sso"
+    },
+    {
+      "text": "Limits",
+      "url": "https://www.daytona.io/docs/en/limits"
+    },
+    {
+      "text": "Billing",
+      "url": "https://www.daytona.io/docs/en/billing"
+    },
+    {
+      "text": "Linked Accounts",
+      "url": "https://www.daytona.io/docs/en/linked-accounts"
+    },
+    {
+      "text": "Troubleshooting",
+      "url": "https://www.daytona.io/docs/en/troubleshooting"
+    },
+    {
+      "text": "TypeScript SDK",
+      "url": "https://www.daytona.io/docs/en/typescript-sdk"
+    },
+    {
+      "text": "Python SDK",
+      "url": "https://www.daytona.io/docs/en/python-sdk"
+    },
+    {
+      "text": "Ruby SDK",
+      "url": "https://www.daytona.io/docs/en/ruby-sdk"
+    },
+    {
+      "text": "Go SDK",
+      "url": "https://www.daytona.io/docs/en/go-sdk"
+    },
+    {
+      "text": "Java SDK",
+      "url": "https://www.daytona.io/docs/en/java-sdk"
+    },
+    {
+      "text": "API",
+      "url": "https://www.daytona.io/docs/en/tools/api/#daytona/"
+    },
+    {
+      "text": "CLI",
+      "url": "https://www.daytona.io/docs/en/tools/cli"
+    },
+    {
+      "text": "Guides",
+      "url": "https://www.daytona.io/docs/en/guides"
+    },
+    {
+      "text": "Changelog",
+      "url": "https://www.daytona.io/changelog"
+    },
+    {
+      "text": "v0.211",
+      "url": "https://www.daytona.io/docs"
+    },
+    {
+      "text": "Sign in",
+      "url": "https://app.daytona.io"
+    },
+    {
+      "text": "",
+      "url": "https://www.daytona.io/docs"
+    },
+    {
+      "text": "Architecture",
+      "url": "https://www.daytona.io/docs/en/architecture"
+    },
+    {
+      "text": "Organizations",
+      "url": "https://www.daytona.io/docs/en/organizations"
+    },
+    {
+      "text": "SSO",
+      "url": "https://www.daytona.io/docs/en/sso"
+    },
+    {
+      "text": "Limits",
+      "url": "https://www.daytona.io/docs/en/limits"
+    },
+    {
+      "text": "Billing",
+      "url": "https://www.daytona.io/docs/en/billing"
+    },
+    {
+      "text": "Linked Accounts",
+      "url": "https://www.daytona.io/docs/en/linked-accounts"
+    },
+    {
+      "text": "Troubleshooting",
+      "url": "https://www.daytona.io/docs/en/troubleshooting"
+    },
+    {
+      "text": "Organizations",
+      "url": "https://www.daytona.io/docs/en/organizations"
+    },
+    {
+      "text": "SSO",
+      "url": "https://www.daytona.io/docs/en/sso"
+    },
+    {
+      "text": "Limits",
+      "url": "https://www.daytona.io/docs/en/limits"
+    },
+    {
+      "text": "Billing",
+      "url": "https://www.daytona.io/docs/en/billing"
+    },
+    {
+      "text": "Linked Accounts",
+      "url": "https://www.daytona.io/docs/en/linked-accounts"
+    },
+    {
+      "text": "Troubleshooting",
+      "url": "https://www.daytona.io/docs/en/troubleshooting"
+    },
+    {
+      "text": "TypeScript SDK",
+      "url": "https://www.daytona.io/docs/en/typescript-sdk"
+    },
+    {
+      "text": "Python SDK",
+      "url": "https://www.daytona.io/docs/en/python-sdk"
+    },
+    {
+      "text": "Ruby SDK",
+      "url": "https://www.daytona.io/docs/en/ruby-sdk"
+    },
+    {
+      "text": "API",
+      "url": "https://www.daytona.io/docs/en/tools/api"
+    },
+    {
+      "text": "CLI",
+      "url": "https://www.daytona.io/docs/en/tools/cli"
+    },
+    {
+      "text": "Guides",
+      "url": "https://www.daytona.io/docs/en/guides"
+    },
+    {
+      "text": "Sign in",
+      "url": "https://app.daytona.io"
+    },
+    {
+      "text": "Overview",
+      "url": "https://www.daytona.io/docs/en/billing/#_top"
+    },
+    {
+      "text": "Sandbox billing",
+      "url": "https://www.daytona.io/docs/en/billing/#sandbox-billing"
+    },
+    {
+      "text": "Wallet",
+      "url": "https://www.daytona.io/docs/en/billing/#wallet"
+    },
+    {
+      "text": "Redeem coupon",
+      "url": "https://www.daytona.io/docs/en/billing/#redeem-coupon"
+    },
+    {
+      "text": "Balances",
+      "url": "https://www.daytona.io/docs/en/billing/#balances"
+    },
+    {
+      "text": "Billing information",
+      "url": "https://www.daytona.io/docs/en/billing/#billing-information"
+    },
+    {
+      "text": "Payment method",
+      "url": "https://www.daytona.io/docs/en/billing/#payment-method"
+    },
+    {
+      "text": "Automatic top-up",
+      "url": "https://www.daytona.io/docs/en/billing/#automatic-top-up"
+    },
+    {
+      "text": "One time top-up",
+      "url": "https://www.daytona.io/docs/en/billing/#one-time-top-up"
+    },
+    {
+      "text": "Invoices",
+      "url": "https://www.daytona.io/docs/en/billing/#invoices"
+    },
+    {
+      "text": "Charges",
+      "url": "https://www.daytona.io/docs/en/billing/#charges"
+    },
+    {
+      "text": "Spending",
+      "url": "https://www.daytona.io/docs/en/billing/#spending"
+    },
+    {
+      "text": "Resource usage",
+      "url": "https://www.daytona.io/docs/en/billing/#resource-usage"
+    },
+    {
+      "text": "Resource breakdown",
+      "url": "https://www.daytona.io/docs/en/billing/#resource-breakdown"
+    },
+    {
+      "text": "Usage timeline",
+      "url": "https://www.daytona.io/docs/en/billing/#usage-timeline"
+    },
+    {
+      "text": "Per-sandbox usage",
+      "url": "https://www.daytona.io/docs/en/billing/#per-sandbox-usage"
+    },
+    {
+      "text": "Cancellation & post-cancellation",
+      "url": "https://www.daytona.io/docs/en/billing/#cancellation--post-cancellation"
+    },
+    {
+      "text": "Charges after cancellation",
+      "url": "https://www.daytona.io/docs/en/billing/#charges-after-cancellation"
+    },
+    {
+      "text": "Before cancelling",
+      "url": "https://www.daytona.io/docs/en/billing/#before-cancelling"
+    },
+    {
+      "text": "Final settlement",
+      "url": "https://www.daytona.io/docs/en/billing/#final-settlement"
+    },
+    {
+      "text": "Billing disputes",
+      "url": "https://www.daytona.io/docs/en/billing/#billing-disputes"
+    },
+    {
+      "text": "View as Markdown",
+      "url": "https://www.daytona.io/docs/en/billing.md"
+    },
+    {
+      "text": "wallet",
+      "url": "https://www.daytona.io/docs/en/billing/#wallet"
+    },
+    {
+      "text": "spending",
+      "url": "https://www.daytona.io/docs/en/billing/#spending"
+    },
+    {
+      "text": "limits",
+      "url": "https://www.daytona.io/docs/en/limits"
+    },
+    {
+      "text": "Section titled “Sandbox billing”",
+      "url": "https://www.daytona.io/docs/en/billing/#sandbox-billing"
+    },
+    {
+      "text": "lifecycle state",
+      "url": "https://www.daytona.io/docs/en/sandboxes#sandbox-lifecycle"
+    },
+    {
+      "text": "container sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#create-sandboxes"
+    },
+    {
+      "text": "VM sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#vm-sandboxes"
+    },
+    {
+      "text": "GPU sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#gpu-sandboxes"
+    },
+    {
+      "text": "Ephemeral sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#ephemeral-sandboxes"
+    },
+    {
+      "text": "GPU sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#gpu-sandboxes"
+    },
+    {
+      "text": "VM sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#vm-sandboxes"
+    },
+    {
+      "text": "container sandboxes",
+      "url": "https://www.daytona.io/docs/en/sandboxes#create-sandboxes"
+    },
+    {
+      "text": "Snapshots created from sandbox",
+      "url": "https://www.daytona.io/docs/en/snapshots#create-snapshot-from-sandbox"
+    },
+    {
+      "text": "disk quota",
+      "url": "https://www.daytona.io/docs/en/limits#disk-quota"
+    },
+    {
+      "text": "Section titled “Wallet”",
+      "url": "https://www.daytona.io/docs/en/billing/#wallet"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Redeem coupon”",
+      "url": "https://www.daytona.io/docs/en/billing/#redeem-coupon"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Balances”",
+      "url": "https://www.daytona.io/docs/en/billing/#balances"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Billing information”",
+      "url": "https://www.daytona.io/docs/en/billing/#billing-information"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Payment method”",
+      "url": "https://www.daytona.io/docs/en/billing/#payment-method"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Automatic top-up”",
+      "url": "https://www.daytona.io/docs/en/billing/#automatic-top-up"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “One time top-up”",
+      "url": "https://www.daytona.io/docs/en/billing/#one-time-top-up"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Invoices”",
+      "url": "https://www.daytona.io/docs/en/billing/#invoices"
+    },
+    {
+      "text": "Daytona Wallet ↗",
+      "url": "https://app.daytona.io/dashboard/billing/wallet"
+    },
+    {
+      "text": "Section titled “Charges”",
+      "url": "https://www.daytona.io/docs/en/billing/#charges"
+    },
+    {
+      "text": "Section titled “Spending”",
+      "url": "https://www.daytona.io/docs/en/billing/#spending"
+    },
+    {
+      "text": "Daytona Spending ↗",
+      "url": "https://app.daytona.io/dashboard/billing/spending"
+    },
+    {
+      "text": "Section titled “Resource usage”",
+      "url": "https://www.daytona.io/docs/en/billing/#resource-usage"
+    },
+    {
+      "text": "Section titled “Resource breakdown”",
+      "url": "https://www.daytona.io/docs/en/billing/#resource-breakdown"
+    },
+    {
+      "text": "Section titled “Usage timeline”",
+      "url": "https://www.daytona.io/docs/en/billing/#usage-timeline"
+    },
+    {
+      "text": "Daytona Spending ↗",
+      "url": "https://app.daytona.io/dashboard/billing/spending"
+    },
+    {
+      "text": "Section titled “Per-sandbox usage”",
+      "url": "https://www.daytona.io/docs/en/billing/#per-sandbox-usage"
+    },
+    {
+      "text": "Section titled “Cancellation & post-cancellation”",
+      "url": "https://www.daytona.io/docs/en/billing/#cancellation--post-cancellation"
+    },
+    {
+      "text": "Daytona Terms of Service ↗",
+      "url": "https://www.daytona.io/terms-of-service"
+    },
+    {
+      "text": "organization",
+      "url": "https://www.daytona.io/docs/en/organizations"
+    },
+    {
+      "text": "Section titled “Charges after cancellation”",
+      "url": "https://www.daytona.io/docs/en/billing/#charges-after-cancellation"
+    },
+    {
+      "text": "Section titled “Before cancelling”",
+      "url": "https://www.daytona.io/docs/en/billing/#before-cancelling"
+    },
+    {
+      "text": "Daytona Dashboard ↗",
+      "url": "https://app.daytona.io/dashboard"
+    },
+    {
+      "text": "Section titled “Final settlement”",
+      "url": "https://www.daytona.io/docs/en/billing/#final-settlement"
+    },
+    {
+      "text": "Section titled “Billing disputes”",
+      "url": "https://www.daytona.io/docs/en/billing/#billing-disputes"
+    },
+    {
+      "text": "support@daytona.io",
+      "url": "mailto:support@daytona.io"
+    },
+    {
+      "text": "Previous Limits",
+      "url": "https://www.daytona.io/docs/en/limits"
+    },
+    {
+      "text": "Next Linked Accounts",
+      "url": "https://www.daytona.io/docs/en/linked-accounts"
+    },
+    {
+      "text": "Reach support",
+      "url": "mailto:support@daytona.io"
+    },
+    {
+      "text": "View Changelog",
+      "url": "https://github.com/daytonaio/daytona/commits/main/"
+    },
+    {
+      "text": "Read our blog",
+      "url": "https://www.daytona.io/dotfiles/"
+    },
+    {
+      "text": "llms.txt",
+      "url": "https://www.daytona.io/docs/llms.txt"
+    },
+    {
+      "text": "llms-full.txt",
+      "url": "https://www.daytona.io/docs/llms-full.txt"
+    },
+    {
+      "text": "Privacy policy",
+      "url": "https://www.daytona.io/company/privacy-policy"
+    },
+    {
+      "text": "Terms of Service",
+      "url": "https://www.daytona.io/company/terms-of-service"
+    }
+  ],
+  "images": [],
+  "status": "success",
+  "seconds": 2.86
+}

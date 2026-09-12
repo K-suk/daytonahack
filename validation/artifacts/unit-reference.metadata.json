@@ -1,0 +1,237 @@
+{
+  "name": "unit-reference",
+  "sourceUrl": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/",
+  "fetchedAt": "2026-09-12T05:56:42.019872+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/",
+  "contentType": "text/html",
+  "bytes": 158015,
+  "sha256": "e797ab0255ccc9ba4d91b71ef08a21ab8e1942434fc0e104535d99fc5a5617fd",
+  "links": [
+    {
+      "text": "",
+      "url": "https://park.ajinomoto.co.jp/"
+    },
+    {
+      "text": "ログイン",
+      "url": "https://park.ajinomoto.co.jp/login/"
+    },
+    {
+      "text": "新規登録",
+      "url": "https://park.ajinomoto.co.jp/entry/"
+    },
+    {
+      "text": "ホーム",
+      "url": "https://park.ajinomoto.co.jp/"
+    },
+    {
+      "text": "コンテンツ",
+      "url": "https://park.ajinomoto.co.jp/contents/"
+    },
+    {
+      "text": "レシピ",
+      "url": "https://park.ajinomoto.co.jp/recipe/"
+    },
+    {
+      "text": "トーク",
+      "url": "https://community.park.ajinomoto.co.jp/view/home"
+    },
+    {
+      "text": "よくあるお問い合わせ",
+      "url": "https://park.ajinomoto.co.jp/faq/"
+    },
+    {
+      "text": "お買い物",
+      "url": "https://direct.ajinomoto.co.jp/"
+    },
+    {
+      "text": "AJINOMOTO PARK とは",
+      "url": "https://park.ajinomoto.co.jp/about/"
+    },
+    {
+      "text": "きゅうり",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%81%8D%E3%82%85%E3%81%86%E3%82%8A"
+    },
+    {
+      "text": "なす",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%81%AA%E3%81%99"
+    },
+    {
+      "text": "トマト",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%83%88%E3%83%9E%E3%83%88"
+    },
+    {
+      "text": "とうもろこし",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%81%A8%E3%81%86%E3%82%82%E3%82%8D%E3%81%93%E3%81%97"
+    },
+    {
+      "text": "ピーマン",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%83%94%E3%83%BC%E3%83%9E%E3%83%B3"
+    },
+    {
+      "text": "みょうが",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%81%BF%E3%82%87%E3%81%86%E3%81%8C"
+    },
+    {
+      "text": "ゴーヤ",
+      "url": "https://park.ajinomoto.co.jp/search/recipe/?word=%E3%82%B4%E3%83%BC%E3%83%A4"
+    },
+    {
+      "text": "レシピ",
+      "url": "https://park.ajinomoto.co.jp/recipe/"
+    },
+    {
+      "text": "コンテンツ",
+      "url": "https://park.ajinomoto.co.jp/contents/"
+    },
+    {
+      "text": "トーク",
+      "url": "https://community.park.ajinomoto.co.jp/view/home"
+    },
+    {
+      "text": "味の素KK商品",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01"
+    },
+    {
+      "text": "一般調味料",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc02"
+    },
+    {
+      "text": "うま味調味料",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_01"
+    },
+    {
+      "text": "塩調味料",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_02"
+    },
+    {
+      "text": "和風だしの素",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_03"
+    },
+    {
+      "text": "中華だし",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_04"
+    },
+    {
+      "text": "中華・韓国醤調味料類",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_05"
+    },
+    {
+      "text": "洋風スープの素",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_06"
+    },
+    {
+      "text": "鍋用調味料",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_07"
+    },
+    {
+      "text": "マヨネーズ",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_08"
+    },
+    {
+      "text": "甘味料",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#anc01_09"
+    },
+    {
+      "text": "料理の基本トップ",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/"
+    },
+    {
+      "text": "TOP",
+      "url": "https://park.ajinomoto.co.jp/"
+    },
+    {
+      "text": "コンテンツ",
+      "url": "https://park.ajinomoto.co.jp/contents/"
+    },
+    {
+      "text": "料理の基本としくみ",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/"
+    },
+    {
+      "text": "BACK TO TOP",
+      "url": "https://park.ajinomoto.co.jp/contents/basic/chomiryo_bunryou/#"
+    },
+    {
+      "text": "",
+      "url": "https://park.ajinomoto.co.jp/"
+    },
+    {
+      "text": "LINE",
+      "url": "https://lin.ee/8hiLQ47"
+    },
+    {
+      "text": "X",
+      "url": "https://x.com/ajinomotopark"
+    },
+    {
+      "text": "Youtube",
+      "url": "https://www.youtube.com/channel/UCxbv_OKLGqvkg3eDNEoDJpw"
+    },
+    {
+      "text": "Pinterest",
+      "url": "https://www.pinterest.jp/ajinomotoparksocial/boards/"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/ajinomoto_park/"
+    },
+    {
+      "text": "facebook",
+      "url": "https://www.facebook.com/ajinomoto.co.jp"
+    },
+    {
+      "text": "MAIL",
+      "url": "https://mypage.ajinomoto.co.jp/subscription/email"
+    },
+    {
+      "text": "リンク オンラインショップ 外部タブで開く",
+      "url": "https://direct.ajinomoto.co.jp/"
+    },
+    {
+      "text": "リンク 味の素KK商品情報サイト 外部タブで開く",
+      "url": "https://www.ajinomoto.co.jp/"
+    },
+    {
+      "text": "リンク 味の素KK企業情報サイト 外部タブで開く",
+      "url": "https://www.ajinomoto.com/jp/"
+    },
+    {
+      "text": "よくあるお問い合わせ",
+      "url": "https://park.ajinomoto.co.jp/faq/"
+    },
+    {
+      "text": "会員規約",
+      "url": "https://park.ajinomoto.co.jp/ap_membership_agreement/"
+    },
+    {
+      "text": "ソーシャルメディアガイドライン",
+      "url": "https://www.ajinomoto.co.jp/terms/socialmedia.html"
+    },
+    {
+      "text": "商標について",
+      "url": "https://www.ajinomoto.co.jp/terms/trademark.html"
+    },
+    {
+      "text": "プライバシーポリシー",
+      "url": "https://www.ajinomoto.co.jp/privacy/"
+    },
+    {
+      "text": "利用規約",
+      "url": "https://www.ajinomoto.co.jp/terms/"
+    }
+  ],
+  "images": [
+    "https://park.ajinomoto.co.jp/_static_pages_assets/line.CoUL3LDE.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/x.Dvj3mJ1m.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/youtube.BEaXA7_N.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/pinterest.Dr3fDKzH.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/instagram.C6ixTaoZ.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/facebook.DDWT8Tyy.png",
+    "https://park.ajinomoto.co.jp/_static_pages_assets/mail.B_grnmTi.png"
+  ],
+  "status": "success",
+  "seconds": 1.555
+}

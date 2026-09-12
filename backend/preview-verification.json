@@ -1,0 +1,29 @@
+{
+  "documentsStatus": 200,
+  "documentCount": 5,
+  "cookpad-one": {
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "csp": "sandbox; default-src 'none'",
+    "bytes": 255504
+  },
+  "seijo-flyer": {
+    "status": 200,
+    "contentType": "image/jpeg",
+    "csp": "sandbox; default-src 'none'",
+    "bytes": 1679154
+  },
+  "confirmed-seijo-deals": {
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "csp": "sandbox; default-src 'none'",
+    "bytes": 2776
+  },
+  "not-registered": {
+    "status": 404,
+    "contentType": "application/json",
+    "csp": null,
+    "bytes": 31
+  },
+  "persistedRunStatus": "blocked"
+}

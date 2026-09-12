@@ -1,0 +1,220 @@
+{
+  "$defs": {
+    "Document": {
+      "additionalProperties": false,
+      "properties": {
+        "documentId": {
+          "pattern": "^[a-zA-Z0-9_-]+$",
+          "title": "Documentid",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "store_flyer",
+            "recipe"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "localPath": {
+          "title": "Localpath",
+          "type": "string"
+        },
+        "format": {
+          "enum": [
+            "html",
+            "json",
+            "image",
+            "pdf"
+          ],
+          "title": "Format",
+          "type": "string"
+        },
+        "storeId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storeid"
+        },
+        "recipeSourceId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Recipesourceid"
+        },
+        "sourceUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Sourceurl"
+        },
+        "obtainedAt": {
+          "format": "date-time",
+          "title": "Obtainedat",
+          "type": "string"
+        },
+        "validFrom": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validfrom"
+        },
+        "validUntil": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validuntil"
+        },
+        "contentHash": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Contenthash",
+          "type": "string"
+        },
+        "acquisitionMethod": {
+          "title": "Acquisitionmethod",
+          "type": "string"
+        },
+        "derivedFromDocumentId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Derivedfromdocumentid"
+        },
+        "supplements": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Supplement"
+          },
+          "title": "Supplements",
+          "type": "array"
+        }
+      },
+      "required": [
+        "documentId",
+        "kind",
+        "localPath",
+        "format",
+        "sourceUrl",
+        "obtainedAt",
+        "contentHash",
+        "acquisitionMethod"
+      ],
+      "title": "Document",
+      "type": "object"
+    },
+    "Supplement": {
+      "additionalProperties": false,
+      "properties": {
+        "targetId": {
+          "title": "Targetid",
+          "type": "string"
+        },
+        "field": {
+          "title": "Field",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value"
+        },
+        "basis": {
+          "enum": [
+            "source",
+            "estimated"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "confirmedAt": {
+          "format": "date-time",
+          "title": "Confirmedat",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sourceurl"
+        }
+      },
+      "required": [
+        "targetId",
+        "field",
+        "value",
+        "basis",
+        "reason",
+        "confirmedAt"
+      ],
+      "title": "Supplement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "documents": {
+      "items": {
+        "$ref": "#/$defs/Document"
+      },
+      "title": "Documents",
+      "type": "array"
+    }
+  },
+  "required": [
+    "version",
+    "documents"
+  ],
+  "title": "Manifest",
+  "type": "object"
+}

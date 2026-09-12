@@ -1,0 +1,893 @@
+Manage Deployments | Nosana Docs
+Skip to content
+Search
+Main Navigation
+About
+Deployments
+API
+SDK
+CLI
+Host GPUs
+Programs
+Appearance
+Menu
+Return to top
+Sidebar Navigation
+Nosana API
+Introduction
+Guides
+Get API Key
+Your First Job
+Wallet Authentication
+Deployments
+Create Deployments
+Manage Deployments
+Vault Management
+API Reference
+Overview
+Authentication & API Keys
+Jobs
+Markets
+Credits
+Templates
+Hosts
+Stats
+Payments
+Benchmarks
+Raw Clients
+On this page
+Manage Deployments
+​
+Use the Nosana REST API or TypeScript
+SDK
+to list, inspect, stop, and archive deployments.
+Prerequisites
+​
+API Key
+: See the
+API key guide
+.
+Existing deployments
+: Created via the API, SDK, or dashboard.
+All examples assume you have your API key set up. For the SDK, initialize the client:
+ts
+import
+{
+createNosanaClient
+,
+NosanaNetwork
+}
+from
+'@nosana/kit'
+;
+const
+client
+=
+createNosanaClient
+(
+NosanaNetwork
+.
+MAINNET
+, {
+api
+: {
+apiKey
+:
+process
+.
+env
+.
+NOSANA_API_KEY
+,
+},
+});
+1
+2
+3
+4
+5
+6
+7
+8
+9
+For the API, set your API key:
+bash
+export
+NOSANA_API_KEY
+=
+"nos_xxx_your_api_key"
+1
+List Deployments
+​
+TypeScript SDK
+HTTP API
+ts
+const
+{
+deployments
+}
+=
+await
+client
+.
+api
+.
+deployments
+.
+list
+();
+1
+2
+3
+4
+5
+6
+7
+Get a
+Deployment
+​
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+1
+2
+3
+4
+5
+6
+7
+Update
+Job Definition
+(Create a Revision)
+​
+Create a new revision of the job definition for an existing deployment:
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+createRevision
+({
+version
+:
+'0.1'
+,
+type
+:
+'container'
+,
+meta
+: {
+trigger
+:
+'api'
+},
+ops
+: [
+{
+type
+:
+'container/run'
+,
+id
+:
+'hello-world'
+,
+args
+: {
+cmd
+:
+'echo hello world v2'
+,
+image
+:
+'ubuntu'
+,
+},
+},
+],
+});
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+The body should contain a
+job_definition
+matching the structure described in the job definition docs.
+Update Replica Count
+​
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+updateReplicaCount
+(
+3
+);
+1
+2
+3
+4
+5
+6
+7
+8
+Update Schedule (SCHEDULED Strategy Only)
+​
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+updateSchedule
+(
+'0 0 * * *'
+);
+// daily at midnight
+1
+2
+3
+4
+5
+6
+7
+8
+Note
+: The schedule only applies to deployments using the
+SCHEDULED
+strategy.
+For cron syntax examples, see
+Deployment Strategies
+.
+Update Timeout
+​
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+updateTimeout
+(
+120
+);
+// minutes
+1
+2
+3
+4
+5
+6
+7
+8
+Update Market
+​
+Move a deployment to a different market. If the deployment is
+RUNNING
+, its current jobs are stopped and relisted on the new market:
+SIMPLE
+and
+SIMPLE-EXTEND
+relist the stopped count immediately,
+INFINITE
+refills each stopped replica, and
+SCHEDULED
+lists on its next scheduled run.
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+updateMarket
+(
+'NEW_MARKET_ADDRESS'
+);
+1
+2
+3
+4
+5
+6
+7
+8
+Start a Deployment
+​
+Start an existing deployment that is in a draft or stopped state:
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+start
+();
+1
+2
+3
+4
+5
+6
+7
+8
+Stop a Deployment
+​
+Stop a running deployment:
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+stop
+();
+1
+2
+3
+4
+5
+6
+7
+8
+The response will contain a
+status
+(for example
+"STOPPING"
+) and an
+updated_at
+timestamp.
+Archive a Deployment
+​
+Archive a deployment to remove it from your active list while keeping history:
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+await
+deployment
+.
+archive
+();
+1
+2
+3
+4
+5
+6
+7
+8
+The response will include
+status: "ARCHIVED"
+when successful.
+Duplicate a Deployment
+​
+Create a copy of an existing deployment. The copy shares the source's vault, replicas, timeout, strategy, confidentiality and SSH keys, and starts from the source's active revision as its first revision. It is named
+"<source name> (copy)"
+unless
+name
+is given, and runs on the source's market unless
+market
+is given. It is created as a
+DRAFT
+unless
+autostart
+is set. The source deployment is left untouched. The body is optional.
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+const
+copy
+=
+await
+deployment
+.
+duplicate
+({
+name
+:
+'my-copy'
+});
+// new DRAFT deployment
+// pass `market` to run the copy on a different market, or omit the options entirely
+await
+copy
+.
+start
+();
+// the copy is a full deployment object
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+The response is the new deployment. In the SDK,
+duplicate()
+returns a full deployment object with the same methods as
+get()
+, so you can call
+start()
+,
+updateReplicaCount()
+,
+stream()
+and so on directly on the copy. Pass
+autostart: true
+to have the API start it for you instead, and
+market
+to place the copy on a different market than the source.
+Manage SSH Keys
+​
+Grant or revoke SSH access to a deployment's jobs. Keys are stored on the deployment (no new revision or restart) and injected into every job posted from then on. Running jobs are updated in place where their node allows it; a removed key stops working on a running job only when that job restarts.
+TypeScript SDK
+HTTP API
+ts
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+get
+(
+'YOUR_DEPLOYMENT_ID'
+);
+const
+publicKey
+=
+'ssh-ed25519 AAAA...
+[email protected]
+'
+;
+const
+{
+jobs
+}
+=
+await
+deployment
+.
+ssh
+.
+add
+(
+publicKey
+);
+// per running job: did its node accept the key?
+const
+keys
+=
+await
+deployment
+.
+ssh
+.
+keys
+();
+// now includes publicKey
+await
+deployment
+.
+ssh
+.
+remove
+(
+publicKey
+);
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+add
+and
+remove
+accept one key or a list, and identify a key by its type and material, so a differing comment neither adds a duplicate nor misses a removal. Both return the stored set plus
+jobs
+, one entry per running job, saying whether its node accepted the change. The HTTP API replaces the whole set in one call.
+Pipe Multiple Deployment Operations (SDK Only)
+​
+The pipe function allows you to chain multiple actions on a deployment in a functional programming style. It can either create a new deployment or operate on an existing one.
+ts
+// Create and execute multiple actions in sequence
+const
+deployment
+=
+await
+client
+.
+api
+.
+deployments
+.
+pipe
+(
+{
+name
+:
+'My Application'
+,
+market
+:
+'7AtiXMSH6R1jjBxrcYjehCkkSF7zvYWte63gwEDBcGHq'
+,
+replicas
+:
+3
+,
+timeout
+:
+300
+,
+strategy
+:
+'SIMPLE'
+,
+job_definition
+: {
+version
+:
+'0.1'
+,
+type
+:
+'container'
+,
+meta
+: {
+trigger
+:
+'api'
+},
+ops
+: [
+{
+type
+:
+'container/run'
+,
+id
+:
+'my-application'
+,
+args
+: {
+cmd
+:
+'echo hello world'
+,
+image
+:
+'ubuntu'
+,
+},
+},
+],
+},
+},
+async
+(
+deployment
+)
+=>
+{
+console
+.
+log
+(
+'Starting deployment'
+);
+await
+deployment
+.
+start
+();
+},
+async
+(
+deployment
+)
+=>
+{
+console
+.
+log
+(
+'Updating replicas'
+);
+await
+deployment
+.
+updateReplicaCount
+(
+5
+);
+},
+);
+// Or operate on an existing deployment
+const
+existing
+=
+await
+client
+.
+api
+.
+deployments
+.
+pipe
+(
+'existing-deployment-id'
+,
+async
+(
+deployment
+)
+=>
+{
+await
+deployment
+.
+start
+();
+},
+async
+(
+deployment
+)
+=>
+{
+await
+deployment
+.
+stop
+();
+},
+);
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+This example gets a deployment, updates its replica count and timeout, and then starts it in one composed call.
+Full API Reference
+​
+For all deployment endpoints and fields, consult the
+API Swagger reference
+.
+Pager
+Previous page
+Create Deployments
+Next page
+Vault Management
+Deploy
+·
+Explore
+·
+Host
+·
+Stake
+© 2026
+Nosana

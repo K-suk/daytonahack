@@ -1,0 +1,14 @@
+{
+  "name": "nosana-openapi",
+  "sourceUrl": "https://api.nosana.com/api/docs-json",
+  "fetchedAt": "2026-09-12T05:30:16.464911+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 404,
+  "finalUrl": "https://api.nosana.com/api/docs-json",
+  "contentType": "text/plain; charset=utf-8",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "failed",
+  "seconds": 2.585
+}

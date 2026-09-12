@@ -1,0 +1,2 @@
+import {createNosanaClient,NosanaNetwork} from '@nosana/kit';import dotenv from 'dotenv';import fs from 'node:fs';dotenv.config({path:'.env',quiet:true});
+const c=createNosanaClient(NosanaNetwork.MAINNET,{api:{apiKey:process.env.NOSANA_API_KEY}});const x=await c.api.markets.list();fs.writeFileSync('validation/artifacts/nosana-markets.json',JSON.stringify(x,null,2));console.log(JSON.stringify(x).slice(0,9000));

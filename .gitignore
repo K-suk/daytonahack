@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+validation/nosana/node_modules/
+
+backend/runs/
+
+.playwright-mcp/
+.env.*
+!.env.example

@@ -1,0 +1,413 @@
+{
+  "startedAt": "2026-09-12T06:26:52.169Z",
+  "status": "failed_no_ready_endpoint",
+  "observations": [
+    {
+      "at": "2026-09-12T06:29:06.214Z",
+      "status": "RUNNING",
+      "jobs": [],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:29:29.642Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:29:50.948Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:30:14.271Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:30:36.826Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:31:01.865Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:31:23.681Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:31:48.359Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:32:06.704Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:32:28.566Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:32:49.330Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:33:10.642Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:33:34.044Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:33:53.436Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:34:14.625Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:34:38.236Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:34:56.709Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:35:15.466Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:35:33.851Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:35:52.631Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+          "state": "QUEUED",
+          "nodeAssigned": false
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "server",
+          "port": 11434,
+          "url": "https://5RU9RYwM4yNipJsBpbai7Z72BeZSNfcK553xNEfZYyCf.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    }
+  ],
+  "creditsBefore": {
+    "assignedCredits": 10,
+    "reservedCredits": 0,
+    "settledCredits": 0.02
+  },
+  "timeoutMinutes": 60,
+  "replicas": 1,
+  "market": "NVIDIA 4080",
+  "priceUsdPerHour": 0.16005,
+  "model": "qwen3.5:9b",
+  "deploymentId": "A6wBE3Mp2VCcdN24mdm5b5H4n9eDW84YNd8URBCJ36FD",
+  "final": {
+    "checkedAt": "2026-09-12T06:36:58.176Z",
+    "status": "STOPPED",
+    "jobs": [
+      {
+        "id": "8cLK6n9BNyLwL4sYYNTdfq2RpVPA8QRPepr4myumnPNX",
+        "state": "STOPPED",
+        "nodeAssigned": false
+      }
+    ]
+  },
+  "creditsAfter": {
+    "assignedCredits": 10,
+    "reservedCredits": 0.146,
+    "settledCredits": 0.02
+  },
+  "finishedAt": "2026-09-12T06:36:12.319Z",
+  "creditsFinal": {
+    "assignedCredits": 10,
+    "reservedCredits": 0,
+    "settledCredits": 0.03
+  }
+}

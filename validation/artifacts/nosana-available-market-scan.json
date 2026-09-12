@@ -1,0 +1,400 @@
+{
+  "checkedAt": "2026-09-12T06:46:45.853Z",
+  "credits": {
+    "assignedCredits": 10,
+    "reservedCredits": 0,
+    "settledCredits": 0.03
+  },
+  "deployments": [
+    {
+      "id": "A6wBE3Mp2VCcdN24mdm5b5H4n9eDW84YNd8URBCJ36FD",
+      "status": "STOPPED",
+      "activeJobs": 0
+    },
+    {
+      "id": "33p8qY88MnHjQY2JNvizGfHuLNXfE9QktVbPLo27vPGZ",
+      "status": "STOPPED",
+      "activeJobs": 0
+    }
+  ],
+  "marketCount": 47,
+  "eligibleMarketCount": 11,
+  "available": [],
+  "queued": [
+    {
+      "nodeAddress": "EYqmCqBL9oMCYteDHmMmuUZW4gcXdawcQh4eYTEYD1ke",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "H8grpc4FtjXczrGdezRusaxJiCxDqxxBXUgYRk1bmxcD",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "5gKuXdLraKDEwkvidTAVUT7yxfe5Y1TJRe5EJkFXUmKd",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "J5R66LZDL1H1PcmfbvjgBMD7gY9a67bd5rouNr61iJCq",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "CX8nDLy49jYeoZoNFtydmuNepRKLJqW332XPvaXg47jq",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "Hozr6A3hxG2wAZx26WA7zKM18SSezoaEHsKS9xdjPcq8",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "2cEtCY8Z82GREsVDX9iMYejrzWRgtBzsawrSfBr1ncbw",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "G4NmZAUyNYqT9mkuqh2bRDEg2oFSHiMZseYTxxggg8eM",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "3g88EFNGWz8arTk7PifGWJK7FWUwC1u1kNzmoxEdCPya",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "5BzMjgLTPkJ4MERaX9vdN32pSs1azWj6HvtazLEe7a5L",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "2ZKaLrbytMkNdPdZT5cCmcsb3qXA7WsDWk69V8bWQtPN",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "CxodGD5boagjS2Y3bca5oUK7JJemC5arqW2M7bNK1NE3",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "CiAwQDjjwjFZ2tRfVQFq5PbyPSnVx6As81m7k3yi3YUL",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "JD6rZ8D6BZgNcjj7g4Y7M8TyQHPjkLF5wmnMapxG4uZu",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "6UeDgLLjtw7pc9PMBSyp5TrE74dLhKwNcBk17y5ic1Cz",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "DMimtSeQnjzSmY2riEaoGJvrZNiHAz66Fr51EFG9AVBS",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "7zP68FZrbv9g1NhXNNQWyxJ5U1vk2AjRw23Qux2H7tWu",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "DM5JTq2Q3Kr43iKwqEwPohbWWHyapkgmzxwZUMta4ZEC",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "GmrxQ2bwHtLG72RyuAr1dBVtqe6RV6awZDBLM8h4Vy2z",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "6cVKnseou44GijNxLWyRspsUi3gEKnJkShwUtw7RcRkz",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "6sEYX5yKeU67J3wK76Lyi5sdZ86QiQGRQMfEq7uNdmBb",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "GC5LoE36cDFwvmPruJmU59tc3CqnJkWM1DPb1vnz9qp2",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "FiFPdTBNn3vR3FbkXqLfQjFpZDSGA4MBPvczN2gdHT22",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "BYjgjrbRfxQiwMKPgZGPkxjZ9up5RAzny9kjtnhS5hpo",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "GeFWfg1DBSywvVoDcU7M8HLDZ7WTWiqbNYrRgKQyxHb1",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "FXjhixwrXSmHX1nRLS5jfgyccM1dd8QfjRGhCp2PQ6KJ",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "2otGGtTRjT4Ma4sa5SrpZJxZ156DFnJqPGczRqiFJzMS",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "FujetrcRo1ovAhyLMAp6Efew9LAuiS5rZ48d34Z6BMp7",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "3BCA8LBpWh7pS181oPPPKudaadPEkKHoDXmhRyb6zGM6",
+      "marketAddress": "31P9d5ahEY9iSmZuXJ2xwJsbRztFK5AUCdkvgziUM3vn",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "8sYkm9Gp2KXuRMMdLW72VsdiBQu4qHtcmCpKkwSFzL4t",
+      "marketAddress": "5DTW69bSjrGvNWWnGco3xi5EZTpE9o8NSPFzbw71HByp",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "6LFK1kCexmMxfgYH7ebt2Ao76Eg2ajbHegR7L7Tc5J1h",
+      "marketAddress": "6eMivCx49anWFYwNgg8KNJQfSJYB5nBdif8CK6z52dem",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "CWHvxDeq7YT5o7bopUmGdzTPkm35VXbsBxXtJXBb58eW",
+      "marketAddress": "741d2jZmNreNVyrLCgGkvVGx1Wx3FjumXXPefd8MX83J",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "Gg5vG4X5YfHbUn1byxEGKfLBnw3o3UudBQrnxxr1AYEE",
+      "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "BmdeJKqfYE14xoY8WdPE4kjX94d3nWPk3AGsqqbL1bE5",
+      "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "EM5icTUk9HPWs9w8BcYAk52EKxg3WbLkUiDucf8T1uH9",
+      "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "9GgUm1j5CrTEZ644t6LueyZHGSSJ8Fr98d8AqTwgT8mf",
+      "marketAddress": "8XT6GbHuEVEdxatFsTYsKKeFB6jAGcJPrezA5fF1p6fq",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "Ftb7i5akjatXLK5PCEGjSLqs4uKsAhfj8xuyhqrdcYCU",
+      "marketAddress": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "6KNEmjrW4ASCJFRndBr4dZfY6cg87bxgRg8w15NgnHpX",
+      "marketAddress": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "5zrSp1J7WGR8Y7N7SQ5ikwi4S2bTdgt6JLDYt6Cy1GfL",
+      "marketAddress": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "e4mxnfB3rShgABZPD9PqR5ZTjLubSFXbXJhfNGYxcBV",
+      "marketAddress": "985pQEVPn7SL5os3Z2iNwBoX4f9Bva334dENweXWyt9t",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "EjgcSQHLGs91A64yEQpNmfSUMgP37rMHrH9dPbipe1Zf",
+      "marketAddress": "Ekro9NTNqLbnMkN7x7y2rY9AeTkazcHj2PPaTxT1Cogz",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "DQHFRi5jNjwHk3HD4g3VokMFDZWzKNvGndeHy1EKP4YV",
+      "marketAddress": "Ekro9NTNqLbnMkN7x7y2rY9AeTkazcHj2PPaTxT1Cogz",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "xChcVGniPdP8Gdvsn9TWAhyWg7niPNgS7JL3JWGt3MB",
+      "marketAddress": "Ekro9NTNqLbnMkN7x7y2rY9AeTkazcHj2PPaTxT1Cogz",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "9XXyJNojZUcsKHXvFUQJB5xNfACvSKprcaStvv74PwqX",
+      "marketAddress": "EuYwNdSDduvFuTTS4fEgNL23rZRaTMbecM1J6fJJoQR1",
+      "state": "QUEUED"
+    },
+    {
+      "nodeAddress": "2JpJ6W1SEUCn6nMaXtPbncjiEQU4dYFN4CdGnjeGv5o8",
+      "marketAddress": "HnCwNsk1FTREgmp3BQ1A9WBE9UqzCkfEfqPv9BybYA2y",
+      "state": "QUEUED"
+    }
+  ],
+  "markets": [
+    {
+      "address": "RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF",
+      "name": "NVIDIA 3070",
+      "price": 0.07997000000000001,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "8GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "9HnJacS25TnErsKMYJmKqWeCAMYuwY7gzhz9Eqhp5VE7",
+      "name": "NVIDIA 5080",
+      "price": 0.19998,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "16GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "7AtiXMSH6R1jjBxrcYjehCkkSF7zvYWte63gwEDBcGHq",
+      "name": "NVIDIA 3060",
+      "price": 0.04796,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "8GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "47LQHZwT7gfVoBDYnRYhsYv6vKk8a1oW3Y3SdHAp1gTr",
+      "name": "NVIDIA 4060",
+      "price": 0.06402000000000001,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "8GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "CA5pMpqkYFKtme7K31pNB1s62X2SdhEv1nN9RdxKCpuQ",
+      "name": "NVIDIA 3090",
+      "price": 0.19195,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "24GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "5eX3kWkrcbwejEc1svbfP4F7NKYjtPDuyU5KnV1hUBKg",
+      "name": "NVIDIA 5070",
+      "price": 0.15004,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "12GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "7fnuvPYzfd961iRDPRgMSKLrUf1QjTGnn7viu3P12Zuc",
+      "name": "NVIDIA 4000/A4000",
+      "price": 0.12804000000000001,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "16GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "77wdaAuYVxBW5u2QiqddkAzoBZ5cuKxH9ZCbx5HfFUb2",
+      "name": "NVIDIA 4080",
+      "price": 0.16005,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "16GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "4uBye3vJ1FAYukDdrvqQ36MZZZxqW3o8utWu8fyomRuN",
+      "name": "NVIDIA 5000/A5000",
+      "price": 0.19998,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "24GB"
+        }
+      ],
+      "queue": []
+    },
+    {
+      "address": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+      "name": "NVIDIA 3080",
+      "price": 0.09603,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "10GB"
+        }
+      ],
+      "queue": [
+        {
+          "nodeAddress": "Gg5vG4X5YfHbUn1byxEGKfLBnw3o3UudBQrnxxr1AYEE",
+          "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+          "state": "QUEUED"
+        },
+        {
+          "nodeAddress": "BmdeJKqfYE14xoY8WdPE4kjX94d3nWPk3AGsqqbL1bE5",
+          "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+          "state": "QUEUED"
+        },
+        {
+          "nodeAddress": "EM5icTUk9HPWs9w8BcYAk52EKxg3WbLkUiDucf8T1uH9",
+          "marketAddress": "7RepDm4Xt9k6qV5oiSHvi8oBoty4Q2tfBGnCYjFLj6vA",
+          "state": "QUEUED"
+        }
+      ]
+    },
+    {
+      "address": "EzuHhkrhmV98HWzREsgLenKj2iHdJgrKmzfL8psP8Aso",
+      "name": "NVIDIA 4070",
+      "price": 0.09603,
+      "metadata": [
+        {
+          "key": "vram",
+          "value": "12GB"
+        }
+      ],
+      "queue": []
+    }
+  ]
+}

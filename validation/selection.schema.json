@@ -1,0 +1,56 @@
+{
+  "$defs": {
+    "SelectionItem": {
+      "additionalProperties": false,
+      "properties": {
+        "day": {
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Day",
+          "type": "integer"
+        },
+        "recipeId": {
+          "title": "Recipeid",
+          "type": "string"
+        },
+        "servings": {
+          "exclusiveMinimum": 0,
+          "maximum": 2,
+          "title": "Servings",
+          "type": "number"
+        },
+        "reason": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "day",
+        "recipeId",
+        "servings",
+        "reason"
+      ],
+      "title": "SelectionItem",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "days": {
+      "items": {
+        "$ref": "#/$defs/SelectionItem"
+      },
+      "maxItems": 7,
+      "minItems": 1,
+      "title": "Days",
+      "type": "array"
+    }
+  },
+  "required": [
+    "days"
+  ],
+  "title": "Selection",
+  "type": "object"
+}

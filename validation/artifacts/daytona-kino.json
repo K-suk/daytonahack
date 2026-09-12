@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international",
+  "fetchedAt": "2026-09-12T05:34:43.684656+00:00",
+  "route": "live",
+  "status": "failed",
+  "error": "Error",
+  "detail": "Page.goto: net::ERR_CONNECTION_RESET at https://www.e-kinokuniya.com/store/KINOKUNIYA/international\nCall log:\n  - navigating to \"https://www.e-kinokuniya.com/store/KINOKUNIYA/international\", waiting until \"domcontentloaded\"\n",
+  "seconds": 0.683
+}

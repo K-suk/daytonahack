@@ -1,0 +1,43 @@
+[
+  {
+    "stage": "create",
+    "status": "success",
+    "elapsedSeconds": 1.837,
+    "sandboxId": "2e0ccbf5-f1ef-4d54-bd61-a8347773b009"
+  },
+  {
+    "stage": "browser-setup",
+    "status": "success",
+    "elapsedSeconds": 33.105,
+    "seconds": 30.147
+  },
+  {
+    "stage": "fetch-seijo",
+    "status": "failed",
+    "elapsedSeconds": 39.065,
+    "seconds": 1.132
+  },
+  {
+    "stage": "fetch-kino",
+    "status": "failed",
+    "elapsedSeconds": 41.585,
+    "seconds": 0.683
+  },
+  {
+    "stage": "fetch-ville",
+    "status": "failed",
+    "elapsedSeconds": 45.084,
+    "seconds": 0.801
+  },
+  {
+    "stage": "fetch-cookpad",
+    "status": "failed",
+    "elapsedSeconds": 47.773,
+    "seconds": 0.72
+  },
+  {
+    "stage": "cleanup",
+    "status": "deleted",
+    "elapsedSeconds": 49.405
+  }
+]

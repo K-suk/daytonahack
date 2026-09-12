@@ -1,0 +1,500 @@
+[
+  {
+    "id": "deepseek-r1-qwen-1-5b",
+    "name": "DeepSeek R1 Qwen Models - 1.5B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "Qwen1-5b",
+          "args": {
+            "cmd": [
+              "--model",
+              "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+              "--served-model-name",
+              "DeepSeek-R1-Distill-Qwen-1.5B",
+              "--port",
+              "9000",
+              "--max-model-len",
+              "30000"
+            ],
+            "gpu": true,
+            "image": "docker.io/vllm/vllm-openai:v0.10.2",
+            "expose": [
+              {
+                "port": 9000,
+                "health_checks": [
+                  {
+                    "body": "{\"model\":\"DeepSeek-R1-Distill-Qwen-1.5B\",\"messages\":[{\"role\":\"user\",\"content\":\"Respond with a single word: Ready\"}],\"stream\":false}",
+                    "path": "/v1/chat/completions",
+                    "type": "http",
+                    "method": "POST",
+                    "headers": {
+                      "Content-Type": "application/json"
+                    },
+                    "continuous": false,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "required_cuda": [
+            "12.8",
+            "12.9"
+          ],
+          "vram_total_mb": 6144
+        }
+      },
+      "type": "container",
+      "version": "0.1"
+    },
+    "icon": "https://avatars.githubusercontent.com/u/148330874?s=48&v=4",
+    "readme": "# DeepSeek R1 Models\n\nHigh-performance inference API for DeepSeek R1 language models with multiple size options across different architectures.\n\n## Available Models\n\n### 1.5B Model\n- **Parameters**: 1.5 billion\n- **VRAM Required**: 4 GB\n- **Use Case**: Lightweight applications, testing, development\n\n### 7B Model  \n- **Parameters**: 7 billion\n- **VRAM Required**: 14 GB\n- **Use Case**: Balanced performance for most applications\n\n### 8B Model\n- **Parameters**: 8 billion\n- **VRAM Required**: 16 GB\n- **Use Case**: Balanced performance for most applications\n\n### 14B Model\n- **Parameters**: 14 billion  \n- **VRAM Required**: 28 GB\n- **Use Case**: High-performance applications requiring best quality\n\n### 32B Model\n- **Parameters**: 32 billion\n- **VRAM Required**: 64 GB\n- **Use Case**: Extra large model for highest performance applications\n\n### 70B AWQ Model\n- **Parameters**: 70 billion (with AWQ quantization)\n- **VRAM Required**: 40 GB\n- **Use Case**: High-performance applications with reduced memory footprint\n\n## Features\n\n- OpenAI-compatible API endpoints\n- Automatic model serving via vLLM\n- Health checks for reliability\n- Support for streaming and non-streaming responses\n- AWQ quantization available for efficient large model serving\n\n## Usage\n\nThe models are served on port 9000 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n- **Model Info**: `GET /v1/models`\n\n## Model Details\n\nAll variants use the DeepSeek R1 distilled models optimized for inference performance while maintaining high quality outputs. The collection includes both Qwen and Llama-based architectures across various parameter sizes to suit different computational requirements.\n",
+    "category": "Official|API|LLM|vLLM",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "deepseek-r1-qwen",
+    "variants": null
+  },
+  {
+    "id": "deepseek-r1-qwen-14b",
+    "name": "DeepSeek R1 Qwen Models - 14B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "Qwen14b",
+          "args": {
+            "cmd": [
+              "--model",
+              "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+              "--served-model-name",
+              "DeepSeek-R1-Distill-Qwen-14B",
+              "--port",
+              "9000",
+              "--max-model-len",
+              "30000"
+            ],
+            "gpu": true,
+            "image": "docker.io/vllm/vllm-openai:v0.10.2",
+            "expose": [
+              {
+                "port": 9000,
+                "health_checks": [
+                  {
+                    "body": "{\"model\":\"DeepSeek-R1-Distill-Qwen-14B\",\"messages\":[{\"role\":\"user\",\"content\":\"Respond with a single word: Ready\"}],\"stream\":false}",
+                    "path": "/v1/chat/completions",
+                    "type": "http",
+                    "method": "POST",
+                    "headers": {
+                      "Content-Type": "application/json"
+                    },
+                    "continuous": false,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "required_cuda": [
+            "12.8",
+            "12.9"
+          ],
+          "vram_total_mb": 32768
+        }
+      },
+      "type": "container",
+      "version": "0.1"
+    },
+    "icon": "https://avatars.githubusercontent.com/u/148330874?s=48&v=4",
+    "readme": "# DeepSeek R1 Models\n\nHigh-performance inference API for DeepSeek R1 language models with multiple size options across different architectures.\n\n## Available Models\n\n### 1.5B Model\n- **Parameters**: 1.5 billion\n- **VRAM Required**: 4 GB\n- **Use Case**: Lightweight applications, testing, development\n\n### 7B Model  \n- **Parameters**: 7 billion\n- **VRAM Required**: 14 GB\n- **Use Case**: Balanced performance for most applications\n\n### 8B Model\n- **Parameters**: 8 billion\n- **VRAM Required**: 16 GB\n- **Use Case**: Balanced performance for most applications\n\n### 14B Model\n- **Parameters**: 14 billion  \n- **VRAM Required**: 28 GB\n- **Use Case**: High-performance applications requiring best quality\n\n### 32B Model\n- **Parameters**: 32 billion\n- **VRAM Required**: 64 GB\n- **Use Case**: Extra large model for highest performance applications\n\n### 70B AWQ Model\n- **Parameters**: 70 billion (with AWQ quantization)\n- **VRAM Required**: 40 GB\n- **Use Case**: High-performance applications with reduced memory footprint\n\n## Features\n\n- OpenAI-compatible API endpoints\n- Automatic model serving via vLLM\n- Health checks for reliability\n- Support for streaming and non-streaming responses\n- AWQ quantization available for efficient large model serving\n\n## Usage\n\nThe models are served on port 9000 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n- **Model Info**: `GET /v1/models`\n\n## Model Details\n\nAll variants use the DeepSeek R1 distilled models optimized for inference performance while maintaining high quality outputs. The collection includes both Qwen and Llama-based architectures across various parameter sizes to suit different computational requirements.\n",
+    "category": "Official|API|LLM|vLLM",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "deepseek-r1-qwen",
+    "variants": null
+  },
+  {
+    "id": "gemma3-4b",
+    "name": "Gemma 3 Models - 4B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "Gemma3-4b",
+          "args": {
+            "gpu": true,
+            "image": "docker.io/ollama/ollama:0.32.6",
+            "expose": [
+              {
+                "port": 11434,
+                "health_checks": [
+                  {
+                    "path": "/api/tags",
+                    "type": "http",
+                    "method": "GET",
+                    "continuous": false,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "type": "Ollama",
+                "model": "%%global.variables.MODEL%%"
+              }
+            ]
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 5120
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "MODEL": "gemma3:4b-it-qat"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://raw.githubusercontent.com/nosana-ci/pipeline-templates/refs/heads/main/templates/Gemma3/google.png",
+    "readme": "# Gemma 3 Models\n\nGoogle's Gemma 3 instruction-tuned language models with quantization optimization via Ollama.\n\n## Available Models\n\n### 4B IT QAT\n- **Parameters**: 4 billion\n- **VRAM Required**: 4 GB\n- **Use Case**: Lightweight applications with good performance\n\n### 12B IT QAT  \n- **Parameters**: 12 billion\n- **VRAM Required**: 9 GB\n- **Use Case**: Balanced performance for most applications\n\n### 27B IT QAT\n- **Parameters**: 27 billion\n- **VRAM Required**: 18 GB\n- **Use Case**: High-performance applications requiring best quality\n\n## Features\n\n- **Instruction Tuned**: Optimized for following instructions and conversation\n- **Quantized (QAT)**: Quantization-aware training for efficient inference\n- **OpenAI-compatible API**: Served via Ollama with standard endpoints\n- **Automatic Model Download**: Models pulled automatically on startup\n\n## Usage\n\nThe models are served on port 11434 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n- **Generate**: `POST /api/generate`\n- **Model Info**: `GET /api/tags`\n\n## Model Details\n\nAll variants use quantization-aware training (QAT) to maintain high quality while reducing memory requirements. The models are optimized for instruction following and conversational AI tasks.",
+    "category": "Official|API|LLM|Ollama",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "gemma3",
+    "variants": null
+  },
+  {
+    "id": "gemma4-e4b",
+    "name": "Gemma 4 Models - E4B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "server",
+          "args": {
+            "gpu": true,
+            "image": "docker.io/ollama/ollama:0.32.6",
+            "expose": [
+              {
+                "port": 11434,
+                "health_checks": [
+                  {
+                    "path": "/api/tags",
+                    "type": "http",
+                    "method": "GET",
+                    "continuous": false,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "type": "Ollama",
+                "model": "%%global.variables.MODEL%%"
+              }
+            ]
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 12288
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "MODEL": "gemma4:e4b"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://raw.githubusercontent.com/nosana-ci/pipeline-templates/refs/heads/main/templates/Gemma4/google.png",
+    "readme": "# Gemma 4 Models\n\nGoogle's Gemma 4 multimodal models via Ollama — handling text and image input with text output. Gemma 4 features configurable thinking modes, variable image resolution, and native function-calling support.\n\n## Available Models\n\n### E2B (Edge 2B)\n- **Parameters**: 2.3B effective (5.1B with embeddings)\n- **Model Size**: 7.2 GB\n- **Context Length**: 128K tokens\n- **Modalities**: Text, Image\n- **VRAM Required**: ~10 GB\n- **Use Case**: Efficient on-device inference for lightweight applications\n\n### E4B (Edge 4B)\n- **Parameters**: 4.5B effective (8B with embeddings)\n- **Model Size**: 9.6 GB\n- **Context Length**: 128K tokens\n- **Modalities**: Text, Image\n- **VRAM Required**: ~12 GB\n- **Use Case**: Balanced edge deployment with strong reasoning capabilities\n\n### 26B (Mixture of Experts)\n- **Parameters**: 25.2B total (3.8B active, 8 active / 128 total experts + 1 shared)\n- **Model Size**: 18 GB\n- **Context Length**: 256K tokens\n- **Modalities**: Text, Image\n- **VRAM Required**: ~21 GB\n- **Use Case**: Frontier intelligence with efficient MoE architecture\n\n### 31B (Dense)\n- **Parameters**: 30.7B\n- **Model Size**: 20 GB\n- **Context Length**: 256K tokens\n- **Modalities**: Text, Image\n- **VRAM Required**: ~24 GB\n- **Use Case**: Maximum performance for demanding workloads\n\n## Features\n\n- **Multimodal**: Processes text and images with variable aspect ratio and resolution support\n- **Configurable Thinking**: Enable/disable reasoning mode via `<|think|>` token\n- **Native Function Calling**: Built-in support for autonomous agent workflows\n- **OpenAI-compatible API**: Served via Ollama with standard endpoints\n- **Automatic Model Download**: Models pulled automatically on startup\n\n## Usage\n\nThe models are served on port 11434 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n- **Generate**: `POST /api/generate`\n- **Model Info**: `GET /api/tags`\n\n### Example Request\n\n```bash\ncurl http://your-deployment-url:11434/api/chat \\\n  -d '{\n    \"model\": \"gemma4:e4b\",\n    \"messages\": [{\"role\": \"user\", \"content\": \"Hello!\"}]\n  }'\n```\n\n## Benchmarks\n\n| Benchmark | 31B Dense | 26B A4B MoE | E4B | E2B |\n|-----------|-----------|-------------|-----|-----|\n| MMLU Pro | 85.2% | 82.6% | 69.4% | 60.0% |\n| AIME 2026 | 89.2% | 88.3% | 42.5% | 37.5% |\n| LiveCodeBench v6 | 80.0% | 77.1% | 52.0% | 44.0% |\n| GPQA Diamond | 84.3% | 82.3% | 58.6% | 43.4% |\n| MMMU Pro (Vision) | 76.9% | 73.8% | 52.6% | 44.2% |\n| MATH-Vision | 85.6% | 82.4% | 59.5% | 52.4% |\n",
+    "category": "Official|API|LLM|Ollama",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "gemma4",
+    "variants": null
+  },
+  {
+    "id": "gateway-qwen-4b",
+    "name": "Managed Qwen inference - Qwen3.5 4B",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "server",
+          "args": {
+            "cmd": [
+              "/models/qwen3.5-4b",
+              "--served-model-name",
+              "qwen/qwen3.5-4b",
+              "--host",
+              "0.0.0.0",
+              "--port",
+              "8000",
+              "--max-model-len",
+              "%%global.variables.MAX_MODEL_LEN%%",
+              "--gpu-memory-utilization",
+              "%%global.variables.GPU_MEM_UTIL%%",
+              "--max-num-seqs",
+              "%%global.variables.MAX_NUM_SEQS%%",
+              "--reasoning-parser",
+              "qwen3"
+            ],
+            "env": {
+              "HF_HUB_OFFLINE": "1",
+              "VLLM_LOGGING_LEVEL": "INFO"
+            },
+            "gpu": true,
+            "image": "docker.io/vllm/vllm-openai:v0.26.0",
+            "expose": [
+              {
+                "port": 8000,
+                "type": "api",
+                "health_checks": [
+                  {
+                    "path": "/health",
+                    "type": "http",
+                    "method": "GET",
+                    "continuous": true,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "repo": "Qwen/Qwen3.5-4B",
+                "type": "HF",
+                "files": [
+                  "chat_template.jinja",
+                  "config.json",
+                  "merges.txt",
+                  "model.safetensors-00001-of-00002.safetensors",
+                  "model.safetensors-00002-of-00002.safetensors",
+                  "model.safetensors.index.json",
+                  "preprocessor_config.json",
+                  "tokenizer.json",
+                  "tokenizer_config.json",
+                  "video_preprocessor_config.json",
+                  "vocab.json"
+                ],
+                "target": "/models/qwen3.5-4b"
+              }
+            ],
+            "entrypoint": [
+              "vllm",
+              "serve"
+            ],
+            "restart_policy": {
+              "policy": "on-failure",
+              "restart_tries": 3
+            }
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 24576
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "GPU_MEM_UTIL": "0.75",
+          "MAX_NUM_SEQS": "32",
+          "MAX_MODEL_LEN": "16384"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Qwen_logo.svg/3840px-Qwen_logo.svg.png",
+    "readme": "# Managed Qwen inference\n\nInternal gateway template serving Qwen3.5-4B on vLLM. Client-manager injects the\nshared `VLLM_API_KEY` and creates a confidential INFINITE deployment only after\nan administrator enables a priced model on an approved market. Importing this\ntemplate does not start a deployment.\n\nSized for a 24 GB card that is not exclusively ours: vLLM refuses to start when\nfree VRAM is below `--gpu-memory-utilization` of the card's total, so the 0.75\nsetting leaves room for whatever else holds memory on the node. Within that\nbudget the 8.7 GiB of weights and the 2 GiB of KV cache for 16,384 tokens fit\nwith headroom. Raising the context or the utilization needs a node with the card\nto itself.\n\nThe chat template opens the assistant turn with `<think>`, so the model's reply\nbegins inside a reasoning block and closes it before the answer. Without a\nreasoning parser that whole block arrives as ordinary message content. `qwen3`\nsplits it into `reasoning_content`, and it handles the missing opening tag\nbecause the template supplies it rather than the model.\n",
+    "category": "LLM Gateway|vLLM|LLM",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "gateway-qwen",
+    "variants": null
+  },
+  {
+    "id": "Nanonets-OCR2-3b",
+    "name": "Nanonets OCR 2 Models - 3B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "Nanonets-OCR2:3B",
+          "args": {
+            "cmd": [
+              "--model",
+              "%%global.variables.MODEL%%",
+              "--served-model-name",
+              "%%global.variables.MODEL%%",
+              "--port",
+              "8000",
+              "--max-model-len",
+              "30000"
+            ],
+            "gpu": true,
+            "image": "docker.io/vllm/vllm-openai:v0.10.2",
+            "expose": 8000
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 8192
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "MODEL": "nanonets/Nanonets-OCR2-3B"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://avatars.githubusercontent.com/u/30330951?s=200&v=4",
+    "readme": "# Nanonets-OCR2-3B OCR Inference (VLLM)\n\nHigh-performance OCR inference API for `nanonets/Nanonets-OCR2-3B` using VLLM.\n\n## Model Overview\n\n### 3B\n\n- **Model**: nanonets/Nanonets-OCR2-3B\n- **Parameters**: 3 billion\n- **VRAM Required**: 10GB\n\n### 1.5B\n\n- **Model**: nanonets/Nanonets-OCR2-1.5B-exp\n- **Parameters**: 1.5 billion\n- **VRAM Required**: 8GB\n\n## Features\n\n- OpenAI-compatible API endpoints via VLLM\n- Automatic model downloading and serving\n- Health checks for reliability\n- GPU acceleration for fast inference\n- Support for large context windows (up to 30,000 tokens)\n\n## Usage\n\nThe model is served on port 8000 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n\n### Example Request\n\n```bash\ncurl https://your-deployment-url.node.k8s.prd.nos.ci/v1/chat/completions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"nanonets/Nanonets-OCR2-3B\",\n    \"messages\": [\n      {\n        \"role\": \"user\",\n        \"content\": [\n          {\n            \"type\": \"image_url\",\n            \"image_url\": {\n              \"url\": \"https://i.imgur.com/8w5LtGV.jpeg\"\n            }\n          },\n          {\n            \"type\": \"text\",\n            \"text\": \"Extract the car's license plate from the image. Please return the license in plain text.\"\n          }\n        ]\n      }\n    ],\n    \"temperature\": 0.0,\n    \"max_tokens\": 15000\n  }'\n```\n\n## Model Details\n\n`nanonets/Nanonets-OCR2-3B` is an open-source OCR model optimized for extracting text from images. It is ideal for:\n\n- License plate recognition\n- Document OCR\n- Text extraction from photos\n- Automated data entry\n\nThe model is automatically downloaded and served via VLLM, providing a robust and scalable inference platform with GPU acceleration.\n",
+    "category": "Official|API|OCR|vLLM",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "Nanonets-OCR2",
+    "variants": null
+  },
+  {
+    "id": "Nanonets-OCR2-1-5b",
+    "name": "Nanonets OCR 2 Models - 1.5B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "Nanonets-OCR2:1-5B",
+          "args": {
+            "cmd": [
+              "--model",
+              "%%global.variables.MODEL%%",
+              "--served-model-name",
+              "%%global.variables.MODEL%%",
+              "--port",
+              "8000",
+              "--max-model-len",
+              "30000"
+            ],
+            "gpu": true,
+            "image": "docker.io/vllm/vllm-openai:v0.10.2",
+            "expose": 8000
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 6144
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "MODEL": "nanonets/Nanonets-OCR2-1.5B-exp"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://avatars.githubusercontent.com/u/30330951?s=200&v=4",
+    "readme": "# Nanonets-OCR2-3B OCR Inference (VLLM)\n\nHigh-performance OCR inference API for `nanonets/Nanonets-OCR2-3B` using VLLM.\n\n## Model Overview\n\n### 3B\n\n- **Model**: nanonets/Nanonets-OCR2-3B\n- **Parameters**: 3 billion\n- **VRAM Required**: 10GB\n\n### 1.5B\n\n- **Model**: nanonets/Nanonets-OCR2-1.5B-exp\n- **Parameters**: 1.5 billion\n- **VRAM Required**: 8GB\n\n## Features\n\n- OpenAI-compatible API endpoints via VLLM\n- Automatic model downloading and serving\n- Health checks for reliability\n- GPU acceleration for fast inference\n- Support for large context windows (up to 30,000 tokens)\n\n## Usage\n\nThe model is served on port 8000 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n\n### Example Request\n\n```bash\ncurl https://your-deployment-url.node.k8s.prd.nos.ci/v1/chat/completions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"nanonets/Nanonets-OCR2-3B\",\n    \"messages\": [\n      {\n        \"role\": \"user\",\n        \"content\": [\n          {\n            \"type\": \"image_url\",\n            \"image_url\": {\n              \"url\": \"https://i.imgur.com/8w5LtGV.jpeg\"\n            }\n          },\n          {\n            \"type\": \"text\",\n            \"text\": \"Extract the car's license plate from the image. Please return the license in plain text.\"\n          }\n        ]\n      }\n    ],\n    \"temperature\": 0.0,\n    \"max_tokens\": 15000\n  }'\n```\n\n## Model Details\n\n`nanonets/Nanonets-OCR2-3B` is an open-source OCR model optimized for extracting text from images. It is ideal for:\n\n- License plate recognition\n- Document OCR\n- Text extraction from photos\n- Automated data entry\n\nThe model is automatically downloaded and served via VLLM, providing a robust and scalable inference platform with GPU acceleration.\n",
+    "category": "Official|API|OCR|vLLM",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "Nanonets-OCR2",
+    "variants": null
+  },
+  {
+    "id": "qwen3-6-35b-a3b",
+    "name": "Qwen 3.6 - 35B-A3B Model",
+    "jobDefinition": {
+      "ops": [
+        {
+          "id": "server",
+          "args": {
+            "gpu": true,
+            "image": "docker.io/ollama/ollama:0.32.6",
+            "expose": [
+              {
+                "port": 11434,
+                "health_checks": [
+                  {
+                    "path": "/api/tags",
+                    "type": "http",
+                    "method": "GET",
+                    "continuous": false,
+                    "expected_status": 200
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "type": "Ollama",
+                "model": "%%global.variables.MODEL%%"
+              }
+            ]
+          },
+          "type": "container/run"
+        }
+      ],
+      "meta": {
+        "trigger": "dashboard",
+        "system_requirements": {
+          "vram_total_mb": 46080
+        }
+      },
+      "type": "container",
+      "global": {
+        "variables": {
+          "MODEL": "qwen3.6:35b-a3b-q8_0"
+        }
+      },
+      "version": "0.1"
+    },
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Qwen_logo.svg/3840px-Qwen_logo.svg.png",
+    "readme": "# Qwen 3.6\n\nQwen 3.6 delivers substantial upgrades in agentic coding and thinking preservation over previous Qwen models. Served through Ollama, this template deploys the open-weight `qwen3.6:35b-a3b-q8_0` model with support for text and image input.\n\n## Included Model\n\n### 35B A3B\n- **Model Tag**: `qwen3.6:35b-a3b-q8_0`\n- **Model Size**: 39 GB\n- **Context Length**: 256K tokens\n- **Modalities**: Text, Image\n- **VRAM Required**: ~45 GB\n- **Use Case**: Advanced coding, repository-level reasoning, and multimodal assistant workflows\n\n## Highlights\n\n- **Agentic Coding**: Improved frontend workflows and repository-scale reasoning\n- **Thinking Preservation**: Better retention of reasoning context across historical messages\n- **Multimodal**: Accepts both text and image inputs\n- **Tool Ready**: Designed for tool use and coding assistants\n- **OpenAI-compatible API**: Exposed through standard Ollama endpoints\n- **Automatic Model Download**: The model is pulled automatically on startup\n\n## Usage\n\nThe model is served on port 11434 with OpenAI-compatible endpoints:\n\n- **Chat Completions**: `POST /v1/chat/completions`\n- **Generate**: `POST /api/generate`\n- **Model Info**: `GET /api/tags`\n\n### Example Request\n\n```bash\ncurl http://your-deployment-url:11434/api/chat \\\n  -d '{\n    \"model\": \"qwen3.6:35b-a3b-q8_0\",\n    \"messages\": [{\"role\": \"user\", \"content\": \"Help me review this repository.\"}]\n  }'\n```\n",
+    "category": "Official|API|LLM|Ollama",
+    "vram_requirement": null,
+    "cuda_requirement": null,
+    "is_variant_template": true,
+    "parent_template_id": "qwen3-6",
+    "variants": null
+  }
+]

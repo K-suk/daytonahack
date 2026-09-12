@@ -1,0 +1,25 @@
+{
+  "deploymentId": "GZFEBV6iFhxpxjc9pJaQQcu3mkAXNimHaeKYGJpYu7P6",
+  "errors": [],
+  "final": {
+    "status": "STOPPED",
+    "jobs": [
+      {
+        "id": "7quVYaXNi9ymQjHwfKJyrDR1spbeuDNF2oZy5qnRpMEP",
+        "state": "STOPPED",
+        "nodeAssigned": true
+      },
+      {
+        "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+        "state": "STOPPED",
+        "nodeAssigned": true
+      }
+    ]
+  },
+  "credits": {
+    "assignedCredits": 10,
+    "reservedCredits": 0.176,
+    "settledCredits": 0.03
+  },
+  "checkedAt": "2026-09-12T06:56:28.083Z"
+}

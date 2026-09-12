@@ -1,0 +1,1164 @@
+{
+  "name": "seijo-news",
+  "sourceUrl": "https://seijoishii.com/pages/new",
+  "fetchedAt": "2026-09-12T05:27:12.776508+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://seijoishii.com/pages/new",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 1194346,
+  "sha256": "d814e327b279ca1e432a33af8103c5d9523e2aea1b80744def482bdc97d50dba",
+  "links": [
+    {
+      "text": "店舗を探す",
+      "url": "https://shop.seijoishii.com/seijoishii/"
+    },
+    {
+      "text": "店頭受け取り",
+      "url": "https://www.seijoishii.jp/"
+    },
+    {
+      "text": "企業情報",
+      "url": "https://corporate.seijoishii.com/"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/"
+    },
+    {
+      "text": "ログイン",
+      "url": "https://seijoishii.com/account/login"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/apps/advanced-wishlist"
+    },
+    {
+      "text": "カート 0 0個のアイテム",
+      "url": "https://seijoishii.com/cart"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/blogs/help"
+    },
+    {
+      "text": "ログイン",
+      "url": "https://seijoishii.com/account/login"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/apps/advanced-wishlist"
+    },
+    {
+      "text": "カート 0 0個のアイテム",
+      "url": "https://seijoishii.com/cart"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/blogs/help"
+    },
+    {
+      "text": "",
+      "url": "https://seijoishii.com/pages/new"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat14"
+    },
+    {
+      "text": "成城石井の贈り物",
+      "url": "https://seijoishii.com/collections/%E6%88%90%E5%9F%8E%E7%9F%B3%E4%BA%95%E3%81%AE%E8%B4%88%E3%82%8A%E7%89%A9"
+    },
+    {
+      "text": "SeijoIshii.com GIFTSELECTION",
+      "url": "https://seijoishii.com/collections/seijoishii-com-giftselection"
+    },
+    {
+      "text": "全国お取り寄せ直送便（お菓子）",
+      "url": "https://seijoishii.com/collections/%E5%85%A8%E5%9B%BD%E3%81%8A%E5%8F%96%E3%82%8A%E5%AF%84%E3%81%9B%E7%9B%B4%E9%80%81%E4%BE%BF-%E3%81%8A%E8%8F%93%E5%AD%90"
+    },
+    {
+      "text": "全国お取り寄せ直送便（グロサリー）",
+      "url": "https://seijoishii.com/collections/%E5%85%A8%E5%9B%BD%E3%81%8A%E5%8F%96%E3%82%8A%E5%AF%84%E3%81%9B%E7%9B%B4%E9%80%81%E4%BE%BF-%E3%82%B0%E3%83%AD%E3%82%B5%E3%83%AA%E3%83%BC"
+    },
+    {
+      "text": "全国お取り寄せ直送便（デザート・ドリンク）",
+      "url": "https://seijoishii.com/collections/%E5%85%A8%E5%9B%BD%E3%81%8A%E5%8F%96%E3%82%8A%E5%AF%84%E3%81%9B%E7%9B%B4%E9%80%81%E4%BE%BF-%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88-%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF"
+    },
+    {
+      "text": "全国お取り寄せ直送便（加工肉・デリカ）",
+      "url": "https://seijoishii.com/collections/%E5%85%A8%E5%9B%BD%E3%81%8A%E5%8F%96%E3%82%8A%E5%AF%84%E3%81%9B%E7%9B%B4%E9%80%81%E4%BE%BF-%E5%8A%A0%E5%B7%A5%E8%82%89-%E3%83%87%E3%83%AA%E3%82%AB"
+    },
+    {
+      "text": "全国お取り寄せ直送便（精肉・水産物）",
+      "url": "https://seijoishii.com/collections/%E5%85%A8%E5%9B%BD%E3%81%8A%E5%8F%96%E3%82%8A%E5%AF%84%E3%81%9B%E7%9B%B4%E9%80%81%E4%BE%BF-%E7%B2%BE%E8%82%89-%E6%B0%B4%E7%94%A3%E7%89%A9"
+    },
+    {
+      "text": "旬の果物直送便",
+      "url": "https://seijoishii.com/collections/fruits"
+    },
+    {
+      "text": "お酒のギフト",
+      "url": "https://seijoishii.com/collections/%E3%81%8A%E9%85%92%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88"
+    },
+    {
+      "text": "成城石井自家製",
+      "url": "https://seijoishii.com/collections/cat15"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat01"
+    },
+    {
+      "text": "ケーキ・デザート",
+      "url": "https://seijoishii.com/collections/cat01-01"
+    },
+    {
+      "text": "パン",
+      "url": "https://seijoishii.com/collections/cat01-02"
+    },
+    {
+      "text": "洋菓子",
+      "url": "https://seijoishii.com/collections/cat01-03"
+    },
+    {
+      "text": "和菓子",
+      "url": "https://seijoishii.com/collections/cat01-04"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat02"
+    },
+    {
+      "text": "チョコレートの全て",
+      "url": "https://seijoishii.com/collections/cat02-01"
+    },
+    {
+      "text": "成城石井オリジナル",
+      "url": "https://seijoishii.com/collections/cat02-01-01"
+    },
+    {
+      "text": "期間限定ご予約チョコレート",
+      "url": "https://seijoishii.com/collections/cat02-01-02"
+    },
+    {
+      "text": "その他チョコレート",
+      "url": "https://seijoishii.com/collections/cat02-01-03"
+    },
+    {
+      "text": "クッキー・ビスケット・クラッカーの全て",
+      "url": "https://seijoishii.com/collections/cat02-02"
+    },
+    {
+      "text": "クッキー・ビスケット",
+      "url": "https://seijoishii.com/collections/cat02-02-01"
+    },
+    {
+      "text": "クラッカー",
+      "url": "https://seijoishii.com/collections/cat02-02-02"
+    },
+    {
+      "text": "キャンディ・ゼリー・グミの全て",
+      "url": "https://seijoishii.com/collections/cat02-03"
+    },
+    {
+      "text": "キャンディ",
+      "url": "https://seijoishii.com/collections/cat02-03-01"
+    },
+    {
+      "text": "ゼリー・グミ",
+      "url": "https://seijoishii.com/collections/cat02-03-02"
+    },
+    {
+      "text": "ナッツ・ドライフルーツの全て",
+      "url": "https://seijoishii.com/collections/cat02-04"
+    },
+    {
+      "text": "ナッツ",
+      "url": "https://seijoishii.com/collections/cat02-04-01"
+    },
+    {
+      "text": "ドライフルーツ",
+      "url": "https://seijoishii.com/collections/cat02-04-02"
+    },
+    {
+      "text": "珍味・おつまみの全て",
+      "url": "https://seijoishii.com/collections/cat02-05"
+    },
+    {
+      "text": "チーズ・サラミ・ジャーキー",
+      "url": "https://seijoishii.com/collections/cat02-05-01"
+    },
+    {
+      "text": "昆布・いか・海鮮",
+      "url": "https://seijoishii.com/collections/cat02-05-02"
+    },
+    {
+      "text": "その他珍味・おつまみ",
+      "url": "https://seijoishii.com/collections/cat02-05-03"
+    },
+    {
+      "text": "スナック・煎餅・米菓の全て",
+      "url": "https://seijoishii.com/collections/cat02-06"
+    },
+    {
+      "text": "スナック・手巻納豆",
+      "url": "https://seijoishii.com/collections/cat02-06-01"
+    },
+    {
+      "text": "煎餅・米菓",
+      "url": "https://seijoishii.com/collections/cat02-06-02"
+    },
+    {
+      "text": "和菓子・洋菓子の全て",
+      "url": "https://seijoishii.com/collections/cat02-07"
+    },
+    {
+      "text": "和菓子",
+      "url": "https://seijoishii.com/collections/cat02-07-01"
+    },
+    {
+      "text": "洋菓子",
+      "url": "https://seijoishii.com/collections/cat02-07-02"
+    },
+    {
+      "text": "季節のお菓子",
+      "url": "https://seijoishii.com/collections/cat02-08"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat03"
+    },
+    {
+      "text": "和食",
+      "url": "https://seijoishii.com/collections/cat03-01"
+    },
+    {
+      "text": "洋食",
+      "url": "https://seijoishii.com/collections/cat03-02"
+    },
+    {
+      "text": "中華・エスニック",
+      "url": "https://seijoishii.com/collections/cat03-03"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat04"
+    },
+    {
+      "text": "野菜・果物の全て",
+      "url": "https://seijoishii.com/collections/cat04-01"
+    },
+    {
+      "text": "野菜",
+      "url": "https://seijoishii.com/collections/cat04-01-01"
+    },
+    {
+      "text": "果物",
+      "url": "https://seijoishii.com/collections/cat04-01-02"
+    },
+    {
+      "text": "精肉の全て",
+      "url": "https://seijoishii.com/collections/cat04-02"
+    },
+    {
+      "text": "鶏肉",
+      "url": "https://seijoishii.com/collections/cat04-02-01"
+    },
+    {
+      "text": "豚肉",
+      "url": "https://seijoishii.com/collections/cat04-02-02"
+    },
+    {
+      "text": "牛肉",
+      "url": "https://seijoishii.com/collections/cat04-02-03"
+    },
+    {
+      "text": "白米・玄米",
+      "url": "https://seijoishii.com/collections/cat04-03"
+    },
+    {
+      "text": "もち",
+      "url": "https://seijoishii.com/collections/cat04-04"
+    },
+    {
+      "text": "鮮魚",
+      "url": "https://seijoishii.com/collections/%E9%AE%AE%E9%AD%9A"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat05"
+    },
+    {
+      "text": "加工肉の全て",
+      "url": "https://seijoishii.com/collections/cat05-01"
+    },
+    {
+      "text": "ハム・ソーセージ・ベーコン",
+      "url": "https://seijoishii.com/collections/cat05-01-01"
+    },
+    {
+      "text": "ハンバーグ",
+      "url": "https://seijoishii.com/collections/cat05-01-02"
+    },
+    {
+      "text": "その他加工肉",
+      "url": "https://seijoishii.com/collections/cat05-01-03"
+    },
+    {
+      "text": "中華まん",
+      "url": "https://seijoishii.com/collections/cat05-01-04"
+    },
+    {
+      "text": "チーズの全て",
+      "url": "https://seijoishii.com/collections/cat05-02"
+    },
+    {
+      "text": "チーズアソート",
+      "url": "https://seijoishii.com/collections/cat05-02-01"
+    },
+    {
+      "text": "白カビチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-02"
+    },
+    {
+      "text": "青カビチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-03"
+    },
+    {
+      "text": "ウォッシュチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-04"
+    },
+    {
+      "text": "シェーブルチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-05"
+    },
+    {
+      "text": "セミハード・ハードチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-06"
+    },
+    {
+      "text": "フレッシュチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-07"
+    },
+    {
+      "text": "プロセスチーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-08"
+    },
+    {
+      "text": "その他チーズ",
+      "url": "https://seijoishii.com/collections/cat05-02-09"
+    },
+    {
+      "text": "乳製品の全て",
+      "url": "https://seijoishii.com/collections/cat05-03"
+    },
+    {
+      "text": "牛乳",
+      "url": "https://seijoishii.com/collections/cat05-03-01"
+    },
+    {
+      "text": "バター・マーガリン",
+      "url": "https://seijoishii.com/collections/cat05-03-02"
+    },
+    {
+      "text": "ヨーグルト",
+      "url": "https://seijoishii.com/collections/cat05-03-03"
+    },
+    {
+      "text": "その他乳製品",
+      "url": "https://seijoishii.com/collections/cat05-03-04"
+    },
+    {
+      "text": "オードブルの全て",
+      "url": "https://seijoishii.com/collections/cat05-04"
+    },
+    {
+      "text": "オードブルセット",
+      "url": "https://seijoishii.com/collections/cat05-04-01"
+    },
+    {
+      "text": "生ハム・サラミ",
+      "url": "https://seijoishii.com/collections/cat05-04-02"
+    },
+    {
+      "text": "サーモン",
+      "url": "https://seijoishii.com/collections/cat05-04-03"
+    },
+    {
+      "text": "オリーブ",
+      "url": "https://seijoishii.com/collections/cat05-04-04"
+    },
+    {
+      "text": "キャビア",
+      "url": "https://seijoishii.com/collections/cat05-04-05"
+    },
+    {
+      "text": "ナン・トルティーヤ/ピッツァ",
+      "url": "https://seijoishii.com/collections/cat05-04-06"
+    },
+    {
+      "text": "その他オードブル",
+      "url": "https://seijoishii.com/collections/cat05-04-07"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat06"
+    },
+    {
+      "text": "漬物の全て",
+      "url": "https://seijoishii.com/collections/cat06-01"
+    },
+    {
+      "text": "キムチ",
+      "url": "https://seijoishii.com/collections/cat06-01-01"
+    },
+    {
+      "text": "梅干し",
+      "url": "https://seijoishii.com/collections/cat06-01-02"
+    },
+    {
+      "text": "その他漬物",
+      "url": "https://seijoishii.com/collections/cat06-01-03"
+    },
+    {
+      "text": "麺類",
+      "url": "https://seijoishii.com/collections/cat06-02"
+    },
+    {
+      "text": "納豆・豆腐・油揚げの全て",
+      "url": "https://seijoishii.com/collections/cat06-03"
+    },
+    {
+      "text": "納豆",
+      "url": "https://seijoishii.com/collections/cat06-03-01"
+    },
+    {
+      "text": "豆腐・油揚げ",
+      "url": "https://seijoishii.com/collections/cat06-03-02"
+    },
+    {
+      "text": "塩干",
+      "url": "https://seijoishii.com/collections/cat06-04"
+    },
+    {
+      "text": "練り物・こんにゃく・その他日配品の全て",
+      "url": "https://seijoishii.com/collections/cat06-05"
+    },
+    {
+      "text": "練り物・おでん",
+      "url": "https://seijoishii.com/collections/cat06-05-01"
+    },
+    {
+      "text": "こんにゃく",
+      "url": "https://seijoishii.com/collections/cat06-05-02"
+    },
+    {
+      "text": "その他日配品",
+      "url": "https://seijoishii.com/collections/cat06-05-03"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat07"
+    },
+    {
+      "text": "調味料の全て",
+      "url": "https://seijoishii.com/collections/cat07-01"
+    },
+    {
+      "text": "ドレッシング",
+      "url": "https://seijoishii.com/collections/cat07-01-01"
+    },
+    {
+      "text": "ぽん酢・酢",
+      "url": "https://seijoishii.com/collections/cat07-01-02"
+    },
+    {
+      "text": "醤油・つゆ・たれ",
+      "url": "https://seijoishii.com/collections/cat07-01-03"
+    },
+    {
+      "text": "コンソメ・ブイヨン",
+      "url": "https://seijoishii.com/collections/cat07-01-04"
+    },
+    {
+      "text": "だしの素",
+      "url": "https://seijoishii.com/collections/cat07-01-05"
+    },
+    {
+      "text": "中華材料・エスニック",
+      "url": "https://seijoishii.com/collections/cat07-01-06"
+    },
+    {
+      "text": "カレー・シチュー・メキシカン",
+      "url": "https://seijoishii.com/collections/cat07-01-07"
+    },
+    {
+      "text": "オリーブオイル",
+      "url": "https://seijoishii.com/collections/cat07-01-08"
+    },
+    {
+      "text": "ソース・マヨネーズ",
+      "url": "https://seijoishii.com/collections/cat07-01-09"
+    },
+    {
+      "text": "デミグラス・トマトソース",
+      "url": "https://seijoishii.com/collections/cat07-01-10"
+    },
+    {
+      "text": "ケチャップ・マスタード",
+      "url": "https://seijoishii.com/collections/cat07-01-11"
+    },
+    {
+      "text": "その他油",
+      "url": "https://seijoishii.com/collections/cat07-01-12"
+    },
+    {
+      "text": "ビネガー・バルサミコ",
+      "url": "https://seijoishii.com/collections/cat07-01-13"
+    },
+    {
+      "text": "塩",
+      "url": "https://seijoishii.com/collections/cat07-01-14"
+    },
+    {
+      "text": "スパイス",
+      "url": "https://seijoishii.com/collections/cat07-01-16"
+    },
+    {
+      "text": "その他調味料",
+      "url": "https://seijoishii.com/collections/cat07-01-15"
+    },
+    {
+      "text": "レトルト・缶詰・瓶詰の全て",
+      "url": "https://seijoishii.com/collections/cat07-02"
+    },
+    {
+      "text": "レトルトカレー",
+      "url": "https://seijoishii.com/collections/cat07-02-01"
+    },
+    {
+      "text": "レトルトスープ・箱スープ",
+      "url": "https://seijoishii.com/collections/cat07-02-02"
+    },
+    {
+      "text": "みそ汁",
+      "url": "https://seijoishii.com/collections/cat07-02-03"
+    },
+    {
+      "text": "トマト缶・缶詰",
+      "url": "https://seijoishii.com/collections/cat07-02-04"
+    },
+    {
+      "text": "瓶詰",
+      "url": "https://seijoishii.com/collections/cat07-02-05"
+    },
+    {
+      "text": "その他レトルト商品",
+      "url": "https://seijoishii.com/collections/cat07-02-06"
+    },
+    {
+      "text": "パスタ・パスタソースの全て",
+      "url": "https://seijoishii.com/collections/cat07-03"
+    },
+    {
+      "text": "パスタ",
+      "url": "https://seijoishii.com/collections/cat07-03-01"
+    },
+    {
+      "text": "パスタソース",
+      "url": "https://seijoishii.com/collections/cat07-03-02"
+    },
+    {
+      "text": "そば・うどん・乾麺の全て",
+      "url": "https://seijoishii.com/collections/cat07-04"
+    },
+    {
+      "text": "そば・うどん",
+      "url": "https://seijoishii.com/collections/%E3%81%9D%E3%81%B0-%E3%81%86%E3%81%A9%E3%82%93"
+    },
+    {
+      "text": "粉類・製菓材料・砂糖の全て",
+      "url": "https://seijoishii.com/collections/cat07-05"
+    },
+    {
+      "text": "ホットケーキミックス・小麦粉製菓材料",
+      "url": "https://seijoishii.com/collections/cat07-05-01"
+    },
+    {
+      "text": "その他粉類",
+      "url": "https://seijoishii.com/collections/cat07-05-02"
+    },
+    {
+      "text": "砂糖",
+      "url": "https://seijoishii.com/collections/cat07-05-03"
+    },
+    {
+      "text": "乾物",
+      "url": "https://seijoishii.com/collections/cat07-06"
+    },
+    {
+      "text": "栄養補助食品",
+      "url": "https://seijoishii.com/collections/cat07-07"
+    },
+    {
+      "text": "雑穀・ふりかけ",
+      "url": "https://seijoishii.com/collections/cat07-08"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat08"
+    },
+    {
+      "text": "コーヒー・ココアの全て",
+      "url": "https://seijoishii.com/collections/cat08-01"
+    },
+    {
+      "text": "成城石井オリジナルコーヒー",
+      "url": "https://seijoishii.com/collections/cat08-01-01"
+    },
+    {
+      "text": "アイスコーヒー",
+      "url": "https://seijoishii.com/collections/cat08-01-04"
+    },
+    {
+      "text": "コーヒー",
+      "url": "https://seijoishii.com/collections/cat08-01-02"
+    },
+    {
+      "text": "ココア",
+      "url": "https://seijoishii.com/collections/cat08-01-03"
+    },
+    {
+      "text": "紅茶・ハーブティー",
+      "url": "https://seijoishii.com/collections/cat08-02"
+    },
+    {
+      "text": "日本茶・中国茶",
+      "url": "https://seijoishii.com/collections/cat08-03"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat09"
+    },
+    {
+      "text": "ジャム・クリーム",
+      "url": "https://seijoishii.com/collections/cat09-01"
+    },
+    {
+      "text": "蜂蜜・メープルシロップ",
+      "url": "https://seijoishii.com/collections/cat09-02"
+    },
+    {
+      "text": "シリアル",
+      "url": "https://seijoishii.com/collections/cat09-03"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat10"
+    },
+    {
+      "text": "冷凍惣菜・パン",
+      "url": "https://seijoishii.com/collections/cat10-01"
+    },
+    {
+      "text": "デザート・ケーキ",
+      "url": "https://seijoishii.com/collections/cat10-02"
+    },
+    {
+      "text": "アイスクリーム",
+      "url": "https://seijoishii.com/collections/cat10-03"
+    },
+    {
+      "text": "ロカボ弁当",
+      "url": "https://seijoishii.com/collections/locabobento"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat11"
+    },
+    {
+      "text": "水",
+      "url": "https://seijoishii.com/collections/cat11-01"
+    },
+    {
+      "text": "野菜・果物・植物性飲料",
+      "url": "https://seijoishii.com/collections/cat11-02"
+    },
+    {
+      "text": "炭酸飲料",
+      "url": "https://seijoishii.com/collections/cat11-03"
+    },
+    {
+      "text": "お茶・紅茶飲料",
+      "url": "https://seijoishii.com/collections/cat11-04"
+    },
+    {
+      "text": "その他飲料",
+      "url": "https://seijoishii.com/collections/cat11-05"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat12"
+    },
+    {
+      "text": "ビールの全て",
+      "url": "https://seijoishii.com/collections/cat12-01"
+    },
+    {
+      "text": "国産ビール",
+      "url": "https://seijoishii.com/collections/cat12-01-01"
+    },
+    {
+      "text": "外国産ビール",
+      "url": "https://seijoishii.com/collections/cat12-01-02"
+    },
+    {
+      "text": "赤ワインの全て",
+      "url": "https://seijoishii.com/collections/cat12-03"
+    },
+    {
+      "text": "フランスボルドー(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-01"
+    },
+    {
+      "text": "フランスブルゴーニュ(赤)",
+      "url": "https://seijoishii.com/collections/huransuburugoniyu"
+    },
+    {
+      "text": "フランスその他の地域(赤)",
+      "url": "https://seijoishii.com/collections/huransusofalseta-falsedi-yu"
+    },
+    {
+      "text": "イタリア(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-03"
+    },
+    {
+      "text": "スペイン(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-04"
+    },
+    {
+      "text": "アメリカ(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-05"
+    },
+    {
+      "text": "オーストラリア(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-06"
+    },
+    {
+      "text": "チリ(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-07"
+    },
+    {
+      "text": "その他の国のワイン(赤)",
+      "url": "https://seijoishii.com/collections/cat12-03-08"
+    },
+    {
+      "text": "白ワインの全て",
+      "url": "https://seijoishii.com/collections/%E7%99%BD%E3%83%AF%E3%82%A4%E3%83%B3"
+    },
+    {
+      "text": "フランスボルドー(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-01"
+    },
+    {
+      "text": "フランスブルゴーニュ(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-02"
+    },
+    {
+      "text": "フランスその他の地域(白)",
+      "url": "https://seijoishii.com/collections/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E5%9C%B0%E5%9F%9F-1"
+    },
+    {
+      "text": "イタリア(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-03"
+    },
+    {
+      "text": "スペイン(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-04"
+    },
+    {
+      "text": "アメリカ(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-05"
+    },
+    {
+      "text": "オーストラリア(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-06"
+    },
+    {
+      "text": "チリ(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-07"
+    },
+    {
+      "text": "その他の国のワイン(白)",
+      "url": "https://seijoishii.com/collections/cat12-04-08"
+    },
+    {
+      "text": "ロゼワイン",
+      "url": "https://seijoishii.com/collections/%E3%83%AD%E3%82%BC%E3%83%AF%E3%82%A4%E3%83%B3"
+    },
+    {
+      "text": "オレンジワイン",
+      "url": "https://seijoishii.com/collections/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%AF%E3%82%A4%E3%83%B3"
+    },
+    {
+      "text": "シャンパーニュ・スパークリングワインの全て",
+      "url": "https://seijoishii.com/collections/cat12-05"
+    },
+    {
+      "text": "シャンパーニュ",
+      "url": "https://seijoishii.com/collections/cat12-05-01"
+    },
+    {
+      "text": "スパークリングワイン",
+      "url": "https://seijoishii.com/collections/cat12-05-02"
+    },
+    {
+      "text": "フォーティファイドワイン",
+      "url": "https://seijoishii.com/collections/cat12-06"
+    },
+    {
+      "text": "ノンアルコールワイン",
+      "url": "https://seijoishii.com/collections/cat12-07"
+    },
+    {
+      "text": "★お得なワインセット★",
+      "url": "https://seijoishii.com/collections/cat12-08"
+    },
+    {
+      "text": "ウイスキーの全て",
+      "url": "https://seijoishii.com/collections/cat12-13"
+    },
+    {
+      "text": "ブレンデッドウイスキー",
+      "url": "https://seijoishii.com/collections/cat12-13-01"
+    },
+    {
+      "text": "バーボンウイスキー",
+      "url": "https://seijoishii.com/collections/cat12-13-02"
+    },
+    {
+      "text": "シングルモルトウイスキー",
+      "url": "https://seijoishii.com/collections/cat12-13-03"
+    },
+    {
+      "text": "RTD(チューハイ)",
+      "url": "https://seijoishii.com/collections/rtd"
+    },
+    {
+      "text": "日本酒・梅酒の全て",
+      "url": "https://seijoishii.com/collections/cat12-09"
+    },
+    {
+      "text": "日本酒",
+      "url": "https://seijoishii.com/collections/cat12-09-01"
+    },
+    {
+      "text": "梅酒",
+      "url": "https://seijoishii.com/collections/cat12-09-02"
+    },
+    {
+      "text": "焼酎の全て",
+      "url": "https://seijoishii.com/collections/cat12-10"
+    },
+    {
+      "text": "芋焼酎",
+      "url": "https://seijoishii.com/collections/cat12-10-01"
+    },
+    {
+      "text": "米焼酎",
+      "url": "https://seijoishii.com/collections/cat12-10-02"
+    },
+    {
+      "text": "麦焼酎",
+      "url": "https://seijoishii.com/collections/cat12-10-03"
+    },
+    {
+      "text": "その他焼酎",
+      "url": "https://seijoishii.com/collections/cat12-10-04"
+    },
+    {
+      "text": "スピリッツの全て",
+      "url": "https://seijoishii.com/collections/cat12-15"
+    },
+    {
+      "text": "ジン",
+      "url": "https://seijoishii.com/collections/cat12-15-01"
+    },
+    {
+      "text": "ウォッカ",
+      "url": "https://seijoishii.com/collections/cat12-15-02"
+    },
+    {
+      "text": "ラム",
+      "url": "https://seijoishii.com/collections/cat12-15-03"
+    },
+    {
+      "text": "テキーラ",
+      "url": "https://seijoishii.com/collections/cat12-15-04"
+    },
+    {
+      "text": "その他スピリッツ",
+      "url": "https://seijoishii.com/collections/cat12-15-05"
+    },
+    {
+      "text": "その他のお酒の全て",
+      "url": "https://seijoishii.com/collections/%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%81%8A%E9%85%92"
+    },
+    {
+      "text": "ブランデー",
+      "url": "https://seijoishii.com/collections/cat12-14"
+    },
+    {
+      "text": "リキュール",
+      "url": "https://seijoishii.com/collections/cat12-16"
+    },
+    {
+      "text": "中国酒",
+      "url": "https://seijoishii.com/collections/cat12-11"
+    },
+    {
+      "text": "みりん",
+      "url": "https://seijoishii.com/collections/cat12-12"
+    },
+    {
+      "text": "全ての商品",
+      "url": "https://seijoishii.com/collections/cat13"
+    },
+    {
+      "text": "ワイン雑貨",
+      "url": "https://seijoishii.com/collections/cat13-01"
+    },
+    {
+      "text": "オリジナルバッグ",
+      "url": "https://seijoishii.com/collections/cat13-02"
+    },
+    {
+      "text": "書籍・雑誌",
+      "url": "https://seijoishii.com/collections/cat13-03"
+    },
+    {
+      "text": "サービス",
+      "url": "https://seijoishii.com/collections/cat13-04"
+    },
+    {
+      "text": "業務用・大容量",
+      "url": "https://seijoishii.com/collections/cat18"
+    },
+    {
+      "text": "ご利用ガイド",
+      "url": "https://seijoishii.com/blogs/help"
+    },
+    {
+      "text": "お問い合わせ",
+      "url": "https://seijoishii.com/pages/support"
+    },
+    {
+      "text": "企業情報",
+      "url": "https://corporate.seijoishii.com/"
+    },
+    {
+      "text": "利用規約",
+      "url": "https://seijoishii.com/policies/terms-of-service"
+    },
+    {
+      "text": "個人情報保護方針",
+      "url": "https://www.seijoishii.co.jp/support/privacypolicy.html"
+    },
+    {
+      "text": "特商法表記",
+      "url": "https://seijoishii.com/policies/legal-notice"
+    },
+    {
+      "text": "従業員割引制度",
+      "url": "https://seijoishii.com/pages/%E5%BE%93%E6%A5%AD%E5%93%A1%E5%90%91%E3%81%91%E3%83%9A%E3%83%BC%E3%82%B8"
+    },
+    {
+      "text": "国産鴨とピスタチオのパテ",
+      "url": "https://seijoishii.com/products/4953762152554"
+    },
+    {
+      "text": "成城石井の塩パン",
+      "url": "https://seijoishii.com/products/4953762898933"
+    },
+    {
+      "text": "2026/8/7 今日の献立どうする？成城石井の店長の「ドレッシング活用術」",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/dressing"
+    },
+    {
+      "text": "2026/5/14 「PFCバランス」を一皿に。おいしく満たされる新しいサラダ習慣",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/salad"
+    },
+    {
+      "text": "2026/1/19 チョコ×ドリンクで過ごす  冬のご褒美チョコ時間♡",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2026_feb"
+    },
+    {
+      "text": "2025/12/11 簡単盛り付け術で華やぐ！おうちクリスマス",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2026_jan"
+    },
+    {
+      "text": "2025/11/20 成城石井のソムリエが提案！「チーズグルメ＆ワイン」至福のペアリング",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2025_dec"
+    },
+    {
+      "text": "2025/10/22 現地で見つけた “美味” をお届け！「台湾美食祭」",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2025_nov"
+    },
+    {
+      "text": "2025/10/10 成城石井メンバーシップ会員に聞く！「私のイチ推し！」グルメ座談会",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2025_oct"
+    },
+    {
+      "text": "2025/9/10 おうちで楽しむ簡単ミールス！",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2025_sep"
+    },
+    {
+      "text": "2025/8/10 アツ～い季節はやっぱりコレ！絶品カレーで夏を満喫",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori/2025_aug"
+    },
+    {
+      "text": "もっと見る",
+      "url": "https://seijoishii.com/blogs/seijoishii-tayori"
+    },
+    {
+      "text": "半期に一度の決算セール2026",
+      "url": "https://seijoishii.com/blogs/pickup-item/202609kessan"
+    },
+    {
+      "text": "おせち・ポッサムキムチご予約承ります",
+      "url": "https://seijoishii.com/blogs/pickup-item/2027_oseti"
+    },
+    {
+      "text": "【テテ名谷店限定】アプリクーポンで5％OFF！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260828_tete5off"
+    },
+    {
+      "text": "【店舗限定】5,000円以上お買い上げで5%OFF！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260828_5off"
+    },
+    {
+      "text": "【Echika池袋店限定】アプリクーポンで5％OFF！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260826_5off"
+    },
+    {
+      "text": "【アプリ】夏のお盆玉クーポン 8/7〜8/16",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260807"
+    },
+    {
+      "text": "【ドレッシング攻略本】配布中！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260801dressing"
+    },
+    {
+      "text": "【シァル鶴見店限定】アプリクーポンで5%OFF！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260807_5off"
+    },
+    {
+      "text": "アプリで涼感 スタンプラリー8/1~8/31",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260801stamp"
+    },
+    {
+      "text": "【店舗限定】アプリクーポンで5%OFF！",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260724_5off"
+    },
+    {
+      "text": "【店舗限定】7/24～7/30丑の日チラシ",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260724ushi"
+    },
+    {
+      "text": "【店舗限定】赤・白・ロゼワイン10％OFF！(7/24～7/26)",
+      "url": "https://seijoishii.com/blogs/pickup-item/20260724"
+    },
+    {
+      "text": "もっと見る",
+      "url": "https://seijoishii.com/blogs/pickup-item"
+    },
+    {
+      "text": "トップバイヤーブログ詳細",
+      "url": "https://seijoishii.com/blogs/top-buyer-blog/article"
+    },
+    {
+      "text": "もっと見る",
+      "url": "https://seijoishii.com/blogs/top-buyer-blog"
+    },
+    {
+      "text": "Enter",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ご利用ガイド",
+      "url": "https://seijoishii.com/blogs/help"
+    },
+    {
+      "text": "お問い合わせ",
+      "url": "https://seijoishii.com/pages/support"
+    },
+    {
+      "text": "企業情報",
+      "url": "https://corporate.seijoishii.com/"
+    },
+    {
+      "text": "利用規約",
+      "url": "https://seijoishii.com/policies/terms-of-service"
+    },
+    {
+      "text": "個人情報保護方針",
+      "url": "https://www.seijoishii.co.jp/support/privacypolicy.html"
+    },
+    {
+      "text": "特商法表記",
+      "url": "https://seijoishii.com/policies/legal-notice"
+    },
+    {
+      "text": "従業員割引制度",
+      "url": "https://seijoishii.com/pages/%E5%BE%93%E6%A5%AD%E5%93%A1%E5%90%91%E3%81%91%E3%83%9A%E3%83%BC%E3%82%B8"
+    }
+  ],
+  "images": [
+    "https://tr.line.me/tag.gif?c_t=lap&t_id=29f72ed4-a573-4b6c-93f2-fe863d9aa5c2&e=pv&noscript=1",
+    "https://seijoishii.com/cdn/shop/t/13/assets/header_logo.svg?v=36629241853785128041758853465",
+    "https://seijoishii.com/cdn/shop/t/13/assets/user-guide.svg?v=134815518956786653341783390161",
+    "https://seijoishii.com/cdn/shop/t/13/assets/user-guide.svg?v=134815518956786653341783390161",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_gift.svg?v=1713764880&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_chefHat.svg?v=1713764913&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_cake.svg?v=1713185481&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_chocolateBar.svg?v=1713764459&width=24",
+    "https://seijoishii.com/cdn/shop/collections/icon-cat03.svg?v=1715152130&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_melon.svg?v=1713764520&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_cheese.svg?v=1713764554&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_spaghetti.svg?v=1713764587&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_other_f5cb981e-37ff-4096-9614-7eb50f8b0a0f.svg?v=1713764656&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_coffee.svg?v=1713764676&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_cannedFruit.svg?v=1713764714&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_icecream.svg?v=1713764752&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_bottle.svg?v=1713764787&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_wine.svg?v=1713764806&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_bag.svg?v=1713764843&width=24",
+    "https://seijoishii.com/cdn/shop/collections/hb-categoryList_package.svg?v=1713764938&width=24",
+    "https://seijoishii.com/cdn/shop/articles/tayori_web_dressing_f2dd807c-28d2-44be-95ef-19b42d811e29.jpg?format=webp&v=1786066078&width=720",
+    "https://seijoishii.com/cdn/shop/articles/tayori_web_end.jpg?format=webp&v=1779088945&width=720",
+    "https://seijoishii.com/cdn/shop/articles/2026_February_5ac60fab-f229-4253-a61a-0bc338aae352.jpg?format=webp&v=1768812041&width=720",
+    "https://seijoishii.com/cdn/shop/articles/2026_January_9e3f340b-0d51-4cc9-a611-03213946076e.jpg?format=webp&v=1765448154&width=720",
+    "https://seijoishii.com/cdn/shop/articles/2025_December_a509e6a5-179c-4caa-b5c2-38fa52d7122a.jpg?format=webp&v=1764124096&width=720",
+    "https://seijoishii.com/cdn/shop/articles/tayori_2025november_10001000_b76ac73a-58a1-4072-96ea-ed298559178f.jpg?format=webp&v=1761125057&width=720",
+    "https://seijoishii.com/cdn/shop/articles/tayori_2025october_10001000_4e02367c-2feb-45c9-b4b5-134999a093b4.jpg?format=webp&v=1760080492&width=720",
+    "https://seijoishii.com/cdn/shop/articles/TAYORI_2025_September_1000x1000_9c750b1c-60b0-45b5-9965-39d68be345a9.jpg?format=webp&v=1759051779&width=720",
+    "https://seijoishii.com/cdn/shop/articles/TAYORI_2025August_1000.jpg?format=webp&v=1759051893&width=720",
+    "https://seijoishii.com/cdn/shop/articles/1000_ab4282b3-5275-49ca-a099-c42de9d3fc83.jpg?format=webp&v=1788584402&width=720",
+    "https://seijoishii.com/cdn/shop/articles/2027____1000px_bf344f4f-2c5b-4a91-9b77-ed495dd64cfb.jpg?format=webp&v=1788223019&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260826_5_OFF_TOP_8414ce8e-75c5-4af2-a00b-bec6c4cf8a33.jpg?format=webp&v=1786938811&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260828_5000_5_OFF_1000_4ab72661-3086-4323-92bb-5de9aab036fe.jpg?format=webp&v=1786929300&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260826_5_OFF_TOP_51ae521e-b9de-42ee-b6d5-dd3738eb3c5a.jpg?format=webp&v=1786673674&width=720",
+    "https://seijoishii.com/cdn/shop/articles/1000x1000_831c3606-1780-4d20-8742-f5203c2df22c.jpg?format=webp&v=1785835410&width=720",
+    "https://seijoishii.com/cdn/shop/articles/1000x1000_073fbd16-c4be-43f0-a957-fedcce1282c3.jpg?format=webp&v=1785732102&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260807__5_OFF__TOP_a29a2507-2e05-4747-8c81-83a012a2ba18.jpg?format=webp&v=1785463560&width=720",
+    "https://seijoishii.com/cdn/shop/articles/1000x1000_a3d0ede9-421d-4aea-bcbd-25258787a4aa.jpg?format=webp&v=1785462518&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260724_5_OFF_TOP_fe87bd55-f6be-457a-8015-991b7b0880bd.jpg?format=webp&v=1784798004&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260724__1000x1000_f239e91e-0d80-4522-8eec-f342a67aabdd.jpg?format=webp&v=1784794140&width=720",
+    "https://seijoishii.com/cdn/shop/articles/20260724-26_10_OFF__1000_e835a73b-be41-4ef2-919b-9a9a5102dbcb.jpg?format=webp&v=1784524339&width=720",
+    "https://seijoishii.com/cdn/shop/files/no-image.svg?v=4879692378615652038"
+  ],
+  "status": "success",
+  "seconds": 4.275
+}

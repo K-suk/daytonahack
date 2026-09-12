@@ -1,0 +1,517 @@
+{
+  "$defs": {
+    "Deal": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "storeId": {
+          "title": "Storeid",
+          "type": "string"
+        },
+        "ingredientId": {
+          "title": "Ingredientid",
+          "type": "string"
+        },
+        "productName": {
+          "title": "Productname",
+          "type": "string"
+        },
+        "priceYen": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Priceyen"
+        },
+        "tax": {
+          "enum": [
+            "included",
+            "excluded",
+            "unknown"
+          ],
+          "title": "Tax",
+          "type": "string"
+        },
+        "quantity": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quantity"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "packGrams": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Packgrams"
+        },
+        "validFrom": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validfrom"
+        },
+        "validTo": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validto"
+        },
+        "membershipRequired": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Membershiprequired"
+        },
+        "purchaseConditions": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Purchaseconditions"
+        },
+        "comparisonPriceYen": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comparisonpriceyen"
+        },
+        "evidence": {
+          "$ref": "#/$defs/Evidence"
+        }
+      },
+      "required": [
+        "id",
+        "storeId",
+        "ingredientId",
+        "productName",
+        "tax",
+        "evidence"
+      ],
+      "title": "Deal",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "route": {
+          "enum": [
+            "live",
+            "saved"
+          ],
+          "title": "Route",
+          "type": "string"
+        },
+        "basis": {
+          "enum": [
+            "source",
+            "estimated",
+            "unknown"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "title": "Sourceurl",
+          "type": "string"
+        },
+        "fetchedAt": {
+          "title": "Fetchedat",
+          "type": "string"
+        },
+        "environment": {
+          "enum": [
+            "local",
+            "daytona",
+            "web-search"
+          ],
+          "title": "Environment",
+          "type": "string"
+        },
+        "estimationReason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Estimationreason"
+        }
+      },
+      "required": [
+        "route",
+        "basis",
+        "sourceUrl",
+        "fetchedAt",
+        "environment"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "Quantity": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "basis": {
+          "enum": [
+            "source",
+            "estimated",
+            "unknown"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sourceurl"
+        },
+        "sourceDocumentId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sourcedocumentid"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "value",
+        "basis"
+      ],
+      "title": "Quantity",
+      "type": "object"
+    },
+    "Recipe": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "title": "Sourceurl",
+          "type": "string"
+        },
+        "evidence": {
+          "$ref": "#/$defs/Evidence"
+        },
+        "servings": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Servings"
+        },
+        "servingsRaw": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Servingsraw"
+        },
+        "cookingMinutes": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cookingminutes"
+        },
+        "rating": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rating"
+        },
+        "cooksnapCount": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cooksnapcount"
+        },
+        "bookmarkCount": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bookmarkcount"
+        },
+        "requirements": {
+          "items": {
+            "$ref": "#/$defs/Requirement"
+          },
+          "title": "Requirements",
+          "type": "array"
+        },
+        "exclusionReviewed": {
+          "default": false,
+          "title": "Exclusionreviewed",
+          "type": "boolean"
+        },
+        "allergens": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Allergens",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "sourceUrl",
+        "evidence",
+        "requirements"
+      ],
+      "title": "Recipe",
+      "type": "object"
+    },
+    "Requirement": {
+      "additionalProperties": false,
+      "properties": {
+        "ingredientId": {
+          "title": "Ingredientid",
+          "type": "string"
+        },
+        "nameJa": {
+          "title": "Nameja",
+          "type": "string"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Amount"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "raw": {
+          "title": "Raw",
+          "type": "string"
+        },
+        "grams": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Grams"
+        },
+        "conversionSource": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Conversionsource"
+        }
+      },
+      "required": [
+        "ingredientId",
+        "nameJa",
+        "raw"
+      ],
+      "title": "Requirement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "deals": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Deal"
+      },
+      "title": "Deals",
+      "type": "array"
+    },
+    "recipes": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Recipe"
+      },
+      "title": "Recipes",
+      "type": "array"
+    },
+    "foods": {
+      "additionalProperties": {
+        "additionalProperties": {
+          "$ref": "#/$defs/Quantity"
+        },
+        "type": "object"
+      },
+      "default": {},
+      "title": "Foods",
+      "type": "object"
+    }
+  },
+  "title": "Confirmed",
+  "type": "object"
+}

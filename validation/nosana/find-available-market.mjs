@@ -1,0 +1,7 @@
+// Read-only market discovery. No deployment unless a later explicit step verifies availability.
+import {createNosanaClient,NosanaNetwork} from '@nosana/kit';import dotenv from 'dotenv';import fs from 'node:fs';dotenv.config({path:'.env',quiet:true});
+const c=createNosanaClient(NosanaNetwork.MAINNET,{api:{apiKey:process.env.NOSANA_API_KEY}});
+const [markets,prices,deployments,credits,available,queued]=await Promise.all([c.api.markets.list(),c.api.markets.getPrices(),c.api.deployments.list(),c.api.credits.balance(),c.api.hosts.getAvailableGpus(),c.api.hosts.getQueuedNodes()]);
+const eligible=markets.filter(m=>!m.client&&prices.some(p=>p.address===m.address&&typeof p.usd_reward_per_hour==='number'&&p.usd_reward_per_hour>0&&p.usd_reward_per_hour<=.25));const rows=[];
+for(let i=0;i<eligible.length;i+=5){rows.push(...await Promise.all(eligible.slice(i,i+5).map(async m=>{let queue;try{queue=await c.api.hosts.getQueuedNodes({marketAddress:m.address})}catch(e){queue={error:e.name}}return {address:m.address,name:m.name,price:prices.find(p=>p.address===m.address).usd_reward_per_hour,metadata:m.metadata,queue};})));}
+const out={checkedAt:new Date().toISOString(),credits,deployments:deployments.deployments.map(d=>({id:d.id,status:d.status,activeJobs:d.active_jobs})),marketCount:markets.length,eligibleMarketCount:eligible.length,available,queued,markets:rows};fs.writeFileSync('validation/artifacts/nosana-available-market-scan.json',JSON.stringify(out,null,2));console.log(JSON.stringify(out));

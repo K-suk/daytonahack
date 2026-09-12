@@ -1,0 +1,10 @@
+{
+  "id": "33p8qY88MnHjQY2JNvizGfHuLNXfE9QktVbPLo27vPGZ",
+  "createdAt": "2026-09-12T05:39:12.153Z",
+  "template": "qwen3-5-9b",
+  "market": "NVIDIA 3090",
+  "pricePerHour": 0.19195,
+  "timeoutMinutes": 60,
+  "status": "DRAFT",
+  "repairedAt": "2026-09-12T05:44:20.864Z"
+}

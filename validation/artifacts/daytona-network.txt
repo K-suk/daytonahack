@@ -1,0 +1,4 @@
+{"proxyVarsPresent": {"HTTP_PROXY": false, "HTTPS_PROXY": false, "http_proxy": false, "https_proxy": false}}
+{"url": "https://www.daytona.io", "error": "ConnectionError", "detail": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"}
+{"url": "https://cookpad.com/jp/recipes/21691824", "error": "ConnectionError", "detail": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"}
+{"url": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international", "error": "ConnectionError", "detail": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"}

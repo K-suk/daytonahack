@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "documentId": "cookpad-one",
+      "kind": "recipe",
+      "format": "html",
+      "localPath": "files/cookpad-one.html",
+      "recipeSourceId": "21691824",
+      "sourceUrl": "https://cookpad.com/jp/recipes/21691824",
+      "obtainedAt": "2026-09-12T05:31:43.622010+00:00",
+      "validFrom": null,
+      "validUntil": null,
+      "contentHash": "3890ccbfbce3ef9738ac795be74069862911d9a2787f7541fbd10d56b9cd5533",
+      "acquisitionMethod": "saved_public_http",
+      "supplements": []
+    },
+    {
+      "documentId": "recipe-25675338",
+      "kind": "recipe",
+      "format": "html",
+      "localPath": "files/recipe-25675338.html",
+      "recipeSourceId": "25675338",
+      "sourceUrl": "https://cookpad.com/jp/recipes/25675338",
+      "obtainedAt": "2026-09-12T05:33:22.142284+00:00",
+      "validFrom": null,
+      "validUntil": null,
+      "contentHash": "0761ff3994be65b53dc22c4123967ee067ed412d44a26f67bba7690dd7e362b5",
+      "acquisitionMethod": "saved_public_http",
+      "supplements": []
+    },
+    {
+      "documentId": "recipe-25962767",
+      "kind": "recipe",
+      "format": "html",
+      "localPath": "files/recipe-25962767.html",
+      "recipeSourceId": "25962767",
+      "sourceUrl": "https://cookpad.com/jp/recipes/25962767",
+      "obtainedAt": "2026-09-12T05:33:22.143091+00:00",
+      "validFrom": null,
+      "validUntil": null,
+      "contentHash": "f9a164d8176e537d1669b78ba072dc9006c55a8479196475d232f4cc119e7bef",
+      "acquisitionMethod": "saved_public_http",
+      "supplements": []
+    },
+    {
+      "documentId": "seijo-flyer",
+      "kind": "store_flyer",
+      "format": "image",
+      "localPath": "files/seijo-flyer.jpg",
+      "storeId": "seijo-minamiaoyama",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+      "obtainedAt": "2026-09-12T05:30:13.603786+00:00",
+      "validFrom": null,
+      "validUntil": null,
+      "contentHash": "ca9724a6cff695473d49ccf0c92e01167de26bee4cfda13aa3ddcdd4ebd25d08",
+      "acquisitionMethod": "saved_public_http",
+      "supplements": []
+    },
+    {
+      "documentId": "confirmed-seijo-deals",
+      "kind": "store_flyer",
+      "format": "json",
+      "localPath": "files/confirmed-deals.json",
+      "storeId": "seijo-minamiaoyama",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+      "obtainedAt": "2026-09-12T05:30:13.603786+00:00",
+      "validFrom": "2026-09-11",
+      "validUntil": "2026-09-13",
+      "contentHash": "af53f7f721f8fdd65ff04be0304e36dfe59ca7da0d5c779f8a454245ab6a97c6",
+      "acquisitionMethod": "validation_visual_transcription_not_ocr",
+      "derivedFromDocumentId": "seijo-flyer",
+      "supplements": []
+    }
+  ]
+}

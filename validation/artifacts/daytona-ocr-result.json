@@ -1,0 +1,11 @@
+{
+  "route": "saved",
+  "processedIn": "daytona",
+  "method": "tesseract jpn+eng psm11",
+  "verifiedDeals": 0,
+  "setupSeconds": 10.622,
+  "status": "success",
+  "ocrSeconds": 39.93,
+  "cleanup": "deleted",
+  "totalSeconds": 57.931
+}

@@ -1,0 +1,58 @@
+{
+  "deployment": {
+    "id": "33p8qY88MnHjQY2JNvizGfHuLNXfE9QktVbPLo27vPGZ",
+    "name": "meal-validation-1789191546139",
+    "vault": "E1yNojwbthJo8D4Ue1xYm5D8o28VkmHnV1VaKoYM3msC",
+    "market": "CA5pMpqkYFKtme7K31pNB1s62X2SdhEv1nN9RdxKCpuQ",
+    "owner": "E1yNojwbthJo8D4Ue1xYm5D8o28VkmHnV1VaKoYM3msC",
+    "status": "RUNNING",
+    "replicas": 1,
+    "timeout": 60,
+    "endpoints": [
+      {
+        "opId": "server",
+        "port": 11434,
+        "url": "https://5HrhyXgAzeFv9gnu7FL8X82aYaz9oyY2cZTapiEw9tpq.node.k8s.prd.nos.ci",
+        "online": false
+      }
+    ],
+    "confidential": true,
+    "active_revision": 1,
+    "active_jobs": 0,
+    "created_at": "2026-09-12T05:39:11.065Z",
+    "updated_at": "2026-09-12T05:46:51.908Z",
+    "strategy": "SIMPLE",
+    "ssh": {}
+  },
+  "jobs": {
+    "jobs": [
+      {
+        "tx": "5cnbDjmt7aFDUtRuEbB6K4RrYQaFzVkpxKp5CpE6rpQoWVobBqiP5yemrX9zx8nVFp1Qg9BXQYKDNVDC9k8dcMZX",
+        "deployment": "33p8qY88MnHjQY2JNvizGfHuLNXfE9QktVbPLo27vPGZ",
+        "job": "4tyygEWRUqVSWFtqcaU4QrSw3wA9QhZsVv232ZUZxMjd",
+        "market": "CA5pMpqkYFKtme7K31pNB1s62X2SdhEv1nN9RdxKCpuQ",
+        "node": null,
+        "revision": 1,
+        "state": "QUEUED",
+        "time_start": 0,
+        "created_at": "2026-09-12T05:46:53.152Z",
+        "updated_at": "2026-09-12T05:46:53.152Z"
+      },
+      {
+        "tx": "QsXUFDEFQqdFB62RSNcWXdXotU1qDbE9SeQbP8dJoZSznP4WxmZGunBhPuoZiuouJ9zXJVEsHNn4cenHnL7R23r",
+        "deployment": "33p8qY88MnHjQY2JNvizGfHuLNXfE9QktVbPLo27vPGZ",
+        "job": "5AZ179RxW9ahmR5UF6uenXXkehtBUSVFe6j5oqzKDCdM",
+        "market": "7AtiXMSH6R1jjBxrcYjehCkkSF7zvYWte63gwEDBcGHq",
+        "node": null,
+        "revision": 1,
+        "state": "STOPPED",
+        "time_start": 0,
+        "created_at": "2026-09-12T05:44:22.018Z",
+        "updated_at": "2026-09-12T05:46:49.174Z"
+      }
+    ],
+    "total_items": 2,
+    "nextPage": null,
+    "previousPage": null
+  }
+}

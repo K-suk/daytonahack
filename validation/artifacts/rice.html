@@ -1,0 +1,507 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>穀類/こめ/［水稲めし］/精白米/うるち米 - 01.一般成分表-無機質-ビタミン類</title>
+
+<link rel="Home" type="text/html" href="../index.pl">
+<link rel="stylesheet" type="text/css" href="../css/result.css" >
+<link rel="stylesheet" type="text/css" href="../css/details.css">
+<script type="text/javascript" src="../jquery/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.formtips.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/window.js"></script>
+<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../js/fontsize.js"></script>
+<script type="text/javascript" src="../jquery/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="../jquery/jquery-ui.css">
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('form').valid();
+});
+
+function wopen_n(){
+  var id = document.action.ITEM_NO.value;
+  var wt = document.action.WEIGHT.value;
+  var md = document.action.MODE.value;
+  var url = "details.pl?ITEM_NO=" + id + "&MODE=" + md + "&WEIGHT=" + wt + "&TYPE=print";
+  window.open(url);
+}
+function wopend() {
+  window.open("../help/help_d.html","details","toolbar=(),menubar=(),scrollbars=yes,width=680,height=700,resizable=yes")
+}
+function wopen_help(helpfile) {
+  window.open("../help/"+helpfile,"details","toolbar=(),menubar=(),scrollbars=yes,width=680,height=700,resizable=yes")
+}
+function view_popup() {
+  var id = document.action.ITEM_NO.value;
+  window.open("foodInfo.pl?ITEM_NO=" + id + "&VIEW_POPUP=1","VIEW_POPUP_WINDOW","toolbar=(),menubar=(),scrollbars=yes,width=800,height=660,resizable=yes");
+  return false;
+}
+
+$(function() {
+$("#tabmenu").tabs();
+});
+
+</script>
+
+</head>
+<body>
+<div id="contens">
+  <div id="head">
+    <span style="float: right;">
+      <button type="button" name="VIEW_POPUP" onClick="view_popup()">詳しい内容はこちら</button>
+      <button type="button" name="DETAILS" onClick="wopend()">ヘルプ</button>
+      <button type="button" onClick="wopen_n()">印刷</button>
+    </span>
+    <div id="SizeChanger">文字サイズ&nbsp;<a href="#" class="changeBtn">標準</a><a href="#" class="changeBtn">大</a><a href="#" class="changeBtn">特大</a></div>
+    <h1>食品詳細&nbsp;<span class="source">【出典：日本食品標準成分表（八訂）増補2023年】</span></h1>
+    <div class="food_name">
+     <strong>食品番号：</strong>&nbsp;<span class="foodnum">01088</span>　<strong>食品群名/食品名：</strong>&nbsp;<span class="foodfullname">穀類/こめ/［水稲めし］/精白米/うるち米</span>
+    </div>
+    <div class="food_name" style="color: maroon;">
+      <strong>英名：</strong>&nbsp;<span class="foodnameus">CEREALS/Rice/short grain， paddy rice， nonglutinous rice， well-milled， &quot;meshi&quot; (cooked rice)</span>
+    </div>
+    <div class="food_name">
+     <strong>学名：</strong>&nbsp;<span class="foodnamesc">Oryza sativa</span>
+    </div>
+  </div>
+  <div id="main">
+
+    <h2>01.一般成分表-無機質-ビタミン類</h2>
+    <form action="details.pl" method="POST" name="action" style="float: left; margin-right: 10px; margin-botton:10px; width: 330px;">
+      <input type="hidden" name="ITEM_NO" value="1_01088_7">
+      <input type="hidden" name="MODE" value="0">
+      <ul class="notice" style="font-size: 0.8em; margin-top:0px; margin-left:0px;">
+        
+        <li><abbr title="マイクログラム">μg</abbr>は、百万分の一グラムを表す。</li>
+        <li>可食部
+          <input type="text" name="WEIGHT" value="100" maxlength="11" style="ime-mode: disabled; -ms-ime-mode: disabled;" class="num weight">
+          g当たりの数値。<input type="submit" value="重量換算">
+        </li>
+      </ul>
+      <table id="tableMenu">
+        <tr><th>成分表選択</th></tr>
+        
+        <tr><td><strong>
+          01.一般成分表-無機質-ビタミン類
+        </strong></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=1">
+          02.アミノ酸-可食部100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=2">
+          03.アミノ酸-基準窒素1<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=3">
+          04.アミノ酸-アミノ酸組成によるたんぱく質1<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=10">
+          05.アミノ酸-(基準窒素による)たんぱく質1<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=4">
+          06.脂肪酸-可食部100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=5">
+          07.脂肪酸-脂肪酸総量100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=6">
+          08.脂肪酸-脂質1<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=7">
+          09.炭水化物-可食部100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=8">
+          10.食物繊維-可食部100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+        <tr><td><a href="details.pl?ITEM_NO=1_01088_7&MODE=9">
+          11.有機酸-可食部100<abbr title="グラム">g</abbr>
+        </a></td></tr>
+        
+      </table>
+    </form>
+
+
+
+    <table id="nut" style="width:435px;">
+
+      <thead>
+      <tr>
+<!--        <th colspan="4" class="pr_tit">成分名</th>-->
+        <th colspan="5" class="pr_tit">成分名</th>
+        <th class="pr_tit">値</th>
+        <th class="pr_tit">単位</th>
+      </tr>
+      </thead>
+      <tbody>
+        <!--    廃棄率    -->
+        <tr>
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('nutman_01.html')" class="no_under">廃棄率</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="パーセント">%</abbr></td>
+        </tr>
+        <!--    エネルギー    -->
+        <tr>
+            <td class="pr_name" colspan="5" rowspan="2"><a href="javascript:void(0);" onClick="wopen_i('nutman_02.html')" class="no_under">エネルギー</a></td>
+            <!--    エネルギー(kcal)    -->
+            <td class="num">156</td>
+            <td class="pr_unit"><abbr title="キロカロリー">kcal</abbr></td>
+        </tr>
+        <tr>
+            <!--    エネルギー(kJ)    -->
+            <td class="num">663</td>
+            <td class="pr_unit"><abbr title="キロジュール">kJ</abbr></td>
+        </tr>
+        <!--    水分    -->
+        <tr>
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">水分</a></td>
+            <td class="num">60.0</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <tr>
+        <!--    たんぱく質    -->
+         <td class="pr_gr_name" rowspan="3"><span title="たんぱく質">た<br>ん<br>ぱ<br>く<br>質</span></td>
+        <!--    アミノ酸組成によるたんぱく質    -->
+        <tr>
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">アミノ酸組成によるたんぱく質</a></td>
+            <td class="num">2.0</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    たんぱく質    -->
+        <tr>
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">たんぱく質</a></td>
+            <td class="num">2.5</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+	    <!--    脂質    -->
+	    <td class="pr_gr_name" rowspan="4"><span title="脂質">脂<br>質</span></td>
+	    <!--    脂肪酸のトリアシルグリセロール当量    -->
+        <tr>
+            <td class="pr_name"  colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">脂肪酸のトリアシルグリセロール当量</a></td>
+            <td class="num">0.2</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+ 	    <!--    コレステロール    -->
+        <tr>
+            <td class="pr_name"  colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_07.html')" class="no_under">コレステロール</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <!--    脂質    -->
+        <tr>
+            <td class="pr_name"  colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">脂質</a></td>
+            <td class="num">0.3</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <tr>
+            <td class="pr_gr_name" rowspan="6"><span title="炭水化物">炭<br>水<br>化<br>物</span></td>
+            <td class="pr_gr_name" rowspan="3"><span title="利用可能炭水化物">利<br>用<br>可<br>能<br>炭<br>水<br>化<br>物</span></td>
+         <!--    利用可能炭水化物（単糖当量）    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('carbo2015.html')" class="no_under">利用可能炭水化物（単糖当量）</a></td>
+            <td class="num">38.1</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    利用可能炭水化物（質量計）    -->
+        <tr>
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">利用可能炭水化物（質量計）</a></td>
+            <td class="num">34.6</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    差引き法による利用可能炭水化物    -->
+        <tr>
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">差引き法による利用可能炭水化物</a></td>
+            <td class="num">36.1</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    食物繊維総量    -->
+	    <tr>
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_08.html')" class="no_under">食物繊維総量</a></td>
+            <td class="num">1.5</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    糖アルコール    -->
+        <tr>
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">糖アルコール</a></td>
+            <td class="marker">-</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    炭水化物    -->
+        <tr>
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">炭水化物</a></td>
+            <td class="num">37.1</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+	    </tr>
+        <!--    有機酸    -->
+        <tr>
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('carbo2015.html')" class="no_under">有機酸</a></td>
+            <td class="marker">-</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    灰分    -->
+        <tr>
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('nutman_03.html')" class="no_under">灰分</a></td>
+            <td class="num">0.1</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+        <!--    無機質    -->
+        <tr>
+            <td class="pr_gr_name" rowspan="13"><span title="無機質">無<br>機<br>質</span></td>
+            <!--    ナトリウム    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">ナトリウム</a></td>
+            <td class="num">1</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    カリウム    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">カリウム</a></td>
+            <td class="num">29</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    カルシウム    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">カルシウム</a></td>
+            <td class="num">3</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    マグネシウム    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">マグネシウム</a></td>
+            <td class="num">7</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    リン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">リン</a></td>
+            <td class="num">34</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    鉄    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">鉄</a></td>
+            <td class="num">0.1</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    亜鉛    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">亜鉛</a></td>
+            <td class="num">0.6</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    銅    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">銅</a></td>
+            <td class="num">0.1</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    マンガン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">マンガン</a></td>
+            <td class="num">0.35</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--   ヨウ素     -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">ヨウ素</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    セレン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">セレン</a></td>
+            <td class="num">1</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--   クロム     -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">クロム</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    モリブデン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_04.html')" class="no_under">モリブデン</a></td>
+            <td class="num">30</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <!--    ビタミン    -->
+        <tr>
+            <td class="pr_gr_name" rowspan="22"><span title="ビタミン">ビ<br>タ<br>ミ<br>ン</span></td>
+            <!--    ビタミンA    -->
+            <td class="pr_gr_name" rowspan="6"><span title="ビタミンA">ビ<br>タ<br>ミ<br>ン<br>A</span></td>
+            <!--    レチノール    -->
+            <td class="pr_gr_name" rowspan="5">　</td>
+            <td class="pr_name" colspan="2"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">レチノール</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <td class="pr_gr_name" rowspan="3">　</td>
+            <!--    α−カロテン    -->
+            <td class="pr_name"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">α−カロテン</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    β−カロテン    -->
+            <td class="pr_name"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">β−カロテン</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    β−クリプトキサンチン    -->
+            <td class="pr_name"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">β−クリプトキサンチン</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    β−カロテン当量    -->
+            <td class="pr_name" colspan="2"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">β−カロテン当量</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    レチノール活性当量    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">レチノール活性当量</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンD    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンD</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンE    -->
+            <td class="pr_gr_name" rowspan="4"><span title="ビタミンE">ビ<br>タ<br>ミ<br>ン<br>E</span></td>
+            <!--    トコフェロール    -->
+            <!--    α−トコフェロール    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">α−トコフェロール</a></td>
+            <td class="marker">Tr</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    β−トコフェロール    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">β−トコフェロール</a></td>
+            <td class="marker">Tr</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    γ−トコフェロール    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">γ−トコフェロール</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    δ−トコフェロール    -->
+            <td class="pr_name" colspan="3"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">δ−トコフェロール</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンK    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンK</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンB1    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンB1</a></td>
+            <td class="num">0.02</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンB2    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンB2</a></td>
+            <td class="num">0.01</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ナイアシン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ナイアシン</a></td>
+            <td class="num">0.2</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ナイアシン当量    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ナイアシン当量</a></td>
+            <td class="num">0.8</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンB6    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンB6</a></td>
+            <td class="num">0.02</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンB12    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンB12</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    葉酸    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">葉酸</a></td>
+            <td class="num">3</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    パントテン酸    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">パントテン酸</a></td>
+            <td class="num">0.25</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビオチン    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビオチン</a></td>
+            <td class="num">0.5</td>
+            <td class="pr_unit"><abbr title="マイクログラム">μg</abbr></td>
+        </tr>
+        <tr>
+            <!--    ビタミンC    -->
+            <td class="pr_name" colspan="4"><a href="javascript:void(0);" onClick="wopen_i('nutman_05.html')" class="no_under">ビタミンC</a></td>
+            <td class="marker">(0)</td>
+            <td class="pr_unit"><abbr title="ミリグラム">mg</abbr></td>
+        </tr>
+        <tr>
+            <!--    アルコール    -->
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('nutman_11.html')" class="no_under">アルコール</a></td>
+            <td class="marker">-</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr> </td>
+        </tr>
+        <tr>
+            <!--    食塩相当量    -->
+            <td class="pr_name" colspan="5"><a href="javascript:void(0);" onClick="wopen_i('nutman_09.html')" class="no_under">食塩相当量</a></td>
+            <td class="num">0</td>
+            <td class="pr_unit"><abbr title="グラム">g</abbr></td>
+        </tr>
+
+
+
+
+
+
+
+      </tbody>
+    </table>
+    <!--<div style="text-align: right;margin-top: 4px;width:786px;">( ) 内の0以外の推定値は、可食部の○○g当たりの数値を変更しても反映されません。</div>-->
+    <br />&nbsp;
+    <br style="clear:both;">
+  </div>
+</div>
+</body>
+</html>

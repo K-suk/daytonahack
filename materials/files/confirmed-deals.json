@@ -1,0 +1,76 @@
+{
+  "deals": [
+    {
+      "id": "seijo-broccoli-raw-2026-09-12",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "broccoli-raw",
+      "productName": "北海道産 大槻さんの海の神 ブロッコリー",
+      "priceYen": 312.0,
+      "tax": "included",
+      "quantity": 1.0,
+      "unit": "株",
+      "packGrams": null,
+      "validFrom": "2026-09-12",
+      "validTo": "2026-09-12",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    },
+    {
+      "id": "seijo-pork-mixed-cut-raw-2026-09-11",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "pork-mixed-cut-raw",
+      "productName": "国産 豚切落し",
+      "priceYen": 215.0,
+      "tax": "included",
+      "quantity": 100.0,
+      "unit": "g",
+      "packGrams": null,
+      "validFrom": "2026-09-11",
+      "validTo": "2026-09-13",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    },
+    {
+      "id": "seijo-chicken-thigh-skin-unspecified-raw-2026-09-11",
+      "storeId": "seijo-minamiaoyama",
+      "ingredientId": "chicken-thigh-skin-unspecified-raw",
+      "productName": "国産 鶏もも唐揚げ・水炊き用",
+      "priceYen": 215.0,
+      "tax": "included",
+      "quantity": 100.0,
+      "unit": "g",
+      "packGrams": null,
+      "validFrom": "2026-09-11",
+      "validTo": "2026-09-13",
+      "membershipRequired": false,
+      "purchaseConditions": "Subject to stock and store availability. Meat pack weight not published.",
+      "comparisonPriceYen": null,
+      "evidence": {
+        "route": "saved",
+        "basis": "source",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+        "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+        "environment": "local",
+        "estimationReason": null
+      }
+    }
+  ]
+}

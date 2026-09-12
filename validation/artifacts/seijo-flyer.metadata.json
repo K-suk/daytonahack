@@ -1,0 +1,14 @@
+{
+  "name": "seijo-flyer",
+  "sourceUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+  "fetchedAt": "2026-09-12T05:30:13.603786+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://cdn.shopify.com/s/files/1/0861/9261/9803/files/SI0911-_1_d0d8fbba-5260-454b-9369-0f94037995f3.jpg?v=1788331860",
+  "contentType": "image/jpeg",
+  "bytes": 1679154,
+  "sha256": "ca9724a6cff695473d49ccf0c92e01167de26bee4cfda13aa3ddcdd4ebd25d08",
+  "status": "success",
+  "seconds": 6.553
+}

@@ -1,0 +1,124 @@
+{
+  "startedAt": "2026-09-12T06:46:45.853Z",
+  "status": "failed",
+  "observations": [
+    {
+      "at": "2026-09-12T06:48:26.621Z",
+      "status": "RUNNING",
+      "jobs": [],
+      "endpoints": [
+        {
+          "opId": "Gemma3-4b",
+          "port": 11434,
+          "url": "https://477hHqj6xodS4anXAi3cYF5V3URp48GispEPz4n1Bk8x.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:48:46.577Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+          "state": "RUNNING",
+          "nodeAssigned": true
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "Gemma3-4b",
+          "port": 11434,
+          "url": "https://477hHqj6xodS4anXAi3cYF5V3URp48GispEPz4n1Bk8x.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:49:05.835Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+          "state": "RUNNING",
+          "nodeAssigned": true
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "Gemma3-4b",
+          "port": 11434,
+          "url": "https://477hHqj6xodS4anXAi3cYF5V3URp48GispEPz4n1Bk8x.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:49:24.298Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+          "state": "RUNNING",
+          "nodeAssigned": true
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "Gemma3-4b",
+          "port": 11434,
+          "url": "https://477hHqj6xodS4anXAi3cYF5V3URp48GispEPz4n1Bk8x.node.k8s.prd.nos.ci",
+          "online": false
+        }
+      ]
+    },
+    {
+      "at": "2026-09-12T06:49:42.943Z",
+      "status": "RUNNING",
+      "jobs": [
+        {
+          "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+          "state": "RUNNING",
+          "nodeAssigned": true
+        }
+      ],
+      "endpoints": [
+        {
+          "opId": "Gemma3-4b",
+          "port": 11434,
+          "url": "https://477hHqj6xodS4anXAi3cYF5V3URp48GispEPz4n1Bk8x.node.k8s.prd.nos.ci",
+          "online": true
+        }
+      ]
+    }
+  ],
+  "creditsBefore": {
+    "assignedCredits": 10,
+    "reservedCredits": 0,
+    "settledCredits": 0.03
+  },
+  "timeoutMinutes": 60,
+  "replicas": 1,
+  "waitingNodesAtStart": 3,
+  "market": "NVIDIA 3080",
+  "priceUsdPerHour": 0.09603,
+  "model": "gemma3:4b-it-qat",
+  "deploymentId": "GZFEBV6iFhxpxjc9pJaQQcu3mkAXNimHaeKYGJpYu7P6",
+  "error": "The operation was aborted due to timeout",
+  "final": {
+    "status": "STOPPING",
+    "jobs": [
+      {
+        "id": "CVLLfso9YajjcxTwxWkEcSKR8sn4rMafHRkYnQti2XLa",
+        "state": "RUNNING",
+        "nodeAssigned": true
+      }
+    ]
+  },
+  "creditsAfter": {
+    "assignedCredits": 10,
+    "reservedCredits": 0.088,
+    "settledCredits": 0.03
+  },
+  "finishedAt": "2026-09-12T06:50:11.142Z"
+}

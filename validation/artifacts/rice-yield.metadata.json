@@ -1,0 +1,1341 @@
+{
+  "name": "rice-yield",
+  "sourceUrl": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html",
+  "fetchedAt": "2026-09-12T05:56:42.020432+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html",
+  "contentType": "text/html",
+  "bytes": 63059,
+  "sha256": "c87c08fbd1bcf549f0c241babd6eb27bccc9677ffcbaf7019b8db57801b91f17",
+  "links": [
+    {
+      "text": "このページの本文へ移動",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#main_content"
+    },
+    {
+      "text": "",
+      "url": "https://www.maff.go.jp/index.html"
+    },
+    {
+      "text": "English",
+      "url": "https://www.maff.go.jp/e/index.html"
+    },
+    {
+      "text": "こどもページ",
+      "url": "https://www.maff.go.jp/j/kids/index.html"
+    },
+    {
+      "text": "サイトマップ",
+      "url": "https://www.maff.go.jp/j/use/sitemap.html"
+    },
+    {
+      "text": "標準",
+      "url": "javascript:switchTxtsize('txt_normal');"
+    },
+    {
+      "text": "大きく",
+      "url": "javascript:switchTxtsize('txt_big');"
+    },
+    {
+      "text": "逆引き事典から探す",
+      "url": "https://www.gyakubiki.maff.go.jp/appmaff/input"
+    },
+    {
+      "text": "組織別から探す",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "大臣官房",
+      "url": "https://www.maff.go.jp/j/kanbo/index.html"
+    },
+    {
+      "text": "食料・農業・農村基本法",
+      "url": "https://www.maff.go.jp/j/basiclaw/index.html"
+    },
+    {
+      "text": "食料・農業・農村基本計画",
+      "url": "https://www.maff.go.jp/j/keikaku/k_aratana/index.html"
+    },
+    {
+      "text": "食料安定供給・農林水産業基盤強化本部",
+      "url": "https://www.maff.go.jp/j/kanbo/katsuryoku_plan/index.html"
+    },
+    {
+      "text": "TPP（国内対策）",
+      "url": "https://www.maff.go.jp/j/kanbo/tpp/index.html"
+    },
+    {
+      "text": "日EU・EPA（国内対策）",
+      "url": "https://www.maff.go.jp/j/kanbo/eu_epa/index.html"
+    },
+    {
+      "text": "技術政策",
+      "url": "https://www.maff.go.jp/j/lower.html#8"
+    },
+    {
+      "text": "食料安全保障",
+      "url": "https://www.maff.go.jp/j/zyukyu/index.html"
+    },
+    {
+      "text": "環境政策",
+      "url": "https://www.maff.go.jp/j/kanbo/kankyo/seisaku/index.html"
+    },
+    {
+      "text": "再生可能エネルギー",
+      "url": "https://www.maff.go.jp/j/shokusan/renewable/energy/index.html"
+    },
+    {
+      "text": "バイオマス",
+      "url": "https://www.maff.go.jp/j/shokusan/biomass/index.html"
+    },
+    {
+      "text": "災害",
+      "url": "https://www.maff.go.jp/j/saigai/index.html"
+    },
+    {
+      "text": "東日本大震災に関する情報",
+      "url": "https://www.maff.go.jp/j/kanbo/joho/saigai/index.html"
+    },
+    {
+      "text": "地方農政局等の取組",
+      "url": "https://www.maff.go.jp/j/kanbo/tiho/index.html"
+    },
+    {
+      "text": "新事業・食品産業部",
+      "url": "https://www.maff.go.jp/j/shokusan/index.html"
+    },
+    {
+      "text": "企画",
+      "url": "https://www.maff.go.jp/j/shokusan/kikaku/index.html"
+    },
+    {
+      "text": "流通",
+      "url": "https://www.maff.go.jp/j/shokusan/ryutu/soumu/index.html"
+    },
+    {
+      "text": "製造",
+      "url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/index.html"
+    },
+    {
+      "text": "外食・食文化",
+      "url": "https://www.maff.go.jp/j/shokusan/gaishoku_shokubunka/index.html"
+    },
+    {
+      "text": "新事業創出（フードテック等）",
+      "url": "https://www.maff.go.jp/j/shokusan/sosyutu/index.html"
+    },
+    {
+      "text": "SDGs×食品産業",
+      "url": "https://www.maff.go.jp/j/shokusan/sdgs/index.html"
+    },
+    {
+      "text": "中小企業等経営強化法による支援",
+      "url": "https://www.maff.go.jp/j/shokusan/kikaku/keieiryoku_koujou.html"
+    },
+    {
+      "text": "農林漁業成長産業化ファンド",
+      "url": "https://www.maff.go.jp/j/shokusan/fund/fund.html"
+    },
+    {
+      "text": "食品産業の「働き方改革」",
+      "url": "https://www.maff.go.jp/j/shokusan/kikaku/hatarakikata_shokusan/index.html"
+    },
+    {
+      "text": "食品産業と栄養",
+      "url": "https://www.maff.go.jp/j/shokusan/kikaku/nutrition.html"
+    },
+    {
+      "text": "商品先物取引",
+      "url": "https://www.maff.go.jp/j/shokusan/syoutori/index.html"
+    },
+    {
+      "text": "卸売市場",
+      "url": "https://www.maff.go.jp/j/shokusan/sijyo/info/index.html"
+    },
+    {
+      "text": "JAS(日本農林規格)",
+      "url": "https://www.maff.go.jp/j/jas/index.html"
+    },
+    {
+      "text": "食品企業の安全・信頼対策",
+      "url": "https://www.maff.go.jp/j/shokusan/koudou/koudou_top.html"
+    },
+    {
+      "text": "FCP (Food Communication Project)",
+      "url": "https://www.maff.go.jp/j/shokusan/fcp/index.html"
+    },
+    {
+      "text": "食文化のポータルサイト",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/index.html"
+    },
+    {
+      "text": "統計部",
+      "url": "https://www.maff.go.jp/j/tokei/index.html"
+    },
+    {
+      "text": "統計情報",
+      "url": "https://www.maff.go.jp/j/tokei/index.html"
+    },
+    {
+      "text": "図書館情報",
+      "url": "https://www.maff.go.jp/j/library/portal/index.html"
+    },
+    {
+      "text": "MAFF統計ダッシュボード",
+      "url": "https://www.maff.go.jp/j/tokei/dashboard/index.html"
+    },
+    {
+      "text": "役立つデータ分析 (分析レポート)",
+      "url": "https://www.maff.go.jp/j/tokei/bunseki/index.html"
+    },
+    {
+      "text": "検査·監察部",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/kensa/index.html"
+    },
+    {
+      "text": "訓令・通知",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/kensa/kunrei/index.html"
+    },
+    {
+      "text": "検査マニュアル等",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/kensa/manual/index.html"
+    },
+    {
+      "text": "意見申出制度及び検査モニター制度",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/kensa/k_gaiyo/index.html"
+    },
+    {
+      "text": "農業協同組合法に定める要請検査",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/kensa/kizyun.html"
+    },
+    {
+      "text": "検査方針・研修実績等",
+      "url": "https://www.maff.go.jp/j/kensabu/chosei/160912.html"
+    },
+    {
+      "text": "消費·安全局",
+      "url": "https://www.maff.go.jp/j/syouan/index.html"
+    },
+    {
+      "text": "消費者のみなさまへ",
+      "url": "https://www.maff.go.jp/j/syouan/shouhi_portal/index.html"
+    },
+    {
+      "text": "消費者の部屋",
+      "url": "https://www.maff.go.jp/j/heya/index.html"
+    },
+    {
+      "text": "食品の安全確保",
+      "url": "https://www.maff.go.jp/j/syouan/seisaku/risk_manage/index.html"
+    },
+    {
+      "text": "生産資材の安全確保",
+      "url": "https://www.maff.go.jp/j/syouan/soumu/mat-index.html"
+    },
+    {
+      "text": "家畜防疫",
+      "url": "https://www.maff.go.jp/j/syouan/douei/katiku_yobo/index.html"
+    },
+    {
+      "text": "動物検疫",
+      "url": "https://www.maff.go.jp/j/syouan/douei/katiku_yobo/index.html#2"
+    },
+    {
+      "text": "植物防疫",
+      "url": "https://www.maff.go.jp/j/syouan/index.html#shokubutsuboueki"
+    },
+    {
+      "text": "獣医師、獣医療",
+      "url": "https://www.maff.go.jp/j/syouan/tikusui/zyui/index.html"
+    },
+    {
+      "text": "米トレーサビリティ・食品表示",
+      "url": "https://www.maff.go.jp/j/syouan/kanshitoppage.html"
+    },
+    {
+      "text": "トレーサビリティ",
+      "url": "https://www.maff.go.jp/j/syouan/seisaku/trace/index.html"
+    },
+    {
+      "text": "リスクコミュニケーション",
+      "url": "https://www.maff.go.jp/j/syouan/johokan/risk_comm/r_kekka_radio/index.html"
+    },
+    {
+      "text": "健康な食生活",
+      "url": "https://www.maff.go.jp/j/fs/index.html"
+    },
+    {
+      "text": "食育の推進",
+      "url": "https://www.maff.go.jp/j/syokuiku/index.html"
+    },
+    {
+      "text": "円滑な食品アクセスの確保",
+      "url": "https://www.maff.go.jp/j/syouan/access/index.html"
+    },
+    {
+      "text": "輸出・国際局",
+      "url": "https://www.maff.go.jp/j/yusyutu_kokusai/index.html"
+    },
+    {
+      "text": "G7宮崎農業大臣会合",
+      "url": "https://www.maff.go.jp/j/kokusai/kokusei/kanren_sesaku/G7_G20/230306.html"
+    },
+    {
+      "text": "輸出本部",
+      "url": "https://www.maff.go.jp/j/shokusan/hq/index-1.html"
+    },
+    {
+      "text": "農林水産物・食品輸出プロジェクト（GFP）",
+      "url": "https://www.gfp1.maff.go.jp/"
+    },
+    {
+      "text": "輸出相談窓口",
+      "url": "https://www.maff.go.jp/j/shokusan/export/e_soudan/index.html"
+    },
+    {
+      "text": "EPA利用早わかりサイト",
+      "url": "https://www.maff.go.jp/j/kokusai/renkei/fta_kanren/epa_n.html"
+    },
+    {
+      "text": "EPA/FTA等",
+      "url": "https://www.maff.go.jp/j/kokusai/renkei/fta_kanren/index.html"
+    },
+    {
+      "text": "関税制度",
+      "url": "https://www.maff.go.jp/j/kokusai/boueki/index.html"
+    },
+    {
+      "text": "日本食・食文化の海外発信",
+      "url": "https://www.maff.go.jp/j/shokusan/eat/160328_shokub.html"
+    },
+    {
+      "text": "グローバル・フードバリューチェーン（海外展開支援）",
+      "url": "https://www.maff.go.jp/j/kokusai/kokkyo/food_value_chain/about.html"
+    },
+    {
+      "text": "GI・知的財産",
+      "url": "https://www.maff.go.jp/j/shokusan/gi_act/index.html"
+    },
+    {
+      "text": "品種登録",
+      "url": "https://www.maff.go.jp/j/shokusan/hinshu/index.html"
+    },
+    {
+      "text": "海外農業情報・貿易情報",
+      "url": "https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/index.html"
+    },
+    {
+      "text": "農産局",
+      "url": "https://www.maff.go.jp/j/nousan/index.html"
+    },
+    {
+      "text": "米（稲）",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/kome_shisaku.html"
+    },
+    {
+      "text": "麦",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/mugi.html"
+    },
+    {
+      "text": "大豆",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/daizu.html"
+    },
+    {
+      "text": "野菜・果樹・花き",
+      "url": "https://www.maff.go.jp/j/seisan/ryutu/engei/index.html"
+    },
+    {
+      "text": "蚕糸・茶・薬用作物・こんにゃく・いぐさ（畳表）・その他",
+      "url": "https://www.maff.go.jp/j/seisan/tokusan/regional/index.html"
+    },
+    {
+      "text": "甘味資源作物・いも類・そば・なたね",
+      "url": "https://www.maff.go.jp/j/seisan/tokusan/index.html"
+    },
+    {
+      "text": "水田農業の高収益化の推進",
+      "url": "https://www.maff.go.jphttps://www.maff.go.jp/j/seisaku_tokatu/suiden_kosyueki.html"
+    },
+    {
+      "text": "経営所得安定対策",
+      "url": "https://www.maff.go.jp/j/seisaku_tokatu/antei/keiei_antei.html"
+    },
+    {
+      "text": "農業用ドローンの普及拡大",
+      "url": "https://www.maff.go.jp/j/kanbo/smart/drone.html"
+    },
+    {
+      "text": "産地の収益力強化",
+      "url": "https://www.maff.go.jp/j/seisan/suisin/tuyoi_nougyou/index.html"
+    },
+    {
+      "text": "農業生産工程管理（GAP）",
+      "url": "https://www.maff.go.jp/j/seisan/gizyutu/gap/index.html"
+    },
+    {
+      "text": "普及事業",
+      "url": "https://www.maff.go.jp/j/seisan/gizyutu/hukyu/index.html"
+    },
+    {
+      "text": "農業支援サービス",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/service.html"
+    },
+    {
+      "text": "農業生産資材",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/index.html"
+    },
+    {
+      "text": "農作業安全対策",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/s_kikaika/anzen/index.html"
+    },
+    {
+      "text": "環境保全型農業",
+      "url": "https://www.maff.go.jp/j/seisan/kankyo/hozen_type/index.html"
+    },
+    {
+      "text": "有機農業",
+      "url": "https://www.maff.go.jp/j/seisan/kankyo/yuuki/index.html"
+    },
+    {
+      "text": "地球温暖化対策",
+      "url": "https://www.maff.go.jp/j/seisan/kankyo/ondanka/index.html"
+    },
+    {
+      "text": "スマート技術体系への転換",
+      "url": "https://www.maff.go.jp/j/seisan/sien/sizai/sumaten.html"
+    },
+    {
+      "text": "畜産局",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/index.html"
+    },
+    {
+      "text": "牛乳乳製品消費拡大の取組",
+      "url": "https://www.maff.go.jp/j/chikusan/gyunyu/lin/gyunyu_smile.html"
+    },
+    {
+      "text": "畜産・酪農をめぐる情勢",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/l_hosin/index.html#01"
+    },
+    {
+      "text": "畜産農家への支援",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/l_zigyo/index.html"
+    },
+    {
+      "text": "畜産クラスター事業等",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/l_cluster.html"
+    },
+    {
+      "text": "持続的な畜産物生産の在り方検討会",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/l_tiku_manage/index.html#zizoku"
+    },
+    {
+      "text": "国産飼料の生産・利用の拡大",
+      "url": "https://www.maff.go.jp/j/chikusan/sinko/lin/l_siryo/index.html"
+    },
+    {
+      "text": "畜産環境対策",
+      "url": "https://www.maff.go.jp/j/chikusan/kankyo/taisaku/index.html"
+    },
+    {
+      "text": "畜産物の輸出",
+      "url": "https://www.maff.go.jp/j/chikusan/shokuniku/tikusan_butuno_yusyutu.html"
+    },
+    {
+      "text": "家畜遺伝資源の管理・保護",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/kachiku_iden.html"
+    },
+    {
+      "text": "アニマルウェルフェア",
+      "url": "https://www.maff.go.jp/j/chikusan/sinko/animal_welfare.html"
+    },
+    {
+      "text": "乳用牛",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/nyugyu.html"
+    },
+    {
+      "text": "肉用牛",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/nikugyu.html"
+    },
+    {
+      "text": "豚",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/buta.html"
+    },
+    {
+      "text": "鶏",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/tori.html"
+    },
+    {
+      "text": "その他",
+      "url": "https://www.maff.go.jp/j/chikusan/kikaku/tikusan_sogo/sonota.html"
+    },
+    {
+      "text": "牛乳・乳製品",
+      "url": "https://www.maff.go.jp/j/chikusan/gyunyu/lin/index.html"
+    },
+    {
+      "text": "食肉・鶏卵",
+      "url": "https://www.maff.go.jp/j/chikusan/shokuniku/lin/index.html"
+    },
+    {
+      "text": "飼料",
+      "url": "https://www.maff.go.jp/j/chikusan/sinko/lin/l_siryo/index.html"
+    },
+    {
+      "text": "競馬",
+      "url": "https://www.maff.go.jp/j/chikusan/keiba/lin/index.html"
+    },
+    {
+      "text": "経営局",
+      "url": "https://www.maff.go.jp/j/keiei/index.html"
+    },
+    {
+      "text": "地域計画",
+      "url": "https://www.maff.go.jp/j/keiei/koukai/chiiki_keikaku.html"
+    },
+    {
+      "text": "農業経営人材の育成に向けた官民協議会",
+      "url": "https://www.maff.go.jp/j/keiei/ikusei_kyogikai.html"
+    },
+    {
+      "text": "担い手と集落営農",
+      "url": "https://www.maff.go.jp/j/kobetu_ninaite/index.html#ninaite"
+    },
+    {
+      "text": "経営体育成支援",
+      "url": "https://www.maff.go.jp/j/keiei/keikou/kouzou_taisaku/index.html"
+    },
+    {
+      "text": "農地中間管理機構の活用",
+      "url": "https://www.maff.go.jp/j/keiei/koukai/kikou/nouchibank.html"
+    },
+    {
+      "text": "農地制度",
+      "url": "https://www.maff.go.jp/j/keiei/koukai/soudan/index.html"
+    },
+    {
+      "text": "農業参入ポータル（外部リンク）",
+      "url": "https://sannyu-portal.maff.go.jp/"
+    },
+    {
+      "text": "新規就農の促進",
+      "url": "https://www.maff.go.jp/j/new_farmer/index.html"
+    },
+    {
+      "text": "農業の働き方改革",
+      "url": "https://www.maff.go.jp/j/keiei/nougyou_jinzaiikusei_kakuho/hatarakikata.html"
+    },
+    {
+      "text": "外国人の受け入れ",
+      "url": "https://www.maff.go.jp/j/keiei/foreigner/index.html"
+    },
+    {
+      "text": "女性の活躍推進",
+      "url": "https://www.maff.go.jp/j/keiei/jyosei/index.html"
+    },
+    {
+      "text": "農協・農事組合法人",
+      "url": "https://www.maff.go.jp/j/keiei/sosiki/kyosoka/index.html"
+    },
+    {
+      "text": "農林年金制度の完了について",
+      "url": "https://www.maff.go.jp/j/keiei/sosiki/180612.html"
+    },
+    {
+      "text": "農業金融",
+      "url": "https://www.maff.go.jp/j/keiei/kinyu/index.html"
+    },
+    {
+      "text": "農業保険（収入保険・農業共済）",
+      "url": "https://www.maff.go.jp/j/keiei/nogyohoken/index.html"
+    },
+    {
+      "text": "農業版BCP",
+      "url": "https://www.maff.go.jp/j/keiei/maff_bcp.html"
+    },
+    {
+      "text": "農村振興局",
+      "url": "https://www.maff.go.jp/j/nousin/index.html"
+    },
+    {
+      "text": "農山漁村発イノベーション",
+      "url": "https://www.maff.go.jp/j/nousin/inobe/index.html"
+    },
+    {
+      "text": "農泊",
+      "url": "https://www.maff.go.jp/j/nousin/kouryu/nouhakusuishin/nouhaku_top.html"
+    },
+    {
+      "text": "農福連携",
+      "url": "https://www.maff.go.jp/j/nousin/kouryu/noufuku/index.html"
+    },
+    {
+      "text": "世界農業遺産・日本農業遺産",
+      "url": "https://www.maff.go.jp/j/nousin/kantai/index.html"
+    },
+    {
+      "text": "世界かんがい施設遺産",
+      "url": "https://www.maff.go.jp/j/nousin/kaigai/ICID/his/his.html"
+    },
+    {
+      "text": "農村RMO",
+      "url": "https://www.maff.go.jp/j/nousin/nrmo/index.html"
+    },
+    {
+      "text": "「デジ活」中山間地域",
+      "url": "https://www.maff.go.jp/j/nousin/digikatsu/index.html"
+    },
+    {
+      "text": "農業の多面的機能",
+      "url": "https://www.maff.go.jp/j/nousin/noukan/nougyo_kinou/index.html"
+    },
+    {
+      "text": "棚田振興",
+      "url": "https://www.maff.go.jp/j/nousin/tanada/tanada.html"
+    },
+    {
+      "text": "多面的機能支払交付金",
+      "url": "https://www.maff.go.jp/j/nousin/kanri/tamen_siharai.html"
+    },
+    {
+      "text": "中山間地域等直接支払制度",
+      "url": "https://www.maff.go.jp/j/nousin/tyusan/siharai_seido/index.html"
+    },
+    {
+      "text": "鳥獣被害対策",
+      "url": "https://www.maff.go.jp/j/seisan/tyozyu/higai/index.html"
+    },
+    {
+      "text": "ジビエ利用拡大",
+      "url": "https://www.maff.go.jp/j/nousin/gibier/index.html"
+    },
+    {
+      "text": "農業振興地域制度",
+      "url": "https://www.maff.go.jp/j/nousin/noukei/totiriyo/index.html"
+    },
+    {
+      "text": "農地転用許可",
+      "url": "https://www.maff.go.jp/j/nousin/noukei/totiriyo/nouchi_tenyo.html"
+    },
+    {
+      "text": "荒廃農地の発生防止・解消等",
+      "url": "https://www.maff.go.jp/j/nousin/tikei/houkiti/index.html"
+    },
+    {
+      "text": "農業農村整備事業について",
+      "url": "https://www.maff.go.jp/j/nousin/sekkei/nn/index.html"
+    },
+    {
+      "text": "農業水利施設の保全管理",
+      "url": "https://www.maff.go.jp/j/nousin/mizu/sutomane/index.html"
+    },
+    {
+      "text": "都市農業の振興・市民農園制度",
+      "url": "https://www.maff.go.jp/j/nousin/kouryu/tosi_nougyo/index.html"
+    },
+    {
+      "text": "会見·報道·広報",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "会見·報道·広報 トップ",
+      "url": "https://www.maff.go.jp/j/pr/index.html"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "大臣等記者会見",
+      "url": "https://www.maff.go.jp/j/press-conf/index.html"
+    },
+    {
+      "text": "報道発表資料",
+      "url": "https://www.maff.go.jp/j/press/index.html"
+    },
+    {
+      "text": "災害に関する情報",
+      "url": "https://www.maff.go.jp/j/saigai/index.html"
+    },
+    {
+      "text": "大臣、副大臣、政務官等の出張情報",
+      "url": "https://www.maff.go.jp/j/pr/event/seimu.release.html"
+    },
+    {
+      "text": "会議等の開催情報",
+      "url": "https://www.maff.go.jp/j/pr/event/kaigi.release.html"
+    },
+    {
+      "text": "Webマガジン",
+      "url": "https://www.maff.go.jp/j/pr/aff/index.html"
+    },
+    {
+      "text": "年報・パンフレット",
+      "url": "https://www.maff.go.jp/j/pr/annual/index.html"
+    },
+    {
+      "text": "メールマガジン",
+      "url": "https://www.maff.go.jp/j/pr/e-mag/index.html"
+    },
+    {
+      "text": "ソーシャルメディア一覧",
+      "url": "https://www.maff.go.jp/j/pr/social_media/index.html"
+    },
+    {
+      "text": "地方農政局等の取組",
+      "url": "https://www.maff.go.jp/j/kanbo/tiho/index.html"
+    },
+    {
+      "text": "政策情報",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "政策情報 トップ",
+      "url": "https://www.maff.go.jp/j/lower.html"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "基本政策",
+      "url": "https://www.maff.go.jp/j/lower.html#1"
+    },
+    {
+      "text": "食の安全と消費者の信頼確保",
+      "url": "https://www.maff.go.jp/j/lower.html#2"
+    },
+    {
+      "text": "食料産業・食文化",
+      "url": "https://www.maff.go.jp/j/lower.html#3"
+    },
+    {
+      "text": "農業生産",
+      "url": "https://www.maff.go.jp/j/lower.html#4"
+    },
+    {
+      "text": "農業経営",
+      "url": "https://www.maff.go.jp/j/lower.html#5"
+    },
+    {
+      "text": "農村振興",
+      "url": "https://www.maff.go.jp/j/lower.html#6"
+    },
+    {
+      "text": "輸出・国際",
+      "url": "https://www.maff.go.jp/j/lower.html#7"
+    },
+    {
+      "text": "技術・研究",
+      "url": "https://www.maff.go.jp/j/lower.html#8"
+    },
+    {
+      "text": "検査",
+      "url": "https://www.maff.go.jp/j/lower.html#9"
+    },
+    {
+      "text": "審議会",
+      "url": "https://www.maff.go.jp/j/council/index.html"
+    },
+    {
+      "text": "研究会等",
+      "url": "https://www.maff.go.jp/j/study/index.html"
+    },
+    {
+      "text": "法令、告示・通知等",
+      "url": "https://www.maff.go.jp/j/law/index.html"
+    },
+    {
+      "text": "予算、決算、財務書類等",
+      "url": "https://www.maff.go.jp/j/budget/index.html"
+    },
+    {
+      "text": "補助事業、税制",
+      "url": "https://www.maff.go.jp/j/aid/index.html"
+    },
+    {
+      "text": "政策評価",
+      "url": "https://www.maff.go.jp/j/assess/index.html"
+    },
+    {
+      "text": "白書情報",
+      "url": "https://www.maff.go.jp/j/wpaper/index.html"
+    },
+    {
+      "text": "災害",
+      "url": "https://www.maff.go.jp/j/saigai/index.html"
+    },
+    {
+      "text": "東日本大震災に関する情報",
+      "url": "https://www.maff.go.jp/j/kanbo/joho/saigai/index.html"
+    },
+    {
+      "text": "その他",
+      "url": "https://www.maff.go.jp/j/lower.html#10"
+    },
+    {
+      "text": "統計情報",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "統計情報 トップ",
+      "url": "https://www.maff.go.jp/j/tokei/index.html"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "新着統計情報等",
+      "url": "https://www.maff.go.jp/j/tokei/index.html#t"
+    },
+    {
+      "text": "農家数、担い手、農地に関する統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya1.html"
+    },
+    {
+      "text": "作付面積・生産量、家畜頭数等の統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya2.html"
+    },
+    {
+      "text": "経営収支、産出額、物価等の統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya3.html"
+    },
+    {
+      "text": "卸売市場の統計・市況",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya4.html"
+    },
+    {
+      "text": "日別グラフ",
+      "url": "https://www.maff.go.jp/j/tokei/syohi/oroshi_kakaku/index.html"
+    },
+    {
+      "text": "森林・林業に関する統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya5.html"
+    },
+    {
+      "text": "水産業に関する統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya6.html"
+    },
+    {
+      "text": "6次産業化に関する統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya10.html"
+    },
+    {
+      "text": "輸出入に関する統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya7.html"
+    },
+    {
+      "text": "食料需給表、食品産業等の統計",
+      "url": "https://www.maff.go.jp/j/tokei/kouhyou/kensaku/bunya8.html"
+    },
+    {
+      "text": "役立つデータ分析",
+      "url": "https://www.maff.go.jp/j/tokei/bunseki/index.html"
+    },
+    {
+      "text": "MAFF統計ダッシュボード",
+      "url": "https://www.maff.go.jp/j/tokei/dashboard/index.html"
+    },
+    {
+      "text": "農林水産基本データ",
+      "url": "https://www.maff.go.jp/j/tokei/sihyo/index.html"
+    },
+    {
+      "text": "農林業センサス",
+      "url": "https://www.maff.go.jp/j/tokei/census/afc/index.html"
+    },
+    {
+      "text": "漁業センサス",
+      "url": "https://www.maff.go.jp/j/tokei/census/fc/index.html"
+    },
+    {
+      "text": "地域の農業を見て知って活かすDB",
+      "url": "https://www.maff.go.jp/j/tokei/census/shuraku_data/index.html"
+    },
+    {
+      "text": "地域の漁業を見て知って活かすDB",
+      "url": "https://www.maff.go.jp/j/tokei/census/fc/database/index.html"
+    },
+    {
+      "text": "わがマチ・わがムラ",
+      "url": "https://www.machimura.maff.go.jp/machi/"
+    },
+    {
+      "text": "申請·お問い合わせ",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "申請·お問い合わせ トップ",
+      "url": "https://www.maff.go.jp/j/apply/index.html"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "ご意見・お問い合わせ窓口",
+      "url": "https://www.maff.go.jp/j/apply/recp/index.html"
+    },
+    {
+      "text": "地方公共団体等からの政策提案",
+      "url": "https://www.maff.go.jp/j/apply/teian/index.html"
+    },
+    {
+      "text": "パブリックコメント",
+      "url": "https://www.maff.go.jp/j/public/index.html"
+    },
+    {
+      "text": "法令適用事前確認手続",
+      "url": "https://www.maff.go.jp/j/apply/nal/index.html"
+    },
+    {
+      "text": "公益通報の受付窓口",
+      "url": "https://www.maff.go.jp/j/tell/index.html"
+    },
+    {
+      "text": "情報公開",
+      "url": "https://www.maff.go.jp/j/kanbo/bunsyo/zyoho_kokai/index.html"
+    },
+    {
+      "text": "個人情報",
+      "url": "https://www.maff.go.jp/j/kanbo/joho/kozin_zyoho/index.html"
+    },
+    {
+      "text": "調達情報・公表事項",
+      "url": "https://www.maff.go.jp/j/supply/index.html"
+    },
+    {
+      "text": "電子入札センター",
+      "url": "https://www.maff-ebic.go.jp/menu.html"
+    },
+    {
+      "text": "補助事業参加者の公募",
+      "url": "https://www.maff.go.jp/j/supply/hozyo/index.html"
+    },
+    {
+      "text": "農林水産省後援名義の申請",
+      "url": "https://www.maff.go.jp/j/apply/kouen.html"
+    },
+    {
+      "text": "農林水産省について",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "農林水産省について トップ",
+      "url": "https://www.maff.go.jp/j/org/index.html"
+    },
+    {
+      "text": "閉じる",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "大臣・副大臣・政務官",
+      "url": "https://www.maff.go.jp/j/org/who/kanbu.html"
+    },
+    {
+      "text": "幹部紹介",
+      "url": "https://www.maff.go.jp/j/org/who/index.html"
+    },
+    {
+      "text": "幹部職員名簿",
+      "url": "https://www.maff.go.jp/j/org/who/meibo/index.html"
+    },
+    {
+      "text": "幹部人事異動情報",
+      "url": "https://www.maff.go.jp/j/org/who/meibo/personnel_change/index.html"
+    },
+    {
+      "text": "組織案内・組織図",
+      "url": "https://www.maff.go.jp/j/org/outline/index.html"
+    },
+    {
+      "text": "組織・定員",
+      "url": "https://www.maff.go.jp/j/org/quota/index.html"
+    },
+    {
+      "text": "所在地（地図）",
+      "url": "https://www.maff.go.jp/j/use/map.html"
+    },
+    {
+      "text": "図書館利用案内",
+      "url": "https://www.maff.go.jp/j/library/portal/index.html"
+    },
+    {
+      "text": "食堂利用案内",
+      "url": "https://www.maff.go.jp/j/heya/syokudo/index.html"
+    },
+    {
+      "text": "所管法人",
+      "url": "https://www.maff.go.jp/j/corp/index.html"
+    },
+    {
+      "text": "お知らせ",
+      "url": "https://www.maff.go.jp/j/org/announce/index.html"
+    },
+    {
+      "text": "採用案内",
+      "url": "https://www.maff.go.jp/j/joinus/recruit/index.html"
+    },
+    {
+      "text": "インターンシップ（外部リンク）",
+      "url": "https://careers.maff.go.jp/recruit/events/internship/"
+    },
+    {
+      "text": "民間企業との交流",
+      "url": "https://www.maff.go.jp/j/joinus/exchange/index.html"
+    },
+    {
+      "text": "ホーム",
+      "url": "https://www.maff.go.jp/index.html"
+    },
+    {
+      "text": "農産",
+      "url": "https://www.maff.go.jp/j/nousan/index.html"
+    },
+    {
+      "text": "米(稲)",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/kome_shisaku.html"
+    },
+    {
+      "text": "6.需要拡大",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/kome_juyo.html"
+    },
+    {
+      "text": "米の消費拡大情報サイト「やっぱりごはんでしょ！」",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/gohan.html"
+    },
+    {
+      "text": "米・米粉情報まとめサイトOKOME-SUMMARY",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/index.html"
+    },
+    {
+      "text": "02米の特性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/index.html"
+    },
+    {
+      "text": "最近の米の品種動向",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/01/type01.html"
+    },
+    {
+      "text": "市場ニーズに合う品種開発",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/01/type02.html"
+    },
+    {
+      "text": "お米の産地銘柄とブレンド米の進化",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/01/type03.html"
+    },
+    {
+      "text": "米の調理特性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html"
+    },
+    {
+      "text": "米の貯蔵中の変化、低温貯蔵効果",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_02.html"
+    },
+    {
+      "text": "栽培・収穫乾燥・籾摺り・精米加工と品質について",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_03.html"
+    },
+    {
+      "text": "精米JAS（日本農林規格）について",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_04.html"
+    },
+    {
+      "text": "米と栄養",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/health01.html"
+    },
+    {
+      "text": "学校給食と米飯給食",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/health02.html"
+    },
+    {
+      "text": "健康的な食事におけるご飯の位置づけ",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/health03.html"
+    },
+    {
+      "text": "米とスポーツ栄養",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/health04.html"
+    },
+    {
+      "text": "日本人とお米の力～健康実現の救世主",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/health05.html"
+    },
+    {
+      "text": "健康志向で注目される米",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_01.html"
+    },
+    {
+      "text": "超硬質米による糖尿病・認知症予防の可能性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_02.html"
+    },
+    {
+      "text": "グルテン関連の疾患とグルテンフリー",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_03.html"
+    },
+    {
+      "text": "米タンパク質の基本的性質とその機能性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_04.html"
+    },
+    {
+      "text": "食事パターンと血清脂質との関連",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_05.html"
+    },
+    {
+      "text": "玄米の非アルコール性脂肪肝改善作用",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_06.html"
+    },
+    {
+      "text": "米ぬかとこめ油",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_07.html"
+    },
+    {
+      "text": "玄米と玄米粉の加工適性、健康機能性と利用",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/functio_nality_08.html"
+    },
+    {
+      "text": "米の食味の理化学評価",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/05/evalu_ation_01.html"
+    },
+    {
+      "text": "官能評価による判別方法",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/05/evalu_ation_02.html"
+    },
+    {
+      "text": "農産物検査規格と穀粒判別器について",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/05/evalu_ation_03.html"
+    },
+    {
+      "text": "食味測定装置による測定方法",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/05/evalu_ation_04.html"
+    },
+    {
+      "text": "拡大する加工米飯市場",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_01.html"
+    },
+    {
+      "text": "無洗米～精米の加工技術～",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_02.html"
+    },
+    {
+      "text": "アルファ化米―おいしい非常食へと進化",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_03.html"
+    },
+    {
+      "text": "多様化する米飯非常食",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_04.html"
+    },
+    {
+      "text": "包装容器から見たパックご飯",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_05.html"
+    },
+    {
+      "text": "米ぬかたんぱく質からの植物肉（代替肉）",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/pro_cessing_06.html"
+    },
+    {
+      "text": "農業の多面的機能",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/environ_ment_01.html"
+    },
+    {
+      "text": "米と食料安全保障",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/environ_ment_02.html"
+    },
+    {
+      "text": "和食としての米",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/environ_ment_03.html"
+    },
+    {
+      "text": "米生産と地域振興活動",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/environ_ment_04.html"
+    },
+    {
+      "text": "地球環境を考えた米作り",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/environ_ment_05.html"
+    },
+    {
+      "text": "米粉のノングルテンの第三者認証と製造工程管理JAS",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/08/rice_flour_charac_teristic_02.html"
+    },
+    {
+      "text": "米粉の用途別基準",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/08/rice_flour_charac_teristic_03.html"
+    },
+    {
+      "text": "米粉の利用",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/08/rice_flour_charac_teristic_04.html"
+    },
+    {
+      "text": "米粉の調理科学",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/08/rice_flour_charac_teristic_05.html"
+    },
+    {
+      "text": "増粘剤を使用しない米粉100％パンの開発とメカニズムの解明",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/09/rice_flour_pro_cessing_01.html"
+    },
+    {
+      "text": "自家栽培米を使った米粉の6次産業化の可能性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/09/rice_flour_pro_cessing_02.html"
+    },
+    {
+      "text": "製粉技術から見た米粉の特性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/09/rice_flour_pro_cessing_03.html"
+    },
+    {
+      "text": "国産米を使った米粉めんの製造",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/09/rice_flour_pro_cessing_04.html"
+    },
+    {
+      "text": "お米の消費に関する調査 ネットリサーチ報告書",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/10/investigation_report.pdf"
+    },
+    {
+      "text": "お米の消費に関する調査 インタビューリサーチ報告書",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/10/research_interview.pdf"
+    },
+    {
+      "text": "01 米の品種",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/01/"
+    },
+    {
+      "text": "02 米の特性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/"
+    },
+    {
+      "text": "03 米と健康",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/03/"
+    },
+    {
+      "text": "04 米の機能性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/04/"
+    },
+    {
+      "text": "05 米の食味と評価",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/05/"
+    },
+    {
+      "text": "06 米の加工品",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/06/"
+    },
+    {
+      "text": "07 米と環境、食文化",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/07/"
+    },
+    {
+      "text": "08 米粉の種類と特性",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/08/"
+    },
+    {
+      "text": "09 米粉の加工",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/09/"
+    },
+    {
+      "text": "10 調査アンケート",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/10/"
+    },
+    {
+      "text": "米・米粉情報まとめサイトトップへ戻る",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/"
+    },
+    {
+      "text": "",
+      "url": "https://get.adobe.com/jp/reader/"
+    },
+    {
+      "text": "",
+      "url": "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/charact_eristic_01.html#"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/maffjapan"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/MAFF_JAPAN"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/channel/UCDrlZ0fFFrVkhaV4rFKba9w"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/maffjapan/?hl=ja"
+    },
+    {
+      "text": "関連リンク集",
+      "url": "https://www.maff.go.jp/j/link/index.html"
+    },
+    {
+      "text": "農林水産省 トップページへ",
+      "url": "https://www.maff.go.jp/index.html"
+    },
+    {
+      "text": "代表番号へのお電話について",
+      "url": "https://www.maff.go.jp/j/use/map.html#address"
+    },
+    {
+      "text": "ご意見·お問い合わせ",
+      "url": "https://www.maff.go.jp/j/apply/recp/index.html"
+    },
+    {
+      "text": "アクセス·地図",
+      "url": "https://www.maff.go.jp/j/use/map.html"
+    },
+    {
+      "text": "サイトマップ",
+      "url": "https://www.maff.go.jp/j/use/sitemap.html"
+    },
+    {
+      "text": "プライバシーポリシー",
+      "url": "https://www.maff.go.jp/j/use/pp.html"
+    },
+    {
+      "text": "リンクについて・著作権",
+      "url": "https://www.maff.go.jp/j/use/link.html"
+    },
+    {
+      "text": "免責事項",
+      "url": "https://www.maff.go.jp/j/use/escape.html"
+    },
+    {
+      "text": "ウェブアクセシビリティ",
+      "url": "https://www.maff.go.jp/j/use/webaccessibility/250331.html"
+    },
+    {
+      "text": "電話リレーサービス（手話リンク）のご利用について",
+      "url": "https://www.maff.go.jp/syuwa.html"
+    },
+    {
+      "text": "農林水産省チャットボット Maffbot(マフボット)",
+      "url": "https://www.maff.govbot.go.jp/"
+    }
+  ],
+  "images": [
+    "https://www.maff.go.jp/j/shared_new/shared/images/logo_ci.gif",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_search1@2x.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_menu_open.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/btn_gnav1.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/btn_gnav2.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/btn_gnav3.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/btn_gnav4.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/btn_gnav5.png",
+    "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/img/img_fv_sp.jpg",
+    "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/img/characteristic01-1.png?2024",
+    "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/img/characteristic01-2.png",
+    "https://www.maff.go.jp/j/syouan/keikaku/soukatu/okome_summary/02/img/characteristic01-3.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/bnr_adobe_reader.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_pnavi@2x.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_fb.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_tw.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_yt.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/icon_ig.png",
+    "https://www.maff.go.jp/j/shared_new/shared/images/logo_ci.gif"
+  ],
+  "status": "success",
+  "seconds": 1.587
+}

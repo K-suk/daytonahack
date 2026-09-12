@@ -1,0 +1,281 @@
+{
+  "name": "rice",
+  "sourceUrl": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7",
+  "fetchedAt": "2026-09-12T05:27:52.179879+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7",
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 26565,
+  "sha256": "41a25b2160c67ae038cd7680c466e273506e6207b694a8a494625381f1cf3d5c",
+  "links": [
+    {
+      "text": "標準",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7#"
+    },
+    {
+      "text": "大",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7#"
+    },
+    {
+      "text": "特大",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7#"
+    },
+    {
+      "text": "02.アミノ酸-可食部100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=1"
+    },
+    {
+      "text": "03.アミノ酸-基準窒素1 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=2"
+    },
+    {
+      "text": "04.アミノ酸-アミノ酸組成によるたんぱく質1 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=3"
+    },
+    {
+      "text": "05.アミノ酸-(基準窒素による)たんぱく質1 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=10"
+    },
+    {
+      "text": "06.脂肪酸-可食部100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=4"
+    },
+    {
+      "text": "07.脂肪酸-脂肪酸総量100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=5"
+    },
+    {
+      "text": "08.脂肪酸-脂質1 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=6"
+    },
+    {
+      "text": "09.炭水化物-可食部100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=7"
+    },
+    {
+      "text": "10.食物繊維-可食部100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=8"
+    },
+    {
+      "text": "11.有機酸-可食部100 g",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=1_01088_7&MODE=9"
+    },
+    {
+      "text": "廃棄率",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "エネルギー",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "水分",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "アミノ酸組成によるたんぱく質",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "たんぱく質",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "脂肪酸のトリアシルグリセロール当量",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "コレステロール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "脂質",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "利用可能炭水化物（単糖当量）",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "利用可能炭水化物（質量計）",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "差引き法による利用可能炭水化物",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "食物繊維総量",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "糖アルコール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "炭水化物",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "有機酸",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "灰分",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ナトリウム",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "カリウム",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "カルシウム",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "マグネシウム",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "リン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "鉄",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "亜鉛",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "銅",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "マンガン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ヨウ素",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "セレン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "クロム",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "モリブデン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "レチノール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "α−カロテン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "β−カロテン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "β−クリプトキサンチン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "β−カロテン当量",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "レチノール活性当量",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンD",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "α−トコフェロール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "β−トコフェロール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "γ−トコフェロール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "δ−トコフェロール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンK",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンB1",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンB2",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ナイアシン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ナイアシン当量",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンB6",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンB12",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "葉酸",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "パントテン酸",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビオチン",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "ビタミンC",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "アルコール",
+      "url": "javascript:void(0);"
+    },
+    {
+      "text": "食塩相当量",
+      "url": "javascript:void(0);"
+    }
+  ],
+  "images": [],
+  "status": "success",
+  "seconds": 1.32
+}

@@ -1,0 +1,201 @@
+{
+  "name": "nosana-deploy-doc",
+  "sourceUrl": "https://learn.nosana.com/api/create-deployments.html",
+  "fetchedAt": "2026-09-12T05:33:15.067417+00:00",
+  "environment": "local",
+  "route": "live",
+  "statusCode": 200,
+  "finalUrl": "https://learn.nosana.com/api/create-deployments.html",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 182175,
+  "sha256": "1b2663b499cdaba9d8028792b8547e0638379531ceb59f1bea3fb51a68e5647a",
+  "links": [
+    {
+      "text": "Skip to content",
+      "url": "https://learn.nosana.com/api/create-deployments.html#VPContent"
+    },
+    {
+      "text": "",
+      "url": "https://learn.nosana.com/"
+    },
+    {
+      "text": "",
+      "url": "https://learn.nosana.com/"
+    },
+    {
+      "text": "About",
+      "url": "https://learn.nosana.com/about/introduction.html"
+    },
+    {
+      "text": "Deployments",
+      "url": "https://learn.nosana.com/deployments/intro.html"
+    },
+    {
+      "text": "API",
+      "url": "https://learn.nosana.com/api/intro.html"
+    },
+    {
+      "text": "SDK",
+      "url": "https://learn.nosana.com/kit/"
+    },
+    {
+      "text": "CLI",
+      "url": "https://learn.nosana.com/inference/quick_start.html"
+    },
+    {
+      "text": "Host GPUs",
+      "url": "https://learn.nosana.com/hosts/grid.html"
+    },
+    {
+      "text": "Programs",
+      "url": "https://learn.nosana.com/programs/start.html"
+    },
+    {
+      "text": "",
+      "url": "https://github.com/nosana-ci/nosana-kit"
+    },
+    {
+      "text": "",
+      "url": "https://github.com/nosana-ci/nosana-kit"
+    },
+    {
+      "text": "Introduction",
+      "url": "https://learn.nosana.com/api/intro.html"
+    },
+    {
+      "text": "Get API Key",
+      "url": "https://learn.nosana.com/api/get-api-key.html"
+    },
+    {
+      "text": "Your First Job",
+      "url": "https://learn.nosana.com/api/first-job.html"
+    },
+    {
+      "text": "Wallet Authentication",
+      "url": "https://learn.nosana.com/api/wallet-authentication.html"
+    },
+    {
+      "text": "Create Deployments",
+      "url": "https://learn.nosana.com/api/create-deployments.html"
+    },
+    {
+      "text": "Manage Deployments",
+      "url": "https://learn.nosana.com/api/manage-deployments.html"
+    },
+    {
+      "text": "Vault Management",
+      "url": "https://learn.nosana.com/api/vault-management.html"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.nosana.com/api/reference.html"
+    },
+    {
+      "text": "Authentication & API Keys",
+      "url": "https://learn.nosana.com/api/auth.html"
+    },
+    {
+      "text": "Jobs",
+      "url": "https://learn.nosana.com/api/jobs.html"
+    },
+    {
+      "text": "Markets",
+      "url": "https://learn.nosana.com/api/markets.html"
+    },
+    {
+      "text": "Credits",
+      "url": "https://learn.nosana.com/api/credits.html"
+    },
+    {
+      "text": "Templates",
+      "url": "https://learn.nosana.com/api/templates.html"
+    },
+    {
+      "text": "Hosts",
+      "url": "https://learn.nosana.com/api/hosts.html"
+    },
+    {
+      "text": "Stats",
+      "url": "https://learn.nosana.com/api/stats.html"
+    },
+    {
+      "text": "Payments",
+      "url": "https://learn.nosana.com/api/payments.html"
+    },
+    {
+      "text": "Benchmarks",
+      "url": "https://learn.nosana.com/api/benchmarks.html"
+    },
+    {
+      "text": "Raw Clients",
+      "url": "https://learn.nosana.com/api/raw-clients.html"
+    },
+    {
+      "text": "​",
+      "url": "https://learn.nosana.com/api/create-deployments.html#create-deployments"
+    },
+    {
+      "text": "​",
+      "url": "https://learn.nosana.com/api/create-deployments.html#prerequisites"
+    },
+    {
+      "text": "API key guide",
+      "url": "https://learn.nosana.com/api/get-api-key.html"
+    },
+    {
+      "text": "job definition",
+      "url": "https://learn.nosana.com/deployments/jobs/job-definition/intro.html"
+    },
+    {
+      "text": "validate it locally",
+      "url": "https://learn.nosana.com/deployments/jobs/job-definition/validation.html"
+    },
+    {
+      "text": "​",
+      "url": "https://learn.nosana.com/api/create-deployments.html#what-you-configure"
+    },
+    {
+      "text": "Deployment Options",
+      "url": "https://learn.nosana.com/deployments/options.html"
+    },
+    {
+      "text": "here",
+      "url": "https://learn.nosana.com/deployments/gpu-markets.html"
+    },
+    {
+      "text": "​",
+      "url": "https://learn.nosana.com/api/create-deployments.html#create-a-deployment"
+    },
+    {
+      "text": "​",
+      "url": "https://learn.nosana.com/api/create-deployments.html#start-a-deployment"
+    },
+    {
+      "text": "Previous page Wallet Authentication",
+      "url": "https://learn.nosana.com/api/wallet-authentication.html"
+    },
+    {
+      "text": "Next page Manage Deployments",
+      "url": "https://learn.nosana.com/api/manage-deployments.html"
+    },
+    {
+      "text": "Deploy",
+      "url": "https://deploy.nosana.com"
+    },
+    {
+      "text": "Explore",
+      "url": "https://explore.nosana.com"
+    },
+    {
+      "text": "Host",
+      "url": "https://host.nosana.com"
+    },
+    {
+      "text": "Stake",
+      "url": "https://stake.nosana.com"
+    }
+  ],
+  "images": [],
+  "status": "success",
+  "seconds": 1.897
+}

@@ -1,0 +1,216 @@
+{
+  "$defs": {
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "route": {
+          "enum": [
+            "live",
+            "saved"
+          ],
+          "title": "Route",
+          "type": "string"
+        },
+        "basis": {
+          "enum": [
+            "source",
+            "estimated",
+            "unknown"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "title": "Sourceurl",
+          "type": "string"
+        },
+        "fetchedAt": {
+          "title": "Fetchedat",
+          "type": "string"
+        },
+        "environment": {
+          "enum": [
+            "local",
+            "daytona",
+            "web-search"
+          ],
+          "title": "Environment",
+          "type": "string"
+        },
+        "estimationReason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Estimationreason"
+        }
+      },
+      "required": [
+        "route",
+        "basis",
+        "sourceUrl",
+        "fetchedAt",
+        "environment"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "storeId": {
+      "title": "Storeid",
+      "type": "string"
+    },
+    "ingredientId": {
+      "title": "Ingredientid",
+      "type": "string"
+    },
+    "productName": {
+      "title": "Productname",
+      "type": "string"
+    },
+    "priceYen": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Priceyen"
+    },
+    "tax": {
+      "enum": [
+        "included",
+        "excluded",
+        "unknown"
+      ],
+      "title": "Tax",
+      "type": "string"
+    },
+    "quantity": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Quantity"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit"
+    },
+    "packGrams": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Packgrams"
+    },
+    "validFrom": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Validfrom"
+    },
+    "validTo": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Validto"
+    },
+    "membershipRequired": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Membershiprequired"
+    },
+    "purchaseConditions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Purchaseconditions"
+    },
+    "comparisonPriceYen": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Comparisonpriceyen"
+    },
+    "evidence": {
+      "$ref": "#/$defs/Evidence"
+    }
+  },
+  "required": [
+    "id",
+    "storeId",
+    "ingredientId",
+    "productName",
+    "tax",
+    "evidence"
+  ],
+  "title": "Deal",
+  "type": "object"
+}

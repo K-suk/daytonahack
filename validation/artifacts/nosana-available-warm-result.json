@@ -1,0 +1,70 @@
+{
+  "startedAt": "2026-09-12T06:51:45.532Z",
+  "deploymentId": "GZFEBV6iFhxpxjc9pJaQQcu3mkAXNimHaeKYGJpYu7P6",
+  "configurationUnchanged": true,
+  "status": "checking",
+  "observations": [
+    {
+      "at": "2026-09-12T06:51:59.929Z",
+      "jobs": [
+        {
+          "state": "RUNNING",
+          "nodeAssigned": true
+        },
+        {
+          "state": "STOPPED",
+          "nodeAssigned": true
+        }
+      ],
+      "online": false
+    },
+    {
+      "at": "2026-09-12T06:52:13.522Z",
+      "jobs": [
+        {
+          "state": "RUNNING",
+          "nodeAssigned": true
+        },
+        {
+          "state": "STOPPED",
+          "nodeAssigned": true
+        }
+      ],
+      "online": false
+    },
+    {
+      "at": "2026-09-12T06:52:30.982Z",
+      "jobs": [
+        {
+          "state": "RUNNING",
+          "nodeAssigned": true
+        },
+        {
+          "state": "STOPPED",
+          "nodeAssigned": true
+        }
+      ],
+      "online": false
+    },
+    {
+      "at": "2026-09-12T06:52:44.600Z",
+      "jobs": [
+        {
+          "state": "RUNNING",
+          "nodeAssigned": true
+        },
+        {
+          "state": "STOPPED",
+          "nodeAssigned": true
+        }
+      ],
+      "online": false
+    }
+  ],
+  "waitingNodes": 2,
+  "creditsBefore": {
+    "assignedCredits": 10,
+    "reservedCredits": 0.088,
+    "settledCredits": 0.03
+  }
+}

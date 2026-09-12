@@ -1,0 +1,24 @@
+{
+  "route": "saved",
+  "processedIn": "daytona",
+  "liveFetchSuccess": false,
+  "inputs": [
+    {
+      "name": "cookpad-one",
+      "sha256": "3890ccbfbce3ef9738ac795be74069862911d9a2787f7541fbd10d56b9cd5533"
+    },
+    {
+      "name": "recipe-25675338",
+      "sha256": "0761ff3994be65b53dc22c4123967ee067ed412d44a26f67bba7690dd7e362b5"
+    },
+    {
+      "name": "recipe-25962767",
+      "sha256": "f9a164d8176e537d1669b78ba072dc9006c55a8479196475d232f4cc119e7bef"
+    }
+  ],
+  "status": "success",
+  "recipeCount": 3,
+  "seconds": 9.989,
+  "cleanup": "deleted",
+  "totalSeconds": 11.187
+}

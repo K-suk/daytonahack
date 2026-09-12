@@ -1,0 +1,30 @@
+{
+  "shopping": [],
+  "dailyNutrition": [
+    {
+      "kcal": 271.0,
+      "protein": 9.15,
+      "fat": 1.05,
+      "carbs": 62.25
+    }
+  ],
+  "weeklyNutrition": {
+    "kcal": 271.0,
+    "protein": 9.15,
+    "fat": 1.05,
+    "carbs": 62.25
+  },
+  "knownSubtotalYen": 0.0,
+  "totalYen": 0.0,
+  "totalBasis": "source",
+  "budgetStatus": "within",
+  "nutritionTargets": [
+    {
+      "day": 1,
+      "protein": "unmet",
+      "kcal": "unmet"
+    }
+  ],
+  "unknowns": [],
+  "purpose": "MEXT arithmetic demonstration only, not a complete dinner"
+}
