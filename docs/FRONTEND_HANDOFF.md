@@ -1,3 +1,7 @@
+# Root integration update (2026-09-12)
+
+The merged root app now exports `http-service.ts` as its active service. Start Python backend on 8787 and Next.js on 4312. Requests use `/api/backend/*`, rewritten to backend `/api/*`. The input IDs and conditions map to the backend schema. Polling returns real events; `SavedResults.tsx` renders partial results and explicit blocked reasons, source previews, and real-plan Swap when available. No mock fallback. The original frontend worktree is unchanged. The following describes the original mock implementation, retained only for reference and isolated tests.
+
 # Dinner Scout frontend handoff
 
 ## Workspace and startup
