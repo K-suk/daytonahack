@@ -7,6 +7,8 @@ node_modules/
 *.tsbuildinfo
 .env*
 !.env.example
+!.env.data.example
 test-results/
 backend/runs/
+.data-runs/
 .playwright-mcp/
