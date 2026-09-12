@@ -1,3 +1,5 @@
+> **過去の実装・検証記録** — 現在の起動方法は [README](README.md)、資料の一覧は [ドキュメント目次](docs/README.md) を参照してください。以下は記録時点の内容です。
+
 > Nosanaの現行運用は [利用手順](validation/nosana/README.md)。待機ノード確認→既存構成start→初回/通常推論prepare→ready→stopへ統合済み。今回の統合では新規起動なし。
 
 > Nosana追加確認: 待機ノードのある3080市場でGemma3 4BのGPU割当とendpoint onlineまで成功。推論はタイムアウト等で未確認。試行リソース停止済み。[最新結果](NOSANA_AVAILABLE_MARKET_RESULT.md)を参照。

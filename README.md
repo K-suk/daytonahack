@@ -32,6 +32,18 @@ npm run test:all
 
 `npm run data:collect -- --small` exercises live providers with small limits and writes private `.data-runs/` artifacts. It uses credits and creates/deletes one Daytona sandbox. Tests use isolated fixtures; they do not automatically run paid provider workflows.
 
+## Project map
+
+| Location | Contents |
+| --- | --- |
+| `app/`, `components/`, `lib/` | Next.js UI, source modes and live data services |
+| `backend/` | Saved-material Python API and planning pipeline |
+| `scripts/`, `tests/` | Local launcher, collection commands and tests |
+| `docs/` | Documentation index, integration records and screenshots |
+| `validation/`, `materials/` | Provider validation tools and source materials |
+
+Start with the [documentation index](docs/README.md) for current contracts, verification evidence and historical reports.
+
 ## Integration references
 
 - [Unified integration and worktree status](docs/INTEGRATION_HANDOFF.md)

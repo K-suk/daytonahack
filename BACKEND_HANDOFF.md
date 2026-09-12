@@ -1,3 +1,5 @@
+> **過去の実装・検証記録** — 現在の起動方法は [README](README.md)、資料の一覧は [ドキュメント目次](docs/README.md) を参照してください。以下は記録時点の内容です。
+
 > 最新契約は [backend/API_CONTRACT.md](backend/API_CONTRACT.md)。manifest取り込み・Source preview・計算/Swap経路を追加済み。以下は初回接続時の履歴です。
 
 # saved経路のバックエンド接続

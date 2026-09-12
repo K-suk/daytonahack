@@ -1,3 +1,5 @@
+> **過去の実装・検証記録** — 現在の起動方法は [README](README.md)、資料の一覧は [ドキュメント目次](docs/README.md) を参照してください。以下は記録時点の内容です。
+
 # 7日献立に向けて必要な資料・補足
 
 資料の追加は`materials/README.md`に従い、元資料とmanifestを用意してください。既存3レシピの正確な行別不足は`backend/missing-materials.json`とAPI result.missingMaterialsに出力済みです。新規資料検索は行っていません。
