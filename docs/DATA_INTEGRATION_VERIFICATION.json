@@ -1,0 +1,340 @@
+{
+  "runId": "a6c1c703-4716-4451-b48f-be436a07ad4f",
+  "status": "partial",
+  "stages": {
+    "firecrawl": {
+      "status": "success"
+    },
+    "themealdb": {
+      "status": "success"
+    },
+    "daytona": {
+      "status": "success"
+    },
+    "aura": {
+      "status": "success"
+    }
+  },
+  "firecrawl": {
+    "requests": 3,
+    "pages": 3,
+    "screenshots": 3,
+    "products": 0
+  },
+  "themealdb": {
+    "discovery": {
+      "queries": [
+        "rice",
+        "chicken_breast",
+        "broccoli",
+        "pork"
+      ],
+      "basis": "source_text_hints"
+    },
+    "calls": 7,
+    "recipeCount": 3
+  },
+  "daytona": {
+    "status": "success",
+    "processedBy": "daytona",
+    "cleanup": "deleted",
+    "inputHash": "e85f8c550271f5919f14a6f2163705066190971322e7bdf299b90289c3de651b",
+    "runId": "a6c1c703-4716-4451-b48f-be436a07ad4f",
+    "outputHash": "eb2adf60e4a073084c3d42f4aea28858da0cc6faf49b09dec9935741d66242eb",
+    "environment": {
+      "python": "3.14.4",
+      "platform": "Linux",
+      "parserVersion": "1"
+    },
+    "recipeCount": 3,
+    "dealCount": 0
+  },
+  "aura": {
+    "candidateRows": 9,
+    "distinctRecipes": 3,
+    "commonPairs": 3,
+    "candidates": [
+      {
+        "storeId": "kinokuniya-international",
+        "recipeId": "themealdb:53522",
+        "title": "Arroz con Leche Recipe",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-f94c1a4429df5f78",
+          "unmapped-0f4168490e38b844",
+          "milk",
+          "unmapped-d7aa0adb091bc1b3",
+          "unmapped-4d81a2224af61f98"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "seijoishii-minamiaoyama",
+        "recipeId": "themealdb:53522",
+        "title": "Arroz con Leche Recipe",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-f94c1a4429df5f78",
+          "unmapped-0f4168490e38b844",
+          "milk",
+          "unmapped-d7aa0adb091bc1b3",
+          "unmapped-4d81a2224af61f98"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "villemarche-aoyama",
+        "recipeId": "themealdb:53522",
+        "title": "Arroz con Leche Recipe",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-f94c1a4429df5f78",
+          "unmapped-0f4168490e38b844",
+          "milk",
+          "unmapped-d7aa0adb091bc1b3",
+          "unmapped-4d81a2224af61f98"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "kinokuniya-international",
+        "recipeId": "themealdb:53366",
+        "title": "Beef and Broccoli Stir-Fry",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "broccoli-raw",
+          "unmapped-0f4168490e38b844",
+          "garlic",
+          "unmapped-bc1d43ffb4719dcb",
+          "unmapped-536da989bb7f781c",
+          "unmapped-af98024b1d9e107a",
+          "unmapped-11e6be9cf9209f68",
+          "unmapped-7834623d51e787a6",
+          "unmapped-878667f63f03c984"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "seijoishii-minamiaoyama",
+        "recipeId": "themealdb:53366",
+        "title": "Beef and Broccoli Stir-Fry",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "broccoli-raw",
+          "unmapped-0f4168490e38b844",
+          "garlic",
+          "unmapped-bc1d43ffb4719dcb",
+          "unmapped-536da989bb7f781c",
+          "unmapped-af98024b1d9e107a",
+          "unmapped-11e6be9cf9209f68",
+          "unmapped-7834623d51e787a6",
+          "unmapped-878667f63f03c984"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "villemarche-aoyama",
+        "recipeId": "themealdb:53366",
+        "title": "Beef and Broccoli Stir-Fry",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "broccoli-raw",
+          "unmapped-0f4168490e38b844",
+          "garlic",
+          "unmapped-bc1d43ffb4719dcb",
+          "unmapped-536da989bb7f781c",
+          "unmapped-af98024b1d9e107a",
+          "unmapped-11e6be9cf9209f68",
+          "unmapped-7834623d51e787a6",
+          "unmapped-878667f63f03c984"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "kinokuniya-international",
+        "recipeId": "themealdb:53466",
+        "title": "Belgian Waterzooi Chicken",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-0f4168490e38b844",
+          "unmapped-ce4773a0b230a18a",
+          "chicken-breast-raw",
+          "unmapped-815135dfdf4e0a67",
+          "unmapped-7b4553f9e3c11a17",
+          "unmapped-ddc5177b9204093a",
+          "unmapped-292bdd381b06dfb9",
+          "garlic",
+          "unmapped-f5b1f644f7c128b6",
+          "unmapped-f3a22c1ce8e0a5a9",
+          "unmapped-d58d417d2d19e23d",
+          "unmapped-f565920f3d6835c4"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "seijoishii-minamiaoyama",
+        "recipeId": "themealdb:53466",
+        "title": "Belgian Waterzooi Chicken",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-0f4168490e38b844",
+          "unmapped-ce4773a0b230a18a",
+          "chicken-breast-raw",
+          "unmapped-815135dfdf4e0a67",
+          "unmapped-7b4553f9e3c11a17",
+          "unmapped-ddc5177b9204093a",
+          "unmapped-292bdd381b06dfb9",
+          "garlic",
+          "unmapped-f5b1f644f7c128b6",
+          "unmapped-f3a22c1ce8e0a5a9",
+          "unmapped-d58d417d2d19e23d",
+          "unmapped-f565920f3d6835c4"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      },
+      {
+        "storeId": "villemarche-aoyama",
+        "recipeId": "themealdb:53466",
+        "title": "Belgian Waterzooi Chicken",
+        "cookingMinutes": null,
+        "matching": [],
+        "broadMatches": [],
+        "missing": [
+          "butter",
+          "unmapped-0f4168490e38b844",
+          "unmapped-ce4773a0b230a18a",
+          "chicken-breast-raw",
+          "unmapped-815135dfdf4e0a67",
+          "unmapped-7b4553f9e3c11a17",
+          "unmapped-ddc5177b9204093a",
+          "unmapped-292bdd381b06dfb9",
+          "garlic",
+          "unmapped-f5b1f644f7c128b6",
+          "unmapped-f3a22c1ce8e0a5a9",
+          "unmapped-d58d417d2d19e23d",
+          "unmapped-f565920f3d6835c4"
+        ],
+        "basis": "general",
+        "allergyStatus": "needs_review"
+      }
+    ],
+    "commonIngredients": [
+      {
+        "recipeA": "themealdb:53466",
+        "recipeB": "themealdb:53522",
+        "commonIngredients": [
+          "butter",
+          "salt",
+          "unmapped-0f4168490e38b844"
+        ]
+      },
+      {
+        "recipeA": "themealdb:53366",
+        "recipeB": "themealdb:53522",
+        "commonIngredients": [
+          "unmapped-0f4168490e38b844"
+        ]
+      },
+      {
+        "recipeA": "themealdb:53366",
+        "recipeB": "themealdb:53466",
+        "commonIngredients": [
+          "pepper",
+          "unmapped-0f4168490e38b844",
+          "garlic"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Small verification used only 3 recipe details.",
+    "No confirmed text product prices; candidates have basis general.",
+    "Servings, cooking time, nutrition and rating remain null.",
+    "Initial Aura transaction Query-object mismatch was fixed; same hash-verified Daytona output was retried without reacquisition."
+  ],
+  "observations": [
+    {
+      "provider": "firecrawl",
+      "sourceUrl": "https://shop.seijoishii.com/seijoishii/spot/detail?code=0150",
+      "fetchedAt": "2026-09-12T06:51:39.430Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "d07f3c6cd5f09b8e825b6dd911abc1ff80ad60aa10907babf2af586c047aa74d",
+      "parseStatus": "no_products"
+    },
+    {
+      "provider": "firecrawl",
+      "sourceUrl": "https://www.e-kinokuniya.com/store/KINOKUNIYA/international",
+      "fetchedAt": "2026-09-12T06:51:41.439Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "bd6b3ce2431a701ebe1e2c7d439615adfbf2066b720e0ba2aed834199542d335",
+      "parseStatus": "no_products"
+    },
+    {
+      "provider": "firecrawl",
+      "sourceUrl": "https://page.line.me/kaq2977y",
+      "fetchedAt": "2026-09-12T06:51:43.635Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "43f154ba52759aa67caf16ad86de34587002017cd4ac1d391d7553a2dce6790a",
+      "parseStatus": "no_products"
+    },
+    {
+      "provider": "themealdb",
+      "sourceUrl": "https://www.mycolombianrecipes.com/arroz-con-leche-rice-pudding/",
+      "fetchedAt": "2026-09-12T06:51:44.925Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "6ccb2eb60f87f305f0141492610a5b5ee5255a5c5f73ed8c4f91d9b66faf5f8d",
+      "parseStatus": "parsed"
+    },
+    {
+      "provider": "themealdb",
+      "sourceUrl": "https://junedarville.com/waterzooi.html",
+      "fetchedAt": "2026-09-12T06:51:44.917Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "8828d9df90a64d88a04f00cd63278532b73151a8a2c18743c7a62f882b45e5c8",
+      "parseStatus": "parsed"
+    },
+    {
+      "provider": "themealdb",
+      "sourceUrl": "https://www.simplyrecipes.com/recipes/broccoli_beef/",
+      "fetchedAt": "2026-09-12T06:51:44.925Z",
+      "acquisitionMode": "live",
+      "processedBy": "daytona",
+      "contentHash": "250f6604b3d47016ce0ed8f1a889f254640f5d68761450b1498c50810d3bcd16",
+      "parseStatus": "parsed"
+    }
+  ]
+}

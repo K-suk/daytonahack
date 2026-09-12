@@ -1,0 +1,200 @@
+[
+  {
+    "id": "chicken-breast-raw",
+    "en": "chicken breast",
+    "ja": "鶏むね肉",
+    "aliases": [
+      "chicken breast",
+      "chicken breasts",
+      "鶏むね肉",
+      "鶏胸肉",
+      "若鶏むね肉"
+    ],
+    "category": "chicken",
+    "allergens": [],
+    "query": "chicken_breast"
+  },
+  {
+    "id": "chicken-thigh-raw",
+    "en": "chicken thigh",
+    "ja": "鶏もも肉",
+    "aliases": ["chicken thigh", "chicken thighs", "鶏もも肉", "若鶏もも肉"],
+    "category": "chicken",
+    "allergens": [],
+    "query": "chicken_thighs"
+  },
+  {
+    "id": "chicken-unspecified-raw",
+    "en": "chicken",
+    "ja": "鶏肉",
+    "aliases": ["chicken", "鶏肉"],
+    "category": "chicken",
+    "broad": true,
+    "allergens": [],
+    "query": "chicken"
+  },
+  {
+    "id": "pork-unspecified-raw",
+    "en": "pork",
+    "ja": "豚肉",
+    "aliases": ["pork", "豚肉"],
+    "category": "pork",
+    "broad": true,
+    "allergens": [],
+    "query": "pork"
+  },
+  {
+    "id": "salmon-raw",
+    "en": "salmon",
+    "ja": "鮭",
+    "aliases": ["salmon", "salmon fillet", "salmon fillets", "鮭", "サーモン"],
+    "category": "fish",
+    "allergens": ["fish"],
+    "query": "salmon"
+  },
+  {
+    "id": "tofu",
+    "en": "tofu",
+    "ja": "豆腐",
+    "aliases": ["tofu", "豆腐"],
+    "category": "soy",
+    "allergens": ["soy"],
+    "query": "tofu"
+  },
+  {
+    "id": "egg",
+    "en": "egg",
+    "ja": "卵",
+    "aliases": ["egg", "eggs", "卵", "玉子"],
+    "category": "egg",
+    "allergens": ["egg"],
+    "query": "egg"
+  },
+  {
+    "id": "broccoli-raw",
+    "en": "broccoli",
+    "ja": "ブロッコリー",
+    "aliases": ["broccoli", "ブロッコリー"],
+    "category": "broccoli",
+    "allergens": [],
+    "query": "broccoli"
+  },
+  {
+    "id": "onion-raw",
+    "en": "onion",
+    "ja": "玉ねぎ",
+    "aliases": ["onion", "onions", "玉ねぎ", "玉葱"],
+    "category": "onion",
+    "allergens": [],
+    "query": "onion"
+  },
+  {
+    "id": "mushroom",
+    "en": "mushrooms",
+    "ja": "きのこ",
+    "aliases": ["mushroom", "mushrooms", "きのこ"],
+    "category": "mushroom",
+    "broad": true,
+    "allergens": [],
+    "query": "mushrooms"
+  },
+  {
+    "id": "rice-dry",
+    "en": "rice, dry",
+    "ja": "生米",
+    "aliases": ["rice", "basmati rice", "米", "生米"],
+    "category": "rice",
+    "broad": true,
+    "allergens": [],
+    "query": "rice"
+  },
+  {
+    "id": "soy-sauce",
+    "en": "soy sauce",
+    "ja": "醤油",
+    "aliases": ["soy sauce", "醤油", "しょうゆ"],
+    "category": "sauce",
+    "allergens": ["soy", "wheat"]
+  },
+  {
+    "id": "milk",
+    "en": "milk",
+    "ja": "牛乳",
+    "aliases": ["milk", "whole milk", "牛乳"],
+    "category": "dairy",
+    "allergens": ["milk"]
+  },
+  {
+    "id": "butter",
+    "en": "butter",
+    "ja": "バター",
+    "aliases": ["butter", "unsalted butter", "バター"],
+    "category": "dairy",
+    "allergens": ["milk"]
+  },
+  {
+    "id": "wheat-flour",
+    "en": "wheat flour",
+    "ja": "小麦粉",
+    "aliases": ["flour", "plain flour", "self-raising flour", "小麦粉"],
+    "category": "wheat",
+    "allergens": ["wheat"]
+  },
+  {
+    "id": "peanut",
+    "en": "peanuts",
+    "ja": "落花生",
+    "aliases": ["peanut", "peanuts", "peanut butter", "落花生"],
+    "category": "nuts",
+    "allergens": ["peanut"]
+  },
+  {
+    "id": "shrimp",
+    "en": "shrimp",
+    "ja": "えび",
+    "aliases": ["shrimp", "prawns", "prawn", "えび", "海老"],
+    "category": "shellfish",
+    "allergens": ["shrimp", "shellfish"]
+  },
+  {
+    "id": "garlic",
+    "en": "garlic",
+    "ja": "にんにく",
+    "aliases": ["garlic", "garlic clove", "garlic cloves", "にんにく"],
+    "category": "garlic",
+    "allergens": []
+  },
+  {
+    "id": "oil",
+    "en": "oil",
+    "ja": "油",
+    "aliases": ["oil", "olive oil", "vegetable oil", "油"],
+    "category": "oil",
+    "broad": true,
+    "allergens": []
+  },
+  {
+    "id": "salt",
+    "en": "salt",
+    "ja": "塩",
+    "aliases": ["salt", "塩"],
+    "category": "seasoning",
+    "allergens": []
+  },
+  {
+    "id": "pepper",
+    "en": "pepper",
+    "ja": "胡椒",
+    "aliases": ["pepper", "black pepper", "胡椒"],
+    "category": "seasoning",
+    "allergens": []
+  },
+  {
+    "id": "sugar",
+    "en": "sugar",
+    "ja": "砂糖",
+    "aliases": ["sugar", "砂糖"],
+    "category": "sugar",
+    "allergens": []
+  }
+]

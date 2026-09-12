@@ -5,3 +5,7 @@ node_modules/
 test-results/
 
 .next-dev/
+
+.data-runs/
+__pycache__/
+!.env.data.example
